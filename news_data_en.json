@@ -1,0 +1,967 @@
+{
+  "updated": "2026-05-31T11:28:06.476246+00:00",
+  "count": 30,
+  "lang": "en",
+  "articles": [
+    {
+      "id": "b5b09c68b9a2",
+      "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
+      "summary": "Palo Alto Networks is warning that hackers are now exploiting a PAN-OS GlobalProtect authentication bypass flaw, tracked as CVE-2026-0257, in attacks attempting to breach corporate networks. [...]",
+      "pubDate": "2026-05-30T18:02:51+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "GlobalProtect VPN authentication bypass actively exploited",
+          "CVE-2026-0257 threatens enterprise network security"
+        ],
+        "analysis": [
+          {
+            "title": "Vulnerability Details",
+            "desc": "CVE-2026-0257 affects PAN-OS GlobalProtect, enabling unauthorized network access without credentials."
+          },
+          {
+            "title": "Active Exploitation",
+            "desc": "Threat actors actively leveraging flaw in targeted attacks against corporate infrastructure."
+          },
+          {
+            "title": "Recommended Actions",
+            "desc": "Immediate patching required for affected systems; monitor VPN access logs."
+          }
+        ],
+        "suggested_title": "CVE-2026-0257: Palo Alto GlobalProtect Auth Bypass Under Active Attack"
+      }
+    },
+    {
+      "id": "15cfe7e98431",
+      "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
+      "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+      "summary": "A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication key descriptions, abuse the kernel's key request mechanism, and gain root privileges. [...]",
+      "pubDate": "2026-05-30T14:16:08+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "CIFS authentication key forgery enables kernel privilege escalation",
+          "Root access achievable across multiple Linux distributions locally"
+        ],
+        "analysis": [
+          {
+            "title": "Vulnerability Mechanism",
+            "desc": "CIFSwitch exploits kernel key request mechanism to forge CIFS authentication credentials, bypassing security controls."
+          },
+          {
+            "title": "Attack Vector",
+            "desc": "Local privilege escalation requires attacker presence on system to manipulate key descriptions and gain root privileges."
+          },
+          {
+            "title": "Affected Systems",
+            "desc": "Flaw impacts multiple Linux distributions running vulnerable kernel versions with CIFS support enabled."
+          }
+        ],
+        "suggested_title": "CIFSwitch Linux Kernel Flaw: Local Root Privilege Escalation"
+      }
+    },
+    {
+      "id": "5420e0583639",
+      "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
+      "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+      "summary": "Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited by bad actors to set up VPN connections. \"Authentication bypass vulnerabilities in the",
+      "pubDate": "2026-05-30T06:41:26+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "PAN-OS VPN authentication bypass actively exploited",
+          "CVSS 7.8 vulnerability affecting Prisma Access"
+        ],
+        "analysis": [
+          {
+            "title": "Threat Overview",
+            "desc": "CVE-2026-0257 enables attackers to bypass authentication and establish unauthorized VPN connections to affected systems."
+          },
+          {
+            "title": "Affected Products",
+            "desc": "Vulnerability impacts PAN-OS and Prisma Access platforms, posing risk to enterprise remote access infrastructure."
+          },
+          {
+            "title": "Active Exploitation",
+            "desc": "Flaw is currently being exploited in real-world attacks, requiring immediate patching and security investigation."
+          }
+        ],
+        "suggested_title": "PAN-OS Authentication Bypass CVE-2026-0257 Actively Exploited"
+      }
+    },
+    {
+      "id": "7e80ae894b0a",
+      "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
+      "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
+      "summary": "Threat actors are abusing ChatGPT's content-sharing feature to display fake OpenAI outage pages that direct users to download malware disguised as the ChatGPT desktop application. [...]",
+      "pubDate": "2026-05-29T18:21:36+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Malware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "ChatGPT share links weaponized for malware distribution",
+          "Fake outage pages impersonate OpenAI to deceive users"
+        ],
+        "analysis": [
+          {
+            "title": "Attack Vector Exploitation",
+            "desc": "Threat actors leverage ChatGPT's legitimate content-sharing feature to bypass security filters and increase credibility with potential victims."
+          },
+          {
+            "title": "Social Engineering Tactics",
+            "desc": "Fake outage pages mimic official OpenAI communications to create urgency and manipulate users into downloading malicious desktop applications."
+          },
+          {
+            "title": "Mitigation Recommendations",
+            "desc": "Users should verify outage status through official OpenAI channels and avoid downloading applications from unexpected links or pages."
+          }
+        ],
+        "suggested_title": "Malware Delivery via ChatGPT Share Links — Fake Outage Pages"
+      }
+    },
+    {
+      "id": "bdfadf771a6c",
+      "title": "California AG sues 23andMe over 2023 breach exposing health data",
+      "link": "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
+      "summary": "California Attorney General Rob Bonta filed a lawsuit against 23andMe, now Chrome Holding Co., over the company's failure to protect sensitive customer genetic and personal information. [...]",
+      "pubDate": "2026-05-29T18:08:47+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "23andMe data breach exposed genetic and health records",
+          "California AG lawsuit seeks accountability for inadequate security"
+        ],
+        "analysis": [
+          {
+            "title": "Breach Impact and Scope",
+            "desc": "Sensitive genetic and personal health data compromised in 2023 incident affecting customer privacy and trust."
+          },
+          {
+            "title": "Legal Action Details",
+            "desc": "California Attorney General files formal lawsuit against company for failure to implement adequate data protection measures."
+          },
+          {
+            "title": "Corporate Liability",
+            "desc": "Chrome Holding Co. faces legal consequences for negligent security practices exposing millions of customers to risk."
+          }
+        ],
+        "suggested_title": "Health Data Breach: California Sues 23andMe Over Security Failure"
+      }
+    },
+    {
+      "id": "6fdbdbea9b3b",
+      "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
+      "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
+      "summary": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown",
+      "pubDate": "2026-05-29T18:07:12+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "ChatGPT Markdown rendering enables prompt injection attacks",
+          "Phishing vectors exploit AI assistant's implicit trust mechanisms"
+        ],
+        "analysis": [
+          {
+            "title": "Vulnerability Overview",
+            "desc": "ChatGPhish exploits ChatGPT's trust in Markdown formatting to inject malicious prompts and enable phishing campaigns through rendered content."
+          },
+          {
+            "title": "Attack Vector Details",
+            "desc": "Attackers abuse Markdown links and images in web summaries to manipulate AI responses and bypass security controls."
+          },
+          {
+            "title": "Researcher Attribution",
+            "desc": "Permiso Security identified and named the vulnerability, disclosing technical details about exploitation methods and potential impact scope."
+          }
+        ],
+        "suggested_title": "ChatGPhish: ChatGPT Markdown Vulnerability Enables Phishing Attacks"
+      }
+    },
+    {
+      "id": "3c404181085b",
+      "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
+      "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
+      "summary": "An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessible Marimo network using a recently disclosed vulnerability. \"The attacker compromised an internet-reachable Marimo notebook via CVE-2026-39987, extracted two cloud credentials from the compromised",
+      "pubDate": "2026-05-29T14:39:56+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "LLM agents enable automated post-exploitation attacks",
+          "Marimo CVE-2026-39987 allows cloud credential theft"
+        ],
+        "analysis": [
+          {
+            "title": "Vulnerability Exploitation Vector",
+            "desc": "Attackers exploited publicly-accessible Marimo notebook using CVE-2026-39987 for initial access to target systems."
+          },
+          {
+            "title": "Post-Compromise Automation",
+            "desc": "LLM agents orchestrate automated lateral movement and data exfiltration after successful exploitation and credential extraction."
+          },
+          {
+            "title": "Cloud Credential Risk",
+            "desc": "Compromised systems exposed cloud credentials, enabling broader infrastructure access and potential multi-account compromise."
+          }
+        ],
+        "suggested_title": "Marimo CVE-2026-39987 Exploited With LLM Post-Exploitation Agent"
+      }
+    },
+    {
+      "id": "03bbc4111e12",
+      "title": "From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market",
+      "link": "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
+      "summary": "DDoS attacks are increasingly being sold like subscription services, complete with pricing tiers, support, and reseller programs. Flare explores how the DDoS-as-a-Service market has evolved from scattered tools into polished attack platforms. [...]",
+      "pubDate": "2026-05-29T14:32:02+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "DDoS",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "DDoS attacks commercialized with subscription pricing models",
+          "Cybercriminal platforms offer tiered services and reseller networks"
+        ],
+        "analysis": [
+          {
+            "title": "DDoS Service Commercialization",
+            "desc": "Attack capabilities packaged as business-like offerings with pricing tiers, customer support, and structured service models."
+          },
+          {
+            "title": "Market Evolution Trajectory",
+            "desc": "DDoS tools transformed from disparate, amateur resources into sophisticated platforms with professional infrastructure and operations."
+          },
+          {
+            "title": "Reseller Ecosystem Growth",
+            "desc": "Criminal platforms enable distribution networks where resellers profit by offering DDoS services to downstream threat actors."
+          }
+        ],
+        "suggested_title": "DDoS-as-a-Service Market: From $5 Attacks to Botnet Platforms"
+      }
+    },
+    {
+      "id": "050d7a8f0bc1",
+      "title": "Dutch govt disrupts malware botnet with 17 million infected devices",
+      "link": "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
+      "summary": "Dutch authorities have taken offline a massive botnet of 17 million devices and seized more than 200 servers at a local provider that supported the operation. [...]",
+      "pubDate": "2026-05-29T14:26:36+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Malware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "Dutch authorities dismantled 17 million-device botnet infrastructure",
+          "Over 200 servers seized from local ISP provider"
+        ],
+        "analysis": [
+          {
+            "title": "Scale of Compromise",
+            "desc": "Botnet affected 17 million compromised devices globally, representing significant threat to internet security."
+          },
+          {
+            "title": "Law Enforcement Action",
+            "desc": "Dutch authorities executed coordinated takedown, seizing 200+ servers hosting botnet command infrastructure."
+          },
+          {
+            "title": "ISP Involvement",
+            "desc": "Local internet service provider's servers were exploited to support malware distribution and control operations."
+          }
+        ],
+        "suggested_title": "Botnet Takedown: Dutch Authorities Dismantle 17 Million Device Network"
+      }
+    },
+    {
+      "id": "b80c6c181b89",
+      "title": "Google Chrome adds session cookie theft protection for all users",
+      "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
+      "summary": "Google says the Chrome Device Bound Session Credentials (DBSC) security feature is now generally available and is rolling out to all users to prevent account takeovers. [...]",
+      "pubDate": "2026-05-29T12:08:08+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Chrome implements device-bound session credentials to prevent account takeovers",
+          "Security feature now rolling out universally across all Chrome users"
+        ],
+        "analysis": [
+          {
+            "title": "DBSC Feature Overview",
+            "desc": "Device Bound Session Credentials ties sessions to specific devices, blocking unauthorized access attempts from stolen credentials."
+          },
+          {
+            "title": "Account Takeover Prevention",
+            "desc": "Feature protects against session cookie theft by preventing attackers from using compromised credentials on different devices."
+          },
+          {
+            "title": "Rollout Impact",
+            "desc": "Universal availability marks significant security improvement for Chrome's billions of users against credential-based attacks."
+          }
+        ],
+        "suggested_title": "Chrome Session Credentials Security Feature Launches Globally"
+      }
+    },
+    {
+      "id": "228bde2b24a0",
+      "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
+      "link": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
+      "summary": "A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025. GREYVIBE, per WithSecure, is assessed to be a Russian-speaking group operating broadly in the Russian time zone, with the activities aligning with Kremlin state interests, specifically when it comes to",
+      "pubDate": "2026-05-29T11:31:59+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Russia-linked GREYVIBE targets Ukraine with AI cyberattacks",
+          "Persistent campaign active since August 2025"
+        ],
+        "analysis": [
+          {
+            "title": "Threat Actor Attribution",
+            "desc": "GREYVIBE identified as Russian-speaking group operating in Russian timezone, aligned with Kremlin state interests."
+          },
+          {
+            "title": "Attack Campaign Scope",
+            "desc": "Undocumented threat actor conducting ongoing persistent attacks against Ukraine and related entities since August 2025."
+          },
+          {
+            "title": "AI-Enhanced Capabilities",
+            "desc": "Campaign leverages AI-powered cyberattacks to increase sophistication and effectiveness of targeting operations against Ukraine."
+          }
+        ],
+        "suggested_title": "GREYVIBE: Russia-Linked AI Cyberattacks Target Ukraine"
+      }
+    },
+    {
+      "id": "a468dbdfdb11",
+      "title": "Man sent to prison for selling data of 7 millions elderly Americans",
+      "link": "https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/",
+      "summary": "A North Carolina man was sentenced to more than 10 years in prison for selling the personal information of over 7 million elderly Americans to Jamaican scammers. [...]",
+      "pubDate": "2026-05-29T11:07:07+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Data broker convicted selling elderly Americans personal information",
+          "10-year prison sentence for facilitating international identity theft scheme"
+        ],
+        "analysis": [
+          {
+            "title": "Criminal Data Trafficking Operation",
+            "desc": "North Carolina resident sold 7 million elderly Americans' records to Jamaican scam networks for profit."
+          },
+          {
+            "title": "Severe Legal Consequences",
+            "desc": "Over 10-year prison sentence reflects serious nature of data trafficking crimes affecting vulnerable populations."
+          },
+          {
+            "title": "Elder Fraud Prevention Gap",
+            "desc": "Case highlights weak enforcement against data brokers enabling senior citizen targeting by international criminal rings."
+          }
+        ],
+        "suggested_title": "Data Broker Imprisoned for Selling 7M Elderly Americans Records"
+      }
+    },
+    {
+      "id": "0f3a59f1e345",
+      "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks",
+      "link": "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html",
+      "summary": "Shadow AI used to mean employees pasting things they shouldn't into ChatGPT. It now means something bigger: employees building full applications with AI, wiring them into production systems, and publishing them on the open internet. Without Security or IT in the loop. The artifact moved from a prompt to a product. The risk surface moved with it. In The Shadow Builders report (get it here), a",
+      "pubDate": "2026-05-29T10:30:00+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Shadow AI applications bypass security controls entirely",
+          "2,000 exposed apps reveal enterprise risk gaps"
+        ],
+        "analysis": [
+          {
+            "title": "Shadow AI Evolution",
+            "desc": "Employee-built AI applications now deployed to production without security oversight, expanding threat surface beyond traditional controls."
+          },
+          {
+            "title": "Exposure Scale",
+            "desc": "2,000 vibe-coded applications publicly accessible demonstrate widespread organizational blindness to unsanctioned development practices and deployment risks."
+          },
+          {
+            "title": "Security Stack Limitations",
+            "desc": "Current security frameworks fail to detect or govern shadow AI development, indicating need for application discovery and governance solutions."
+          }
+        ],
+        "suggested_title": "Shadow AI Apps Expose Enterprise Security Stack Failures"
+      }
+    },
+    {
+      "id": "ba946c3e1d7d",
+      "title": "US charges Google security engineer with Polymarket insider trading",
+      "link": "https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/",
+      "summary": "A Google security engineer was charged with insider trading after winning $1.2 million using confidential company data to place bets on the cryptocurrency-based Polymarket decentralized prediction market. [...]",
+      "pubDate": "2026-05-29T10:11:44+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Google engineer charged with insider trading scheme",
+          "Confidential data used for $1.2M cryptocurrency bets"
+        ],
+        "analysis": [
+          {
+            "title": "Insider Trading Violation",
+            "desc": "Employee exploited non-public company information to gain unfair advantage in cryptocurrency prediction market trading activities."
+          },
+          {
+            "title": "Data Misuse Scope",
+            "desc": "Confidential corporate data converted directly into financial gains through decentralized betting platform, raising access control concerns."
+          },
+          {
+            "title": "Enforcement Action",
+            "desc": "Federal charges demonstrate regulatory scrutiny extending to cryptocurrency markets and stricter penalties for information-based trading violations."
+          }
+        ],
+        "suggested_title": "Insider Trading: Google Engineer Charged With $1.2M Crypto Fraud"
+      }
+    },
+    {
+      "id": "c4034e31c0b4",
+      "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
+      "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
+      "summary": "Cybersecurity researchers have discovered a malicious NuGet package that masquerades as a C# software development kit for Sicoob, one of Brazil's largest cooperative financial systems, to siphon client IDs and PFX certificates. According to Socket, versions 2.0.0 through 2.0.4 of \"Sicoob.Sdk\" contain functionality to exfiltrate sensitive information, including PFX certificates that are used to",
+      "pubDate": "2026-05-29T09:11:25+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Malicious NuGet package impersonates Brazilian financial SDK",
+          "Credential theft targets banking certificates and client identifiers"
+        ],
+        "analysis": [
+          {
+            "title": "Attack Vector and Scope",
+            "desc": "Sicoob.Sdk versions 2.0.0-2.0.4 on NuGet contain malicious code designed to extract sensitive banking credentials from developers."
+          },
+          {
+            "title": "Compromised Assets",
+            "desc": "PFX certificates and client IDs targeted for exfiltration, enabling unauthorized access to Sicoob's financial systems and accounts."
+          },
+          {
+            "title": "Threat Implications",
+            "desc": "Supply chain attack affects developers integrating SDK into applications, potentially exposing downstream users and financial institutions to fraud."
+          }
+        ],
+        "suggested_title": "Malicious NuGet Package Steals Banking Credentials From Sicoob"
+      }
+    },
+    {
+      "id": "44b181b6ae5f",
+      "title": "Charter Communications data breach affects 4.9 million accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
+      "summary": "The ShinyHunters extortion gang stole personal information from 4.9 million accounts after hacking the U.S. telecom giant Charter Communications in early April, according to data breach notification service Have I Been Pwned. [...]",
+      "pubDate": "2026-05-29T08:29:40+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "ShinyHunters breach compromised 4.9M accounts",
+          "Charter Communications telecom infrastructure targeted"
+        ],
+        "analysis": [
+          {
+            "title": "Breach Scope and Impact",
+            "desc": "Major U.S. telecom provider Charter Communications suffered data theft affecting nearly 5 million customer accounts via unauthorized access."
+          },
+          {
+            "title": "Threat Actor Profile",
+            "desc": "ShinyHunters extortion gang claimed responsibility, demonstrating capability targeting large infrastructure providers for financial gain."
+          },
+          {
+            "title": "Detection and Timeline",
+            "desc": "Breach occurred early April; discovered through Have I Been Pwned service, enabling customer notification of compromised personal information."
+          }
+        ],
+        "suggested_title": "Charter Communications data breach exposes 4.9M customer accounts"
+      }
+    },
+    {
+      "id": "542858af03ad",
+      "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
+      "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
+      "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged",
+      "pubDate": "2026-05-29T05:57:41+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "North Korean Kimsuky group targets South Korean military",
+          "HTTPSpy, HelloDoor, VS Code tunnels expand attack capabilities"
+        ],
+        "analysis": [
+          {
+            "title": "Threat Actor Background",
+            "desc": "Kimsuky, North Korean state-sponsored group also known as Velvet Chollima, conducts targeted campaigns against South Korean defense and corporate sectors."
+          },
+          {
+            "title": "Attack Methods",
+            "desc": "Tactics include social engineering, spoofed security software pages, fake Webex meetings, and deployment of custom malware tools for persistence."
+          },
+          {
+            "title": "New Tools Deployed",
+            "desc": "HTTPSpy, HelloDoor, and VS Code Tunnels represent expanded toolset enabling remote access, data exfiltration, and command-and-control capabilities against targets."
+          }
+        ],
+        "suggested_title": "Kimsuky APT Expands Arsenal: HTTPSpy, HelloDoor Malware Threats"
+      }
+    },
+    {
+      "id": "d603b99d92a9",
+      "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
+      "summary": "Anthropic has confirmed that it plans to bring Mythos-class models to the general public after delaying the rollout due to security risks to public and private software. [...]",
+      "pubDate": "2026-05-29T00:21:03+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Anthropic delays Mythos-class public release over security concerns",
+          "Claude models now planned for general availability following risk assessment"
+        ],
+        "analysis": [
+          {
+            "title": "Release Timeline Adjustment",
+            "desc": "Anthropic postponed Mythos-class model rollout to address identified security vulnerabilities affecting both public and private software environments."
+          },
+          {
+            "title": "Security Risk Mitigation",
+            "desc": "Company conducted security assessment before public deployment to minimize potential threats from advanced AI model capabilities."
+          },
+          {
+            "title": "Public Availability Plans",
+            "desc": "Despite delays, Anthropic confirmed commitment to eventually releasing Mythos-class models to general public following risk remediation."
+          }
+        ],
+        "suggested_title": "Claude Mythos Models Coming Public After Security Delay"
+      }
+    },
+    {
+      "id": "ea211a7d3587",
+      "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
+      "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
+      "summary": "A likely Russian threat cluster tracked as GreyVibe has been targeting Ukrainian entities with AI-generated lures and a rich set of custom malware tools. [...]",
+      "pubDate": "2026-05-28T22:24:49+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Russian GreyVibe targets Ukraine with AI-powered social engineering",
+          "Custom malware toolkit deployed alongside generative AI lures"
+        ],
+        "analysis": [
+          {
+            "title": "Threat Actor Profile",
+            "desc": "GreyVibe, likely Russian-based cluster, actively targeting Ukrainian organizations with coordinated campaigns."
+          },
+          {
+            "title": "AI-Enhanced Attack Methods",
+            "desc": "ChatGPT and Gemini leveraged to generate convincing phishing lures, increasing social engineering effectiveness."
+          },
+          {
+            "title": "Malware Arsenal",
+            "desc": "Custom-built toolset accompanies campaigns, suggesting sophisticated operational capability beyond standard off-shelf malware."
+          }
+        ],
+        "suggested_title": "GreyVibe Hackers Weaponize ChatGPT, Gemini Against Ukraine"
+      }
+    },
+    {
+      "id": "e3aa70330c4d",
+      "title": "BTMOB Android malware service generates custom phishing payloads",
+      "link": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
+      "summary": "An Android remote access trojan named BTMOB is offered to cybercriminals with a builder interface for generating malware payloads tailored to phishing lures. [...]",
+      "pubDate": "2026-05-28T21:10:11+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Phishing",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "BTMOB Android RAT offers customizable malware payload generation",
+          "Phishing-integrated builder tool lowers cybercriminal technical barriers"
+        ],
+        "analysis": [
+          {
+            "title": "Malware-as-a-Service Model",
+            "desc": "BTMOB operates as remote access trojan service, enabling non-technical criminals to launch sophisticated attacks."
+          },
+          {
+            "title": "Automated Payload Customization",
+            "desc": "Builder interface generates tailored phishing payloads, reducing development effort and increasing attack campaign scale."
+          },
+          {
+            "title": "Mobile Platform Risk",
+            "desc": "Android targeting expands attack surface to billions of devices, leveraging social engineering through customized lures."
+          }
+        ],
+        "suggested_title": "Android BTMOB RAT Offers Phishing Payload Builder Service"
+      }
+    },
+    {
+      "id": "9eb49c7252e6",
+      "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
+      "summary": "The FBI is warning of fake websites impersonating FIFA ahead of the 2026 World Cup, to steal personal and financial information, sell fake tickets and hospitality packages, and push other fraud related to the event. [...]",
+      "pubDate": "2026-05-28T19:08:10+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Counterfeit FIFA sites targeting 2026 World Cup attendees",
+          "Credential theft, fake tickets, fraudulent hospitality packages"
+        ],
+        "analysis": [
+          {
+            "title": "Threat Vector",
+            "desc": "Fraudsters operating fake FIFA websites to harvest personal and financial data from victims."
+          },
+          {
+            "title": "Attack Methods",
+            "desc": "Selling counterfeit World Cup tickets and hospitality packages through impersonated official channels."
+          },
+          {
+            "title": "Mitigation",
+            "desc": "FBI alert advises verifying official FIFA domains and sources before purchasing event-related services."
+          }
+        ],
+        "suggested_title": "World Cup Fraud: FBI Warns Fake FIFA Websites"
+      }
+    },
+    {
+      "id": "1e82424ff37c",
+      "title": "Hackers exploit FortiClient EMS flaw to push infostealer malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
+      "summary": "Hackers are exploiting an authentication bypass vulnerability (CVE-2026-35616) in FortiClient Enterprise Management Server (EMS) to deliver an undocumented credential stealer called EKZ. [...]",
+      "pubDate": "2026-05-28T17:25:43+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "FortiClient EMS authentication bypass enables malware delivery",
+          "EKZ infostealer deployed via CVE-2026-35616 exploitation"
+        ],
+        "analysis": [
+          {
+            "title": "Vulnerability Details",
+            "desc": "CVE-2026-35616 authentication bypass in FortiClient EMS allows unauthorized access and malware injection."
+          },
+          {
+            "title": "Threat Mechanism",
+            "desc": "Attackers leverage EMS flaw to distribute EKZ credential stealer across enterprise environments."
+          },
+          {
+            "title": "Risk Assessment",
+            "desc": "Unpatched systems face credential theft and potential lateral movement within networks."
+          }
+        ],
+        "suggested_title": "FortiClient EMS Flaw: Attackers Push Credential Stealer"
+      }
+    },
+    {
+      "id": "1b3ea063614b",
+      "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
+      "link": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
+      "summary": "A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certain conditions. The security flaw, per Rapid7, is rated 9.4 on the CVSS scoring system. It does not have a CVE identifier. \"The vulnerability allows any authenticated user to achieve remote code execution (RCE) on",
+      "pubDate": "2026-05-28T17:24:44+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Authenticated users can execute remote code in Gogs",
+          "CVSS 9.4 severity rating without CVE assignment"
+        ],
+        "analysis": [
+          {
+            "title": "Vulnerability Scope",
+            "desc": "Self-hosted Git service Gogs affected by critical RCE flaw requiring user authentication to exploit."
+          },
+          {
+            "title": "Severity Assessment",
+            "desc": "Rapid7 rates vulnerability 9.4 CVSS score indicating critical risk requiring immediate remediation action."
+          },
+          {
+            "title": "Current Status",
+            "desc": "No CVE identifier assigned yet despite critical rating suggesting ongoing vulnerability coordination process."
+          }
+        ],
+        "suggested_title": "Critical Gogs RCE Vulnerability Threatens Authenticated Users Worldwide"
+      }
+    },
+    {
+      "id": "d97193efadc5",
+      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
+      "link": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
+      "summary": "Threat actors are continuing to exploit a critical, now-patched security flaw impacting FortiClient Endpoint Management Server (EMS) deployments to deliver credential-stealing malware. \"The campaign abused trusted endpoint management infrastructure to deliver malware across managed endpoints,\" Arctic Wolf said. \"Threat actors disguised the credential stealer payload as a Fortinet endpoint",
+      "pubDate": "2026-05-28T15:26:04+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Malware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "FortiClient EMS critical flaw actively exploited in wild",
+          "Credential stealer deployed via trusted endpoint management infrastructure"
+        ],
+        "analysis": [
+          {
+            "title": "Vulnerability Impact",
+            "desc": "Critical FortiClient EMS flaw enables attackers to compromise managed endpoints through trusted infrastructure abuse."
+          },
+          {
+            "title": "Attack Vector",
+            "desc": "Threat actors disguise credential-stealing malware as legitimate Fortinet endpoint components for distribution."
+          },
+          {
+            "title": "Mitigation Status",
+            "desc": "Patch available; organizations should prioritize updates to prevent ongoing exploitation campaigns."
+          }
+        ],
+        "suggested_title": "Critical FortiClient EMS Flaw Exploited — Deploy Patch Now"
+      }
+    },
+    {
+      "id": "7f37ee7f51c7",
+      "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
+      "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
+      "summary": "Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better understand the impact and address them before they are publicly disclosed. The development comes after a researcher named Chaotic Eclipse (aka Nightmare-Eclipse) disclosed details of multiple zero-day",
+      "pubDate": "2026-05-28T13:53:52+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Microsoft advocates coordinated vulnerability disclosure over public zero-day drops",
+          "Researcher account removal sparks debate on responsible disclosure practices"
+        ],
+        "analysis": [
+          {
+            "title": "CVD Policy Position",
+            "desc": "Microsoft prioritizes advance notification to vendors before public zero-day disclosure to enable faster mitigation."
+          },
+          {
+            "title": "Researcher Account Controversy",
+            "desc": "Chaotic Eclipse's account removal raises questions about platform enforcement and researcher rights regarding vulnerability disclosure."
+          },
+          {
+            "title": "Industry Disclosure Standards",
+            "desc": "Tension between transparency advocates and coordinated disclosure supporters highlights ongoing security community disagreement on best practices."
+          }
+        ],
+        "suggested_title": "Zero-Day Disclosure: Microsoft Backs CVD After Researcher Removal"
+      }
+    },
+    {
+      "id": "2056855e64fc",
+      "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
+      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
+      "summary": "Every time you think the industry has finally stopped doing some reckless, low-effort crap, somebody spins up a fresh box full of sketchy loaders, fake installers, recycled social-engineering bait, and enough exposed infrastructure to make you wonder if prod is just a public beta now - meanwhile some researcher casually drops a technique that turns a \"minor\" foothold into total account",
+      "pubDate": "2026-05-28T13:33:16+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Multiple security threats including privilege escalation and authentication bypasses",
+          "Widespread infrastructure exposure and low-effort malware distribution campaigns"
+        ],
+        "analysis": [
+          {
+            "title": "Enterprise Vulnerabilities",
+            "desc": "Azure privilege escalation and Claude plugin flaws enable unauthorized access to critical systems."
+          },
+          {
+            "title": "Authentication Threats",
+            "desc": "Kali365 MFA bypass allows attackers to circumvent multi-factor authentication defenses."
+          },
+          {
+            "title": "Social Engineering & Infrastructure",
+            "desc": "Exposed production systems, fake installers, and phishing campaigns targeting users at scale."
+          }
+        ],
+        "suggested_title": "Security Threats: Azure Privilege Escalation, MFA Bypass, Malware Campaigns"
+      }
+    },
+    {
+      "id": "310e252e3939",
+      "title": "New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI \"Power users\"",
+      "link": "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
+      "summary": "State of AI Usage Report 2026 (full report here) by LayerX Security reveals the extent of the enterprise AI visibility gap and why most organizations still don't understand where their AI exposure is actually coming from. The research shows that enterprise AI risk is not distributed evenly across users or platforms. Instead, it is heavily concentrated among a small group of AI power users and a",
+      "pubDate": "2026-05-28T11:30:00+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "AI risk concentration among small power user group",
+          "Enterprise visibility gap creates unidentified AI exposure"
+        ],
+        "analysis": [
+          {
+            "title": "Uneven AI Risk Distribution",
+            "desc": "Enterprise AI security threats concentrate with select power users rather than spreading across workforce populations."
+          },
+          {
+            "title": "Visibility Gap Problem",
+            "desc": "Organizations lack comprehensive understanding of actual AI exposure sources, creating blind spots in security posture."
+          },
+          {
+            "title": "LayerX Security Findings",
+            "desc": "State of AI Usage Report 2026 reveals organizations underestimate where their critical AI vulnerabilities originate."
+          }
+        ],
+        "suggested_title": "AI Risk Concentrates on Power Users — Visibility Gap Exposed"
+      }
+    },
+    {
+      "id": "ec666a1e01b1",
+      "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
+      "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+      "summary": "A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-themed social engineering and bespoke macOS malware. \"These campaigns leveraged sophisticated social engineering techniques, custom macOS malware, and deep targeting of CI/CD infrastructure,\" Wiz researchers Shira Ayal,",
+      "pubDate": "2026-05-28T07:54:48+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Malware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "Cryptocurrency sector targeted via recruitment social engineering",
+          "Custom macOS malware with CI/CD infrastructure focus"
+        ],
+        "analysis": [
+          {
+            "title": "Attack Vector and Target",
+            "desc": "Threat actor JINX-0164 uses fake recruiter lures to compromise cryptocurrency organizations, exploiting human trust in hiring processes."
+          },
+          {
+            "title": "Technical Capabilities",
+            "desc": "Custom-developed macOS malware enables deep infrastructure penetration, specifically targeting CI/CD systems for potential supply chain compromise."
+          },
+          {
+            "title": "Threat Implications",
+            "desc": "Campaign demonstrates sophisticated social engineering combined with bespoke malware, facilitating large-scale digital asset theft from finance sector."
+          }
+        ],
+        "suggested_title": "JINX-0164 Cryptocurrency Malware: macOS Threat and CI/CD Risks"
+      }
+    },
+    {
+      "id": "c8c5479feefb",
+      "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
+      "link": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
+      "summary": "Latin America and Europe become the target of two banking trojan campaigns that are designed to infect Windows and Android devices with Grandoreiro and BTMOB malware, respectively. That's according to new findings from WatchGuard and ESET, which have observed the two malware families being used to single out companies in Spain, Portugal, and Mexico, as well as mobile users in Brazil. The",
+      "pubDate": "2026-05-27T16:10:21+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Malware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "Banking trojans target Latin America and Europe simultaneously",
+          "Grandoreiro and BTMOB malware compromise Windows and Android"
+        ],
+        "analysis": [
+          {
+            "title": "Geographic and Device Scope",
+            "desc": "Campaigns focus on Spain, Portugal, Mexico, and Brazil affecting both desktop and mobile platforms across regions."
+          },
+          {
+            "title": "Malware Families Involved",
+            "desc": "Grandoreiro targets Windows systems while BTMOB RAT focuses on Android devices, each optimized for respective platforms."
+          },
+          {
+            "title": "Threat Intelligence Sources",
+            "desc": "WatchGuard and ESET security researchers identified and documented these coordinated banking trojan campaigns through threat analysis."
+          }
+        ],
+        "suggested_title": "Banking Trojans Grandoreiro and BTMOB Target Latin America Europe"
+      }
+    },
+    {
+      "id": "500e9c55aae0",
+      "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
+      "link": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
+      "summary": "Cybersecurity researchers have discovered a new malicious package on the npm registry that comes with information stealing capabilities. According to OX Security, the package, named \"mouse5212-super-formatter,\" is designed to upload files from \"/mnt/user-data,\" a dedicated directory used by Anthropic's Claude artificial intelligence (AI) tool to handle uploads and outputs in the background. The",
+      "pubDate": "2026-05-27T15:44:29+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "npm package exfiltrated Claude AI user files",
+          "Anthropic's /mnt/user-data directory targeted by malware"
+        ],
+        "analysis": [
+          {
+            "title": "Attack Vector",
+            "desc": "Malicious npm package 'mouse5212-super-formatter' designed to steal files from Claude AI upload directory."
+          },
+          {
+            "title": "Scope & Impact",
+            "desc": "Targets /mnt/user-data directory containing Anthropic Claude uploads and outputs, affecting end-user data."
+          },
+          {
+            "title": "Discovery & Response",
+            "desc": "OX Security identified threat; immediate package removal and user notification recommended by researchers."
+          }
+        ],
+        "suggested_title": "npm Malware Steals Claude AI User Files — Immediate Action Required"
+      }
+    }
+  ]
+}
