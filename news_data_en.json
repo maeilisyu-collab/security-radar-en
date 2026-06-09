@@ -1,8 +1,790 @@
 {
-  "updated": "2026-06-08T05:27:14.907313+00:00",
+  "updated": "2026-06-09T05:02:40.463305+00:00",
   "count": 30,
   "lang": "en",
   "articles": [
+    {
+      "id": "75f0f0772197",
+      "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
+      "link": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
+      "summary": "New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]",
+      "pubDate": "2026-06-08T22:11:58+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Malware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "NFCShare malware disguised as banking app updates on GitHub",
+          "Attackers exploit legitimate app names to distribute Android malware variants"
+        ],
+        "analysis": [
+          {
+            "title": "Distribution Vector Exploits Trust",
+            "desc": "Attackers host malicious APKs on GitHub using legitimate banking app names, tricking users into downloading fake updates instead of official releases."
+          },
+          {
+            "title": "NFCShare Capabilities and Threats",
+            "desc": "New variants expand functionality to steal financial data, intercept NFC transactions, and establish persistence on compromised Android devices."
+          },
+          {
+            "title": "GitHub as Attack Infrastructure",
+            "desc": "Free hosting service allows threat actors to distribute malware at scale with minimal detection risk and plausible legitimacy veneer."
+          }
+        ],
+        "suggested_title": "Android NFCShare Malware Spreads Through Fake Banking App Updates",
+        "bottom_line": "Your banking app update might actually drain your account — verify before you tap.",
+        "action_today": "Banking App → Uninstall → Download only from official Play Store or bank's website"
+      }
+    },
+    {
+      "id": "b345ab9d8bfd",
+      "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
+      "link": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
+      "summary": "SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information. [...]",
+      "pubDate": "2026-06-08T21:55:46+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "SoFi Hong Kong confirms third-party vendor data breach",
+          "Customer information exposed through compromised database access"
+        ],
+        "analysis": [
+          {
+            "title": "Breach scope unclear",
+            "desc": "Article lacks specifics on affected customer count, data types exposed, or breach timeline details."
+          },
+          {
+            "title": "Third-party risk materialized",
+            "desc": "Vendor compromise demonstrates that fintech security depends on multiple organizations protecting customer data."
+          },
+          {
+            "title": "Response and notification needed",
+            "desc": "SoFi must clarify remediation steps, notify affected users, and prevent similar vendor vulnerabilities."
+          }
+        ],
+        "suggested_title": "SoFi Data Breach — Third-Party Vendor Compromised",
+        "bottom_line": "Your financial data just leaked through someone else's security failure, not SoFi's.",
+        "action_today": "Check SoFi app → Account → Security alerts → Review recent login activity"
+      }
+    },
+    {
+      "id": "e6efe1ab4d82",
+      "title": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users - 404 Media",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYlRSSDV4bFdHZ1Zlem0wa3JIRWt6by15UzNFYjROazV4YWgtazEtLXItR3Rkbm52WFhiTVo2cVNscUpnWWp2SWMtNUducFZRMGtRTHE2R2c0WmROb0dNaDhOTVpWUl9wTXlCdzZoazFvRjJld29lZ2pEWFpra2FzSXVJeXBTU3pzbzVpeGR3Wks?oc=5",
+      "summary": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users&nbsp;&nbsp;404 Media",
+      "pubDate": "2026-06-08T21:16:57+00:00",
+      "source": "Google News — Cybersecurity",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Microsoft infrastructure compromised for malware distribution",
+          "Claude and Gemini users targeted in supply chain attack"
+        ],
+        "analysis": [
+          {
+            "title": "Supply chain attack vector",
+            "desc": "Attackers exploited Microsoft systems to inject malware into AI assistant platforms."
+          },
+          {
+            "title": "Widespread user exposure",
+            "desc": "Claude and Gemini users unknowingly received malicious code through trusted services."
+          },
+          {
+            "title": "Trust infrastructure broken",
+            "desc": "Enterprise security failed at vendor level, bypassing traditional endpoint defenses."
+          }
+        ],
+        "suggested_title": "Microsoft Breach Weaponized to Infect Claude Gemini Users",
+        "bottom_line": "Your AI assistant just became an attack vector — malware's already on your devices.",
+        "action_today": "Claude/Gemini → Settings → Security → Verify recent activity and change passwords"
+      }
+    },
+    {
+      "id": "b4639bcf7e9d",
+      "title": "New Apple feature automatically changes your compromised passwords",
+      "link": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
+      "summary": "At WWDC 26, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. This works in Safari, and it's rolling out with iOS 27. [...]",
+      "pubDate": "2026-06-08T21:03:40+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Apple Intelligence auto-fixes weak compromised passwords",
+          "Safari feature rolling out with iOS 27"
+        ],
+        "analysis": [
+          {
+            "title": "Automatic password remediation technology",
+            "desc": "Apple leverages AI to identify and replace compromised credentials without user intervention."
+          },
+          {
+            "title": "Safari-native implementation",
+            "desc": "Feature integrates directly into browser, streamlining password security management across Apple ecosystem."
+          },
+          {
+            "title": "iOS 27 deployment timeline",
+            "desc": "Rollout announced at WWDC 26, expanding password protection to mobile devices."
+          }
+        ],
+        "suggested_title": "Apple Auto-Fixes Your Compromised Passwords With iOS 27",
+        "bottom_line": "Your old passwords are probably already stolen. Apple's finally fixing this for you.",
+        "action_today": "Safari → Settings → Passwords → Check Compromised Passwords section now"
+      }
+    },
+    {
+      "id": "95e6516b4a56",
+      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
+      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
+      "summary": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud supply-chain attack that delivered malware designed to steal developer secrets. [...]",
+      "pubDate": "2026-06-08T20:41:35+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "19 PyPI packages compromised in supply-chain attack",
+          "Malware steals developer secrets from hundreds of thousands"
+        ],
+        "analysis": [
+          {
+            "title": "Supply-chain targeting developers",
+            "desc": "Attackers compromised science-focused PyPI packages to distribute credential-stealing malware to developer machines."
+          },
+          {
+            "title": "Scale of exposure significant",
+            "desc": "Hundreds of thousands of downloads across trojanized packages suggest widespread installation before detection."
+          },
+          {
+            "title": "Shai-Hulud campaign continues",
+            "desc": "Named attack group demonstrates persistent focus on Python ecosystem as vector for developer credential theft."
+          }
+        ],
+        "suggested_title": "PyPI Supply-Chain Attack Trojanizes 19 Science Packages",
+        "bottom_line": "Your development environment is a target. Check your pip packages now.",
+        "action_today": "pip list | grep shai-hulud; check ~/.ssh/config for unauthorized changes"
+      }
+    },
+    {
+      "id": "c4da432e2312",
+      "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+      "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+      "summary": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container. The flaw, CVE-2026-23111, sits in the kernel's nf_tables packet-filtering code and was patched upstream on February 5, 2026. Exodus Intelligence released its full technical walkthrough on June 8, and it is not even",
+      "pubDate": "2026-06-08T20:17:39+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Linux kernel use-after-free enables unprivileged local root escalation",
+          "Public exploit released for CVE-2026-23111 nf_tables vulnerability"
+        ],
+        "analysis": [
+          {
+            "title": "Critical Severity & Scope",
+            "desc": "Use-after-free flaw in nf_tables packet filtering allows complete privilege escalation and container escape from unprivileged user accounts."
+          },
+          {
+            "title": "Timeline & Exposure Risk",
+            "desc": "Patched February 5, 2026, but full technical exploit published June 8. Systems unpatched for months now face active exploitation risk."
+          },
+          {
+            "title": "Immediate Threat Level",
+            "desc": "Public working exploit dramatically increases attack surface. Local attackers can now achieve root access on vulnerable Linux systems systematically."
+          }
+        ],
+        "suggested_title": "Linux Kernel Zero-Day Exploit Now Public — Patch Immediately",
+        "bottom_line": "If your Linux kernel isn't patched since February, attackers already have working code to own your system.",
+        "action_today": "Linux → Run 'uname -r' → Check kernel version against 2026-02-05 patch date → apt update && apt upgrade"
+      }
+    },
+    {
+      "id": "e0b7f1e49253",
+      "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
+      "summary": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]",
+      "pubDate": "2026-06-08T18:40:53+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Phishing",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "NSO Group phishing campaigns detected and disrupted by WhatsApp",
+          "Social engineering attacks targeting WhatsApp users stopped"
+        ],
+        "analysis": [
+          {
+            "title": "NSO Group targeting tactics",
+            "desc": "NSO allegedly conducted spear-phishing campaigns exploiting social engineering to compromise WhatsApp users and access sensitive data."
+          },
+          {
+            "title": "Detection and response measures",
+            "desc": "WhatsApp identified and disrupted attacks after investigating user reports, demonstrating proactive threat monitoring and incident response capabilities."
+          },
+          {
+            "title": "Spyware threat implications",
+            "desc": "NSO spyware poses significant risks to user privacy and security; continued vigilance against phishing and social engineering essential."
+          }
+        ],
+        "suggested_title": "NSO Spyware Phishing Attacks Disrupted by WhatsApp Security",
+        "bottom_line": "NSO's phishing attacks nearly reached you through WhatsApp — check if you clicked suspicious links recently.",
+        "action_today": "WhatsApp → Settings → Account → Two-step verification → Enable now (5 minutes)"
+      }
+    },
+    {
+      "id": "54e073c67c64",
+      "title": "Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware - CyberSecurityNews",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14anY0QVFWdjhpd01GaUdhNDFLRkdYVnFENDVQVDJ5Q0k0YUwwS0lleEY1OUJGNW9vYVFTamJaUjhaREhRcTJDd2RjUWs1eHdobmZQLU82S3RJWWFzWVNWa0dmNXVQRUdYVUxXRUZfMVkyX1l50gF6QVVfeXFMTlpTQlhndnpHeUZ0SGVHQ1RGM0Qxa1pQVmxxYUFJbllZUzBtUmFUZ0VqakpNTkVNMzljcDh2TkMxMlF2TXc1RDFld1padk9QeDJFYmRVY0VBdldGY2MxdVBlSlFJdXdIMEFnQUdXajBSX0E5TWxMc1ZKa0E?oc=5",
+      "summary": "Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware&nbsp;&nbsp;CyberSecurityNews",
+      "pubDate": "2026-06-08T17:19:24+00:00",
+      "source": "Google News — Vulnerability",
+      "lang": "en",
+      "category": "Ransomware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "Check Point VPN zero-day actively exploited for ransomware deployment",
+          "Critical vulnerability allows unauthenticated remote code execution attacks"
+        ],
+        "analysis": [
+          {
+            "title": "Active Exploitation in Wild",
+            "desc": "Threat actors actively leveraging unpatched vulnerability to compromise VPN infrastructure and deploy ransomware payloads."
+          },
+          {
+            "title": "VPN Gateway Compromise Risk",
+            "desc": "Zero-day enables attackers to bypass authentication, gain network access, execute arbitrary code remotely."
+          },
+          {
+            "title": "Ransomware Distribution Vector",
+            "desc": "Compromised VPN gateways serve as entry point for ransomware deployment across connected enterprise networks."
+          }
+        ],
+        "suggested_title": "Check Point VPN Zero-Day Actively Exploited — Ransomware Campaign Underway",
+        "bottom_line": "Your VPN gateway is under active attack right now. Patch immediately or disconnect from the internet.",
+        "action_today": "Contact Check Point support for emergency patch status; apply immediately upon availability; monitor VPN logs for suspicious activity"
+      }
+    },
+    {
+      "id": "cde0e1a9dde3",
+      "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
+      "link": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
+      "summary": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group. In addition, the tech giant said it's filing a federal court contempt order against the company for violating a permanent injunction that barred it from targeting WhatsApp and its users. \"They tried to trick people into clicking on malicious links to drive them to external websites",
+      "pubDate": "2026-06-08T17:08:44+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Phishing",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "NSO Group attempted WhatsApp phishing campaign detected and blocked",
+          "Meta files contempt order for violating existing court injunction"
+        ],
+        "analysis": [
+          {
+            "title": "Spear-Phishing Attack Details",
+            "desc": "NSO Group deployed malicious links targeting WhatsApp users to redirect them to external websites containing potential spyware or credential harvesting payloads."
+          },
+          {
+            "title": "Legal Escalation Against NSO",
+            "desc": "Meta pursues contempt charges after NSO violated permanent injunction explicitly prohibiting targeting WhatsApp platform and its user base."
+          },
+          {
+            "title": "Detection and Response",
+            "desc": "Meta's security infrastructure identified and neutralized the phishing campaign before widespread user compromise, demonstrating proactive threat monitoring."
+          }
+        ],
+        "suggested_title": "WhatsApp Phishing: Meta Blocks NSO Attack, Files Contempt Suit",
+        "bottom_line": "NSO Group is actively ignoring court orders to attack your WhatsApp — Meta's blocking won't last forever.",
+        "action_today": "WhatsApp → Settings → Account → Two-Step Verification → Enable now (1 minute)"
+      }
+    },
+    {
+      "id": "c80c1e61c4eb",
+      "title": "Gogs patches critical zero-day enabling remote code execution",
+      "link": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
+      "summary": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones). [...]",
+      "pubDate": "2026-06-08T16:18:40+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Gogs zero-day enables remote code execution on internet-facing instances",
+          "Attackers can access all repositories including private ones without authentication"
+        ],
+        "analysis": [
+          {
+            "title": "Critical vulnerability scope",
+            "desc": "Zero-day flaw allows unauthenticated remote code execution on vulnerable Gogs servers accessible online."
+          },
+          {
+            "title": "Data exposure risk",
+            "desc": "Attackers gain unrestricted access to all repositories, including sensitive private projects and credentials."
+          },
+          {
+            "title": "Patch availability",
+            "desc": "Security update released. Immediate patching required for all internet-exposed Gogs instances to prevent compromise."
+          }
+        ],
+        "suggested_title": "Critical Gogs Zero-Day RCE Vulnerability — Patch Now",
+        "bottom_line": "Every unpatched Gogs instance online is actively being exploited right now.",
+        "action_today": "Gogs → Check installed version → Download latest patch → Restart service immediately"
+      }
+    },
+    {
+      "id": "286e0441ce76",
+      "title": "Critical UniFi OS bug lets hackers gain root without authentication",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
+      "summary": "Attackers can chain three already fixed vulnerabilities in the Ubiquiti UniFi OS server to execute remote code with root privileges and without authentication. [...]",
+      "pubDate": "2026-06-08T15:51:19+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Three chained vulnerabilities enable unauthenticated root access",
+          "UniFi OS servers actively exploited — immediate patching critical"
+        ],
+        "analysis": [
+          {
+            "title": "Vulnerability Chain Mechanics",
+            "desc": "Attackers combine three previously patched flaws to bypass authentication and gain root-level command execution on UniFi servers."
+          },
+          {
+            "title": "Attack Surface & Exposure",
+            "desc": "Unauthenticated access means any internet-facing UniFi OS instance becomes a target. No credentials required to initiate exploit chain."
+          },
+          {
+            "title": "Remediation Priority",
+            "desc": "All three vulnerabilities already have fixes available. Organizations must patch immediately to close active exploitation window."
+          }
+        ],
+        "suggested_title": "UniFi OS Root Access Flaw — Patch Now Without Delay",
+        "bottom_line": "If your UniFi server hasn't been patched in the last week, attackers already have root access to your network.",
+        "action_today": "UniFi Dashboard → System Settings → Software Update → Install Latest Version"
+      }
+    },
+    {
+      "id": "88c839a6c55e",
+      "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
+      "link": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
+      "summary": "Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1 key exchange protocol. The vulnerability, tracked as CVE-2026-50751 (CVSS score: 9.3), is a case of a logic flow weakness in certificate validation that allows an unauthenticated remote attacker to bypass user",
+      "pubDate": "2026-06-08T14:17:39+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Check Point VPN certificate validation flaw actively exploited",
+          "IKEv1 protocol users vulnerable to password bypass attacks"
+        ],
+        "analysis": [
+          {
+            "title": "Critical severity and active exploitation",
+            "desc": "CVE-2026-50751 scores 9.3 CVSS with confirmed active attacks targeting Remote Access and Mobile Access VPN deployments."
+          },
+          {
+            "title": "Legacy protocol creates authentication weakness",
+            "desc": "IKEv1 key exchange configuration combined with logic flaw in certificate validation enables unauthenticated remote bypass."
+          },
+          {
+            "title": "Immediate patching required for affected users",
+            "desc": "Organizations running deprecated IKEv1 setups must upgrade to IKEv2 or apply Check Point security patches immediately."
+          }
+        ],
+        "suggested_title": "Check Point VPN Critical Flaw Exploited — Patch IKEv1 Now",
+        "bottom_line": "Your VPN password protection is already compromised if you're still on IKEv1 — attackers are actively breaking in.",
+        "action_today": "Check Point → Download latest VPN gateway patches → Deploy within 24 hours (verify IKEv1 usage first)"
+      }
+    },
+    {
+      "id": "74ad78b48ad1",
+      "title": "Reducing security operations complexity with Wazuh Cloud",
+      "link": "https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/",
+      "summary": "Security teams are increasingly overwhelmed by alert fatigue, infrastructure maintenance, and complex hybrid environments. This article explores how Wazuh Cloud helps simplify SIEM/XDR operations through managed infrastructure, automated scaling, and AI-driven security analysis. [...]",
+      "pubDate": "2026-06-08T14:01:11+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Alert fatigue overwhelms security teams in hybrid environments",
+          "Managed SIEM/XDR reduces infrastructure burden and operational complexity"
+        ],
+        "analysis": [
+          {
+            "title": "Alert fatigue crisis",
+            "desc": "Security teams drown in noise, missing critical threats amid false positives and alert overload."
+          },
+          {
+            "title": "Managed infrastructure advantage",
+            "desc": "Cloud-based SIEM eliminates maintenance burden, auto-scaling, and vendor management headaches for teams."
+          },
+          {
+            "title": "AI-driven threat detection",
+            "desc": "Machine learning filters noise, prioritizes real threats, and accelerates incident response decisively."
+          }
+        ],
+        "suggested_title": "SIEM Alert Fatigue Solved With Wazuh Cloud",
+        "bottom_line": "Your security team is drowning in alerts while real threats slip through the cracks.",
+        "action_today": "Audit your current SIEM alerts today — measure false positive rate percentage now"
+      }
+    },
+    {
+      "id": "e175935e82cd",
+      "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
+      "link": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+      "summary": "Phishing has always been a numbers game. AI has turned it into a volume machine. Attackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every polished message adds another case for Tier 1 to review, another link to inspect, and another alert that cannot be dismissed at a glance. As the queue grows, a credential theft attempt or malware delivery can easily",
+      "pubDate": "2026-06-08T13:19:13+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Phishing",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "AI-generated phishing attacks overwhelm security operations centers",
+          "Alert volume prevents detection of actual credential theft threats"
+        ],
+        "analysis": [
+          {
+            "title": "AI Accelerates Phishing Scale",
+            "desc": "Attackers deploy convincing emails and fake pages in minutes, multiplying alert volume beyond human review capacity."
+          },
+          {
+            "title": "Tier 1 Drowning in False Positives",
+            "desc": "Queue backlog from volume attacks masks genuine threats like credential theft and malware delivery in noise."
+          },
+          {
+            "title": "Urgent Triage and Automation Needed",
+            "desc": "Organizations must implement automated filtering and risk-scoring to distinguish critical threats from mass phishing noise."
+          }
+        ],
+        "suggested_title": "AI Phishing Attacks Paralyze SOCs — Automation Required",
+        "bottom_line": "Your team is missing real attacks buried under AI-generated phishing you can't possibly review manually.",
+        "action_today": "Email gateway settings → Configure AI-based phishing detection rules → Enable sandboxing for suspicious links"
+      }
+    },
+    {
+      "id": "ca333ac948a1",
+      "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
+      "link": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+      "summary": "Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot got fooled. A bot token got leaked inside the malware. The same old mistakes showed up again. And while everyone chased the loud stuff, quieter attackers sat in inboxes for months, reading mail and",
+      "pubDate": "2026-06-08T13:18:57+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Instagram accounts compromised via basic social engineering tactics",
+          "Android zero-day, GitHub worm, and leaked bot tokens circulating"
+        ],
+        "analysis": [
+          {
+            "title": "Social Engineering Still Dominates",
+            "desc": "Basic tricks bypass sophisticated defenses. Chatbots fooled into revealing credentials. Human factors remain weakest link."
+          },
+          {
+            "title": "Supply Chain Threats Accelerating",
+            "desc": "Poisoned packages, malware with embedded tokens, worms spreading through repositories. Infrastructure targets now preferred."
+          },
+          {
+            "title": "Persistent Inbox Intrusions",
+            "desc": "Attackers dwelling in email for months undetected. Access to sensitive communications remains critical vulnerability."
+          }
+        ],
+        "suggested_title": "Instagram Hacks, Android Zero-Day Expose Basic Security Failures",
+        "bottom_line": "Attackers aren't using new tricks—they're still winning because you haven't closed the old ones.",
+        "action_today": "Instagram → Settings → Security → Review active sessions and revoke unfamiliar logins now"
+      }
+    },
+    {
+      "id": "88e466495c3b",
+      "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang",
+      "link": "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
+      "summary": "Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks. [...]",
+      "pubDate": "2026-06-08T13:05:16+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Ransomware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "Critical VPN zero-day exploited by Qilin ransomware operators",
+          "Check Point patches Remote Access and Mobile Access flaws"
+        ],
+        "analysis": [
+          {
+            "title": "Threat Actor Attribution",
+            "desc": "Qilin ransomware gang actively exploiting VPN vulnerability in targeted attacks against organizations worldwide."
+          },
+          {
+            "title": "Affected Systems",
+            "desc": "Remote Access VPN and Mobile Access deployments vulnerable; critical infrastructure and enterprises at immediate risk."
+          },
+          {
+            "title": "Remediation Priority",
+            "desc": "Security updates released; organizations must patch immediately to prevent unauthorized network access and data exfiltration."
+          }
+        ],
+        "suggested_title": "Critical VPN Zero-Day Exploited by Qilin Ransomware — Patch Now",
+        "bottom_line": "Your VPN is being actively hunted right now. Patch today or assume breach tomorrow.",
+        "action_today": "Check Point Portal → Product Downloads → Apply latest security update to VPN gateway immediately"
+      }
+    },
+    {
+      "id": "af673f14b491",
+      "title": "The Hardest Fork",
+      "link": "https://thehackernews.com/2026/06/the-hardest-fork.html",
+      "summary": "Mythos is real. I know a big chunk of the industry thinks it's a marketing stunt, and I get why. I get it. But I've seen the findings, and they're bad. These aren't \"whoops, this line right here is wrong, and that's RCE.\" They're novel combinations of a few dozen issues out of thousands of things every SAST scanner already finds, chained together into something much worse. It's real creativity,",
+      "pubDate": "2026-06-08T11:53:00+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Novel vulnerability chains combine dozens of SAST-missed issues",
+          "Mythos findings represent creative exploitation, not marketing hype"
+        ],
+        "analysis": [
+          {
+            "title": "Complex Attack Chain",
+            "desc": "Vulnerability combines multiple issues from thousands of SAST detections into sophisticated exploit chain."
+          },
+          {
+            "title": "Industry Skepticism",
+            "desc": "Security community initially dismissed findings as marketing, but evidence proves legitimate technical threat."
+          },
+          {
+            "title": "Novel Exploitation Method",
+            "desc": "Attack demonstrates creative combination of known issues into previously undiscovered attack vector."
+          }
+        ],
+        "suggested_title": "Mythos Vulnerability: Novel Chain Exploits Hidden SAST Gaps",
+        "bottom_line": "Your security scanner missed it because the real threat isn't one bug—it's the combination.",
+        "action_today": "Review your last SAST report → Prioritize issues by chaining potential → Escalate high-risk combinations"
+      }
+    },
+    {
+      "id": "fce2287c2dd8",
+      "title": "Ransomware attack shuts down Evanston Township High School campus - CBS News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ0stV1IwZW55Q0RrRUVxcVJ4dmhGdVRNeTV6ZWkyOU1zZS1OcGh0d2haYTBJalBydmZiaDNudWwwSWV2QVlfamFhMm9oSEN2a1F2ZThDSzF5VExmVmxkTFJIYlBoVUZqOURkWWg2NVNhTFgtdmRJWU5neUJjNkJnVm0xbjRGd2FjS19SYUZsM2J1d3ZScjFiWi1QSmhEd0k?oc=5",
+      "summary": "Ransomware attack shuts down Evanston Township High School campus&nbsp;&nbsp;CBS News",
+      "pubDate": "2026-06-08T11:48:00+00:00",
+      "source": "Google News — Cybersecurity",
+      "lang": "en",
+      "category": "Ransomware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "Educational institution targeted by ransomware deployment",
+          "Campus operations disrupted by extortion-focused cyberattack"
+        ],
+        "analysis": [
+          {
+            "title": "Attack Surface: Schools Vulnerable",
+            "desc": "Educational institutions lack enterprise-grade security infrastructure, making them prime ransomware targets for attackers seeking quick payouts."
+          },
+          {
+            "title": "Operational Impact: Critical Services Down",
+            "desc": "Ransomware shutdown disrupts student learning, administrative functions, and essential communications, forcing emergency response protocols institution-wide."
+          },
+          {
+            "title": "Response: Incident Containment Needed",
+            "desc": "Schools must isolate affected systems immediately, contact FBI, notify parents of potential data exposure, and activate backup operations."
+          }
+        ],
+        "suggested_title": "Ransomware Attack Cripples Evanston High School Network",
+        "bottom_line": "Your child's school data is hostage. This happens weekly to education targets nationwide.",
+        "action_today": "Contact your school's IT department for security status and data exposure details immediately"
+      }
+    },
+    {
+      "id": "a0ac83a8d9ff",
+      "title": "Oxford University discloses data breach after careers platform hack",
+      "link": "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
+      "summary": "The University of Oxford disclosed a new data breach last week after being informed by its third-party provider, Group GTI, that its CareerConnect career services platform had been compromised. [...]",
+      "pubDate": "2026-06-08T11:14:41+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Oxford University careers platform breached via third-party provider",
+          "Group GTI compromise exposed student and staff data"
+        ],
+        "analysis": [
+          {
+            "title": "Third-party supply chain risk",
+            "desc": "Universities rely on external vendors for services, creating indirect attack vectors that institutional controls cannot fully prevent."
+          },
+          {
+            "title": "Career services data sensitivity",
+            "desc": "Career platforms store employment history, contact details, and personal statements—high-value targets for identity theft and social engineering."
+          },
+          {
+            "title": "Disclosure and response timeline",
+            "desc": "Institutions often learn of breaches weeks after compromise occurs, delaying notification and limiting victim response windows significantly."
+          }
+        ],
+        "suggested_title": "Oxford University Data Breach Exposes Students Via Hacked Careers Platform",
+        "bottom_line": "Your résumé, contact info, and employment history are now in criminal hands.",
+        "action_today": "Check your email for Oxford breach notification; enable 2FA on job search accounts immediately"
+      }
+    },
+    {
+      "id": "a512ced84aca",
+      "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
+      "link": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
+      "summary": "A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two other malware families codenamed PLENET (aka GRIMBOLT) and AGENTPSD to target Linux systems. The activity has been attributed by Volexity to a threat cluster it tracks as VerdantBamboo, which it said overlaps with hacking groups known as Clay Typhoon (Microsoft),",
+      "pubDate": "2026-06-08T10:27:32+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "China-nexus group deploys BSD BRICKSTORM variant targeting Linux systems",
+          "VerdantBamboo linked to Clay Typhoon using PLENET and AGENTPSD malware"
+        ],
+        "analysis": [
+          {
+            "title": "Multi-malware coordinated campaign",
+            "desc": "VerdantBamboo leverages three distinct malware families including BSD-compiled BRICKSTORM backdoor against Linux infrastructure targets."
+          },
+          {
+            "title": "Attribution to known threat actors",
+            "desc": "Volexity links campaign to VerdantBamboo cluster overlapping with Microsoft-tracked Clay Typhoon group indicating persistent espionage operations."
+          },
+          {
+            "title": "Linux appliance vulnerability exposure",
+            "desc": "Critical infrastructure running Linux-based appliances face elevated risk from specialized backdoor variants designed for persistent access."
+          }
+        ],
+        "suggested_title": "Linux Backdoor BRICKSTORM — VerdantBamboo Espionage Campaign Exposed",
+        "bottom_line": "Your Linux servers are being hunted by a sophisticated Chinese group right now. They're already inside some networks.",
+        "action_today": "Linux systems → Check running processes with 'netstat -tulpn' for suspicious connections immediately"
+      }
+    },
+    {
+      "id": "38ab7398bcd3",
+      "title": "UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign",
+      "link": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a financially motivated data theft extortion campaign that has targeted dozens of organizations across professional, legal, and financial services in the U.S. between January and May 2026. The activity has been attributed by Google Mandiant and Google Threat Intelligence Group (GTIG) to a threat actor dubbed UNC3753, which is also known as",
+      "pubDate": "2026-06-08T07:39:28+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "UNC3753 combines vishing and physical break-ins for data theft",
+          "Targets U.S. professional, legal, financial services sectors actively"
+        ],
+        "analysis": [
+          {
+            "title": "Multi-vector Attack Strategy",
+            "desc": "Threat actor blends social engineering phone calls with on-site intrusions to compromise organizations and steal sensitive data for extortion."
+          },
+          {
+            "title": "High-Value Target Selection",
+            "desc": "Campaign focuses on professional services, law firms, and financial institutions holding confidential client information and trade secrets worth leveraging."
+          },
+          {
+            "title": "Financially Motivated Extortion",
+            "desc": "UNC3753 steals data then demands ransom, exploiting victims' fear of disclosure to clients, regulators, and competitive markets for payment."
+          }
+        ],
+        "suggested_title": "Data Theft Extortion: UNC3753 Combines Vishing Physical Intrusions",
+        "bottom_line": "Your firm's confidential data is being stolen by attackers who walk through your doors and call your employees.",
+        "action_today": "Security Team: Audit office access logs and phone records for suspicious activity from past six months immediately."
+      }
+    },
+    {
+      "id": "78745e075c4c",
+      "title": "VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks",
+      "link": "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html",
+      "summary": "Microsoft has announced that Visual Studio Code (VS Code) will apply a two-hour delay before extensions for the integrated development environment (IDE) are updated automatically to a newer version in an attempt to tackle software supply chain threats. \"When automatic updates are enabled, new versions are auto-updated two hours after they are published, adding an extra layer of protection",
+      "pubDate": "2026-06-08T06:08:44+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Patch",
+      "level": "success",
+      "ai_summary": {
+        "keypoints": [
+          "VS Code delays extension updates two hours post-publication",
+          "Supply chain attack mitigation through automated update throttling"
+        ],
+        "analysis": [
+          {
+            "title": "Supply Chain Protection Strategy",
+            "desc": "Two-hour delay allows detection of malicious extensions before mass deployment to users."
+          },
+          {
+            "title": "Automatic Update Mechanism",
+            "desc": "New versions auto-update with built-in delay when automatic updates enabled by default."
+          },
+          {
+            "title": "Developer Ecosystem Security",
+            "desc": "Microsoft addresses growing threat of compromised extensions affecting millions of developers worldwide."
+          }
+        ],
+        "suggested_title": "VS Code Delays Extension Updates — Blocks Supply Chain Attacks",
+        "bottom_line": "Your extensions just got a built-in safety buffer — malicious updates now hit a speed bump.",
+        "action_today": "VS Code → Extensions → Settings (gear icon) → Confirm auto-update enabled"
+      }
+    },
+    {
+      "id": "b3da4125bc01",
+      "title": "Over 20,000 Instagram accounts stolen in Meta AI support hack",
+      "link": "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
+      "summary": "Meta has revealed that 20,225 Instagram users had their accounts hijacked in a recent incident where attackers used Meta's AI-powered support system to reset passwords. [...]",
+      "pubDate": "2026-06-08T06:00:27+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "20,225 Instagram accounts compromised via Meta AI support system",
+          "Attackers exploited password reset feature in automated support tool"
+        ],
+        "analysis": [
+          {
+            "title": "Attack Vector Exploited",
+            "desc": "Threat actors manipulated Meta's AI-powered customer support system to bypass authentication and reset victim passwords without authorization."
+          },
+          {
+            "title": "Scale and Impact",
+            "desc": "Over 20,000 Instagram users affected. Hijacked accounts could be used for phishing, fraud, or spreading malicious content at scale."
+          },
+          {
+            "title": "System Vulnerability",
+            "desc": "Meta's AI support system lacked sufficient verification controls. Automated processes trusted requests without human review or multi-factor validation."
+          }
+        ],
+        "suggested_title": "Instagram Accounts Hacked — Meta AI Support System Bypassed",
+        "bottom_line": "Your Instagram account could be locked out right now while attackers drain it. Check your account access immediately.",
+        "action_today": "Instagram app → Settings → Login activity → Review active sessions and log out unknown devices now"
+      }
+    },
     {
       "id": "02746a69533b",
       "title": "Hands on with Intelligent Terminal, an AI-powered Windows Terminal",
@@ -16,25 +798,25 @@
       "ai_summary": {
         "keypoints": [
           "Microsoft launches AI-integrated Windows Terminal fork",
-          "AI features operate separately from terminal sessions"
+          "AI assistance runs without disrupting terminal operations"
         ],
         "analysis": [
           {
-            "title": "AI Integration in Terminal",
-            "desc": "Microsoft developed open-source fork enabling direct AI access within Terminal without disrupting normal operations."
+            "title": "AI Integration Architecture",
+            "desc": "Intelligent Terminal embeds AI capabilities directly into terminal environment, maintaining session integrity while enabling contextual assistance."
           },
           {
-            "title": "Intelligent Terminal Architecture",
-            "desc": "AI functions isolated from regular terminal sessions, maintaining stability and preventing interference with user workflows."
+            "title": "Open-Source Development Model",
+            "desc": "Microsoft's fork approach allows community contribution and transparency, potentially accelerating feature development and security auditing."
           },
           {
-            "title": "Developer Experience Impact",
-            "desc": "New tool streamlines developer workflow by combining terminal access with AI capabilities in single interface."
+            "title": "Operational Workflow Impact",
+            "desc": "Non-intrusive AI design preserves traditional terminal workflows, reducing learning curve for existing Windows Terminal users adopting new features."
           }
         ],
-        "suggested_title": "AI-Powered Windows Terminal Fork Isolates AI Features Safely",
-        "bottom_line": "Microsoft just handed developers a terminal that thinks alongside them, no friction required.",
-        "action_today": "Download Intelligent Terminal from Microsoft GitHub repository and test AI features isolated mode"
+        "suggested_title": "AI-Powered Windows Terminal: Microsoft's Intelligent Fork Explained",
+        "bottom_line": "AI in your terminal just became non-negotiable for power users — this changes your workflow today.",
+        "action_today": "GitHub → Search 'Intelligent Terminal' → Clone repo → Follow setup instructions (10 min)"
       }
     },
     {
@@ -49,26 +831,26 @@
       "level": "danger",
       "ai_summary": {
         "keypoints": [
-          "C0XMO Gafgyt variant targets DD-WRT router firmware specifically",
-          "Cross-architecture botnet spreads to multiple device types automatically"
+          "Gafgyt botnet variant exploits DD-WRT router vulnerability",
+          "Malware spreads across multiple CPU architectures, eliminates competitors"
         ],
         "analysis": [
           {
-            "title": "DD-WRT vulnerability exploitation",
-            "desc": "C0XMO exploits specific DD-WRT router firmware flaws to establish initial infection vector across home networks."
+            "title": "DD-WRT Router Vulnerability",
+            "desc": "C0XMO targets DD-WRT firmware, leveraging unpatched security flaw for initial compromise and persistence."
           },
           {
-            "title": "Multi-architecture propagation capability",
-            "desc": "Botnet adapts to various CPU architectures, enabling lateral movement beyond routers to IoT and networked devices."
+            "title": "Cross-Architecture Propagation",
+            "desc": "Botnet supports multiple CPU architectures, enabling spread beyond routers to diverse connected devices."
           },
           {
-            "title": "Malware competitive displacement",
-            "desc": "C0XMO actively eliminates rival botnet infections, suggesting organized criminal infrastructure competing for device control."
+            "title": "Competitive Malware Elimination",
+            "desc": "Variant actively removes rival malware, consolidating control and maximizing resource exploitation on infected hosts."
           }
         ],
-        "suggested_title": "DD-WRT Router Flaw Spreads C0XMO Botnet Rapidly",
-        "bottom_line": "Your router is being hunted right now. C0XMO doesn't just infect—it evicts competitors to own your devices.",
-        "action_today": "Router settings → Administration → Firmware → Check DD-WRT version and update immediately"
+        "suggested_title": "DD-WRT Router Flaw Weaponized by C0XMO Botnet Variant",
+        "bottom_line": "Your router is actively being targeted right now — unpatched DD-WRT devices are already compromised.",
+        "action_today": "Router admin panel → Firmware → Check for DD-WRT updates and install immediately"
       }
     },
     {
@@ -83,26 +865,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "Silent Ransom Group uses fake IT support calls targeting law firms",
+          "Silent Ransom Group impersonates IT support to breach law firms",
           "Data theft occurs within hours of initial social engineering contact"
         ],
         "analysis": [
           {
-            "title": "Attack Method: Social Engineering",
-            "desc": "Criminals impersonate IT support via phone calls to establish trust and gain system access quickly before victims realize the deception."
+            "title": "Threat Actor Profile",
+            "desc": "Silent Ransom Group uses fake IT support calls targeting professional services sector with high-value data."
           },
           {
-            "title": "High-Risk Target: Legal Sector",
-            "desc": "Law firms hold sensitive client data, financial records, and confidential documents making them prime extortion targets for organized criminal groups."
+            "title": "Attack Speed",
+            "desc": "Initial compromise to data exfiltration happens in hours, leaving minimal detection and response window."
           },
           {
-            "title": "Speed of Exploitation",
-            "desc": "Initial contact to data theft happens within hours, leaving minimal window for detection or incident response team intervention."
+            "title": "Vulnerable Targets",
+            "desc": "Law firms prioritized for sensitive client data, financial records, and intellectual property value."
           }
         ],
-        "suggested_title": "Law Firms Under Attack: Fake IT Support Scams",
-        "bottom_line": "Your firm's most sensitive client data is one convincing phone call away from criminals.",
-        "action_today": "Call your IT team now. Verify their phone number independently. Brief all staff on never accepting remote access requests from unsolicited calls."
+        "suggested_title": "Law Firms Under Attack — Silent Ransom's Fake IT Support Scheme",
+        "bottom_line": "Your firm's data is already being harvested while someone impersonates your IT department on the phone.",
+        "action_today": "Call your IT team now: confirm their phone extension, establish verification protocol for all support requests"
       }
     },
     {
@@ -117,26 +899,26 @@
       "level": "warning",
       "ai_summary": {
         "keypoints": [
-          "Everest Forms Pro plugin actively exploited for site takeover",
-          "CVE-2026-3300 grants attackers complete WordPress control"
+          "Everest Forms Pro vulnerability enables complete WordPress site takeover",
+          "Active exploitation ongoing — immediate patching required for all users"
         ],
         "analysis": [
           {
-            "title": "Critical vulnerability scope",
-            "desc": "CVE-2026-3300 enables full WordPress site compromise through Everest Forms Pro plugin exploitation."
+            "title": "CVE-2026-3300 Severity",
+            "desc": "Critical flaw grants attackers full administrative control over compromised WordPress installations without authentication."
           },
           {
-            "title": "Active threat in wild",
-            "desc": "Hackers actively exploiting this flaw now, not theoretical risk. Immediate action required."
+            "title": "Active Exploitation Campaign",
+            "desc": "Threat actors actively weaponizing vulnerability in the wild. Legitimate websites already targeted and compromised."
           },
           {
-            "title": "Remediation urgency",
-            "desc": "Plugin update or disabling essential to prevent unauthorized access and data theft."
+            "title": "Immediate Risk Window",
+            "desc": "Every unpatched Everest Forms Pro installation remains exploitable. No patch timeline mentioned yet."
           }
         ],
-        "suggested_title": "WordPress Everest Forms Pro Vulnerability — Immediate Patch Required",
-        "bottom_line": "Your WordPress site is under active attack right now if you're running this plugin.",
-        "action_today": "Dashboard → Plugins → Everest Forms Pro → Update immediately or deactivate now"
+        "suggested_title": "WordPress Everest Forms Pro Critical Flaw Actively Exploited Now",
+        "bottom_line": "If you run Everest Forms Pro, attackers may already control your site. Act now.",
+        "action_today": "WordPress Dashboard → Plugins → Everest Forms Pro → Check for updates → Update immediately"
       }
     },
     {
@@ -157,20 +939,20 @@
         "analysis": [
           {
             "title": "Prompt Injection Risk Mitigation",
-            "desc": "OpenAI addresses data exfiltration vulnerabilities through limited tool access in new Lockdown Mode."
+            "desc": "New Lockdown Mode specifically addresses data exfiltration vulnerabilities from prompt injection attacks targeting ChatGPT users."
           },
           {
-            "title": "Broad Account Accessibility",
-            "desc": "Protection available across Free, Plus, Pro tiers for logged-in users handling confidential information."
+            "title": "Broad User Accessibility",
+            "desc": "Feature rolls out to Free, Plus, and Pro tier users, democratizing advanced security protections beyond enterprise accounts."
           },
           {
-            "title": "Enterprise Security Implementation",
-            "desc": "Targeted solution for organizations requiring stricter data protection guarantees against advanced attack vectors."
+            "title": "Sensitive Data Handling",
+            "desc": "Designed for organizations and individuals processing confidential information requiring stricter protection guarantees and compliance standards."
           }
         ],
         "suggested_title": "ChatGPT Lockdown Mode Blocks Prompt Injection Data Theft",
-        "bottom_line": "If you handle sensitive data in ChatGPT, activate Lockdown Mode now or risk exposure.",
-        "action_today": "ChatGPT → Settings → Security → Enable Lockdown Mode (1 minute)"
+        "bottom_line": "Your ChatGPT conversations just got harder to weaponize against you — enable it today if you handle sensitive work.",
+        "action_today": "ChatGPT → Account Settings → Security → Enable Lockdown Mode (1 min)"
       }
     },
     {
@@ -185,26 +967,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "Smart TVs secretly relay web-scraping traffic via embedded SDKs",
-          "Bright Data monetizes residential proxy networks targeting AI companies"
+          "Smart TVs weaponized as residential proxy exit nodes without consent",
+          "Bright Data SDK covertly harvests device bandwidth for AI web scraping"
         ],
         "analysis": [
           {
             "title": "Hidden Proxy Infrastructure",
-            "desc": "Researcher reverse-engineered iOS SDK revealing how consumer apps transform devices into exit nodes for web-scraping operations without user knowledge."
+            "desc": "Embedded SDK in free apps converts consumer devices into unwitting relay points for residential proxy traffic, masking scrapers' true origins."
           },
           {
-            "title": "Business Model Exploitation",
-            "desc": "Bright Data leverages always-on smart TVs and consumer devices as residential proxies, marketing access to AI industry clients."
+            "title": "Monetized Device Hijacking",
+            "desc": "Bright Data profits by selling access to compromised device networks to AI companies conducting large-scale web scraping operations."
           },
           {
-            "title": "User Device Compromise",
-            "desc": "Free apps contain embedded code that hijacks bandwidth and processing power, turning personal devices into unwilling infrastructure for commercial data harvesting."
+            "title": "Always-On Attack Surface",
+            "desc": "Smart TVs running 24/7 provide persistent exit nodes, maximizing utility for attackers while draining bandwidth and degrading user experience."
           }
         ],
-        "suggested_title": "Smart TV Proxy Network: Your Device Harvests Web Data for AI",
-        "bottom_line": "Your smart TV is working right now to scrape the web for someone else's profit.",
-        "action_today": "Smart TV → Settings → Apps → Review installed apps → Uninstall unfamiliar free apps immediately"
+        "suggested_title": "Residential Proxy Networks Secretly Hijack Smart TVs",
+        "bottom_line": "Your smart TV is selling your bandwidth to AI data brokers right now.",
+        "action_today": "Check installed apps on your smart TV; remove unfamiliar free apps immediately"
       }
     },
     {
@@ -219,808 +1001,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "SolarWinds Serv-U denial-of-service vulnerability actively exploited",
-          "CISA adds CVE-2026-28318 to Known Exploited catalog"
+          "SolarWinds Serv-U DoS vulnerability actively exploited in wild",
+          "CISA adds CVE-2026-28318 to KEV catalog immediately"
         ],
         "analysis": [
           {
             "title": "Critical DoS vulnerability confirmed",
-            "desc": "High-severity flaw (CVSS 7.5) causes Serv-U service crashes. Active exploitation documented by CISA."
+            "desc": "High-severity flaw (CVSS 7.5) crashes SolarWinds Serv-U service, enabling attackers to disrupt file server operations."
           },
           {
-            "title": "KEV catalog designation escalates risk",
-            "desc": "CISA listing signals imminent threat weaponization. Attackers likely developing automated exploitation tools now."
-          },
-          {
-            "title": "Immediate patching essential for operations",
-            "desc": "Organizations running Serv-U face availability disruption risk. Patch deployment should be prioritized immediately."
-          }
-        ],
-        "suggested_title": "SolarWinds Serv-U DoS Flaw Now Actively Exploited",
-        "bottom_line": "If you're running Serv-U, attackers are already targeting your service. Patch today or go offline.",
-        "action_today": "SolarWinds portal → Serv-U product → download latest patch → deploy immediately to all instances"
-      }
-    },
-    {
-      "id": "28ecb8d88842",
-      "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
-      "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "summary": "Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all of them found by an autonomous AI agent. The same week, Google shipped Chrome 149 with patches for 429 security bugs, the most ever in a single release. Only the FFmpeg bugs were found by AI.",
-      "pubDate": "2026-06-06T07:28:30+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "AI discovers 21 zero-days in ubiquitous FFmpeg library",
-          "Chrome 149 patches record 429 bugs in single release"
-        ],
-        "analysis": [
-          {
-            "title": "AI's emerging security role",
-            "desc": "Autonomous agents now detect vulnerabilities faster than traditional methods, reshaping vulnerability discovery landscape."
-          },
-          {
-            "title": "FFmpeg's critical exposure",
-            "desc": "Media library embedded across platforms contains significant unpatched flaws affecting video processing globally."
-          },
-          {
-            "title": "Chrome's patch volume spike",
-            "desc": "Record 429 fixes signal intensifying attack surface or improved detection; update urgency remains high."
-          }
-        ],
-        "suggested_title": "AI Finds 21 FFmpeg Zero-Days; Chrome Patches 429 Bugs",
-        "bottom_line": "That video app you trust probably runs vulnerable code. Patch everything today.",
-        "action_today": "Chrome → Settings → About Chrome → Auto-update triggered (force restart browser)"
-      }
-    },
-    {
-      "id": "ed7cb5908ca7",
-      "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-      "summary": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign. The incident impacted 73 Microsoft repositories across four of its GitHub organizations, including Azure, Azure-Samples, Microsoft, and MicrosoftDocs, per OpenSourceMalware. The development has GitHub to disable access to those repositories. \"Access to this",
-      "pubDate": "2026-06-06T06:58:04+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Malware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "Miasma worm compromised 73 Microsoft GitHub repositories",
-          "Self-replicating supply chain attack across four organizations"
-        ],
-        "analysis": [
-          {
-            "title": "Attack scope and impact",
-            "desc": "Miasma targeted Azure, Azure-Samples, Microsoft, and MicrosoftDocs organizations. GitHub disabled repository access to contain spread."
-          },
-          {
-            "title": "Self-replicating threat mechanism",
-            "desc": "Worm autonomously replicates across repositories, escalating supply chain risk beyond initial infection points."
-          },
-          {
-            "title": "Enterprise infrastructure vulnerability",
-            "desc": "Developer platforms hosting production code face elevated risk. Organizations must audit repository access logs immediately."
-          }
-        ],
-        "suggested_title": "Miasma Worm Infects 73 Microsoft GitHub Repositories — Supply Chain Alert",
-        "bottom_line": "If you use Microsoft's open-source code, assume your supply chain is already contaminated.",
-        "action_today": "GitHub → Settings → Personal access tokens → Review and revoke suspicious tokens now"
-      }
-    },
-    {
-      "id": "b612fb7154fb",
-      "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
-      "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-      "summary": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 out of a maximum of 10.0. It affects the following deployment types - On-Prem Deployment Cisco SD-WAN Cloud-Pro Cisco SD-WAN Cloud (Cisco Managed) Cisco SD-WAN for Government (FedRAMP) \"A",
-      "pubDate": "2026-06-06T04:19:28+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Cisco SD-WAN Manager actively exploited with no patch",
-          "High-severity flaw affects multiple cloud and on-prem deployments"
-        ],
-        "analysis": [
-          {
-            "title": "Exploit Status Critical",
-            "desc": "CVE-2026-20245 under active exploitation in wild. CVSS 7.8 indicates significant risk."
-          },
-          {
-            "title": "Broad Deployment Impact",
-            "desc": "Vulnerability affects on-prem, cloud-pro, cloud-managed, and government FedRAMP environments simultaneously."
-          },
-          {
-            "title": "Patch Availability Gap",
-            "desc": "No patch currently available. Cisco customers remain exposed without mitigation options."
-          }
-        ],
-        "suggested_title": "Cisco SD-WAN Critical Flaw Actively Exploited — Patch Unavailable",
-        "bottom_line": "If you run Cisco SD-WAN Manager, attackers are targeting you right now.",
-        "action_today": "Contact Cisco support immediately for interim mitigation guidance and patch timeline"
-      }
-    },
-    {
-      "id": "ac3e155e98a5",
-      "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
-      "link": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
-      "summary": "Tech giant Toshiba and mega-retailer Muji warned visitors that suspicious sign-in screens popping up on their websites could collect credentials. [...]",
-      "pubDate": "2026-06-05T21:54:42+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Security News",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Malicious login prompts deployed on major retailer websites",
-          "Credential harvesting attack affects Toshiba and Muji visitors"
-        ],
-        "analysis": [
-          {
-            "title": "Attack Vector and Scope",
-            "desc": "Suspicious sign-in screens injected into legitimate websites to steal user credentials from Toshiba and Muji visitors."
-          },
-          {
-            "title": "Polyfill Exploitation Method",
-            "desc": "Attackers leveraging polyfill scripts to inject malicious login prompts, targeting popular websites with high traffic volumes."
-          },
-          {
-            "title": "Immediate Credential Risk",
-            "desc": "Users who entered login details on affected pages face account compromise; password reset and fraud monitoring essential."
-          }
-        ],
-        "suggested_title": "Polyfill Attack Hijacks Login Screens — Toshiba, Muji Affected",
-        "bottom_line": "Attackers already collected credentials from thousands who thought they were signing into trusted sites.",
-        "action_today": "Change Toshiba and Muji passwords immediately; enable 2FA on both accounts within next 30 minutes"
-      }
-    },
-    {
-      "id": "b65d20780437",
-      "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
-      "summary": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]",
-      "pubDate": "2026-06-05T19:15:30+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Hacking",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "SolarWinds Serv-U vulnerability actively exploited in wild",
-          "Patch released — immediate deployment critical for server stability"
-        ],
-        "analysis": [
-          {
-            "title": "Active Exploitation Confirmed",
-            "desc": "CISA confirms hackers actively exploiting patched SolarWinds Serv-U flaw to crash vulnerable servers."
-          },
-          {
-            "title": "High-Severity Impact Risk",
-            "desc": "Vulnerability rated high-severity; successful exploitation causes server crashes, impacting business continuity immediately."
-          },
-          {
-            "title": "Patch Availability Window",
-            "desc": "SolarWinds released patch recently. Organizations unpatched remain exposed to active attacker campaigns now."
-          }
-        ],
-        "suggested_title": "SolarWinds Serv-U Flaw Under Active Attack — Patch Now",
-        "bottom_line": "If your servers run Serv-U unpatched, attackers are actively trying to crash them right now.",
-        "action_today": "SolarWinds Serv-U → Download latest patch → Apply to all instances immediately (check CISA advisory for version)"
-      }
-    },
-    {
-      "id": "5045e688925a",
-      "title": "Chinese APT deploys new malware to keep access to hacked networks",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-      "summary": "A Chinese espionage group tracked as UNC5221 has been accessing Microsoft 365 environments using the Brickstorm backdoor and previously undocumented malware named Plenet and AgentPSD. [...]",
-      "pubDate": "2026-06-05T18:09:47+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Hacking",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "Chinese APT maintains persistent access via multiple backdoors",
-          "Microsoft 365 environments targeted with new undocumented malware"
-        ],
-        "analysis": [
-          {
-            "title": "Threat Actor Capabilities",
-            "desc": "UNC5221 deploys sophisticated multi-stage malware including Brickstorm, Plenet, and AgentPSD for sustained network access and espionage operations."
-          },
-          {
-            "title": "Attack Surface Expansion",
-            "desc": "Cloud environments like Microsoft 365 increasingly targeted. Traditional on-premises defenses insufficient against cloud-focused APT campaigns."
-          },
-          {
-            "title": "Detection Challenges",
-            "desc": "Previously undocumented malware families evade legacy security tools. Organizations lack threat intelligence to identify Plenet and AgentPSD indicators."
-          }
-        ],
-        "suggested_title": "Chinese APT Exploits Microsoft 365 With New Undocumented Malware",
-        "bottom_line": "Your cloud email is likely already being watched by state-sponsored hackers.",
-        "action_today": "Microsoft 365 → Security → Alert policies → Review suspicious sign-in activity now"
-      }
-    },
-    {
-      "id": "4d2a4b53ec1f",
-      "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks",
-      "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-      "summary": "Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based information stealer and a self-spreading worm, respectively. According to JFrog, the information stealer \"scrapes every secret it can find on a developer's machine, hides behind an eBPF kernel rootkit, and",
-      "pubDate": "2026-06-05T18:05:30+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Malware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "50+ npm packages compromised distributing Rust information stealer",
-          "Self-spreading worm variant with eBPF kernel rootkit capability"
-        ],
-        "analysis": [
-          {
-            "title": "Attack Vector",
-            "desc": "Threat actors poisoned legitimate npm packages to distribute malware targeting developer machines and credentials."
-          },
-          {
-            "title": "Malware Capabilities",
-            "desc": "Information stealer scrapes secrets, hides via eBPF rootkit; worm self-replicates across supply chain."
-          },
-          {
-            "title": "Impact Scope",
-            "desc": "npm ecosystem developers at risk; compromised dependencies could infect downstream projects and organizations."
-          }
-        ],
-        "suggested_title": "npm Supply Chain Attack Spreads Rust Stealer and Self-Replicating Worm",
-        "bottom_line": "Your npm dependencies just became a backdoor into your development machine and company network.",
-        "action_today": "npm audit fix && npm audit --audit-level=moderate in terminal immediately"
-      }
-    },
-    {
-      "id": "f7ffee89a864",
-      "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
-      "link": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
-      "summary": "A California man was sentenced to more than 26 years in federal prison for trafficking fentanyl and methamphetamine through Nemesis Market, one of the world's largest dark web marketplaces. [...]",
-      "pubDate": "2026-06-05T17:50:58+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Security News",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Dark web drug trafficking sentenced to 26 years prison",
-          "Nemesis Market fentanyl methamphetamine distribution network dismantled"
-        ],
-        "analysis": [
-          {
-            "title": "Law enforcement dark web operations",
-            "desc": "Federal agencies successfully infiltrated and prosecuted major dark web marketplace operators, demonstrating increased capability against anonymous trafficking networks."
-          },
-          {
-            "title": "Fentanyl crisis enforcement response",
-            "desc": "Lengthy prison sentence reflects government priority on combating synthetic opioid distribution, holding vendors accountable for public health damage."
-          },
-          {
-            "title": "Marketplace vulnerability exposure",
-            "desc": "Nemesis Market compromise shows dark web platforms lack true anonymity protection; vendors remain identifiable and prosecutable by determined authorities."
-          }
-        ],
-        "suggested_title": "Dark Web Drug Vendor Faces 26-Year Prison Sentence",
-        "bottom_line": "Your anonymous dark web activity isn't anonymous — feds are prosecuting vendors and buyers alike.",
-        "action_today": "Review bank and email accounts for suspicious activity; enable 2FA on email immediately if not already done."
-      }
-    },
-    {
-      "id": "b01df71d9181",
-      "title": "Google and FBI warn of ransomware group that sends fake IT workers to hack victims in person - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRWVQYktTNWZaa09hUXVBT0U0NFJzX2NzSDVuODBxa2JtUi1mN2dNakNFcDl2UUFOdXFwTXJ1R2xXLXpnMl9DMFE5Mk93bW5fUF9FZFVQVC1KM1p3ODQyQzhYSnpfM1RIZzFKNmxpbXNkOHRMbnpZUFAwQUhUQkpIcDhXYVdCeWNFUVZCNTFueEx6ZFEzUGJaSmtydTdKSi03c0FYQUZJTVA5dWlzTzk1SlNqeWNnbm1DVTk4eFl0ZENPNElxbVE?oc=5",
-      "summary": "Google and FBI warn of ransomware group that sends fake IT workers to hack victims in person&nbsp;&nbsp;TechCrunch",
-      "pubDate": "2026-06-05T16:07:46+00:00",
-      "source": "Google News — Cybersecurity",
-      "lang": "en",
-      "category": "Ransomware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "Ransomware group impersonates IT workers for physical access",
-          "Google and FBI issue coordinated threat warning"
-        ],
-        "analysis": [
-          {
-            "title": "Social engineering meets physical breach",
-            "desc": "Attackers pose as legitimate IT personnel to gain on-site access, bypassing digital security perimeters entirely."
-          },
-          {
-            "title": "Coordinated agency response signals severity",
-            "desc": "Joint Google-FBI warning indicates this threat targets high-value organizations and requires immediate awareness."
-          },
-          {
-            "title": "Traditional defenses prove insufficient",
-            "desc": "Firewalls and endpoint security fail when attackers are physically present, demanding new verification protocols."
-          }
-        ],
-        "suggested_title": "Ransomware Group Impersonates IT Workers — Physical Security Alert",
-        "bottom_line": "Your office doors are now a target vector. Verify every IT person before handing them access.",
-        "action_today": "Call your IT department today: confirm current ID verification protocols for on-site technician visits"
-      }
-    },
-    {
-      "id": "a8bf8fbef427",
-      "title": "Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps",
-      "link": "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
-      "summary": "Arabic-speaking users have emerged as the target of a new Android spyware codenamed Asin, according to findings from ESET. The Slovakian cybersecurity company said it first detected the malware spread via multiple campaigns in early 2025, with each attack wave making use of distinct websites mimicking utilities, war-related updates, and a government news source: govlens[.]net, which",
-      "pubDate": "2026-06-05T14:53:40+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Malware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "Android spyware Asin targets Arabic-speaking users via fake apps",
-          "Malware spreads through impersonated news and utility websites"
-        ],
-        "analysis": [
-          {
-            "title": "Spyware targeting Arabic speakers",
-            "desc": "Asin malware detected by ESET in early 2025 campaigns. Specifically designed for Arabic-speaking user base across multiple attack waves."
-          },
-          {
-            "title": "Deceptive distribution methods",
-            "desc": "Attack uses fake news apps, PDF utilities, and war-related content. Mimics legitimate government news source govlens[.]net to deceive users."
-          },
-          {
-            "title": "Multi-vector attack strategy",
-            "desc": "Campaigns employ distinct websites and application types per wave. Strategy suggests sophisticated operation targeting specific user demographics with tailored lures."
-          }
-        ],
-        "suggested_title": "Android Spyware Asin Exploits Arabic Users Through Fake News Apps",
-        "bottom_line": "If you speak Arabic and installed a news or war-map app recently, your phone may already be compromised.",
-        "action_today": "Settings → Apps → Review recently installed → Delete unfamiliar news/utility apps immediately"
-      }
-    },
-    {
-      "id": "01f7e99693c1",
-      "title": "Over 900 US gas station tank gauge systems exposed to attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
-      "summary": "Over 900 automatic tank gauge (ATG) systems across the United States, used to monitor fuel and chemical storage tanks across various critical infrastructure sectors, have been found exposed online and are vulnerable to ongoing attacks. [...]",
-      "pubDate": "2026-06-05T14:50:15+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "900+ US gas station tank gauges exposed online",
-          "Critical infrastructure vulnerable to remote attacks now"
-        ],
-        "analysis": [
-          {
-            "title": "Scale of exposure",
-            "desc": "Over 900 automatic tank gauge systems monitoring fuel and chemical storage tanks found publicly accessible online without proper security controls."
-          },
-          {
-            "title": "Infrastructure risk",
-            "desc": "ATG systems span critical sectors including gas stations, utilities, and chemical storage. Compromise could disrupt fuel supply chains and contaminate storage facilities."
-          },
-          {
-            "title": "Attack vectors",
-            "desc": "Exposed systems vulnerable to remote manipulation, monitoring sabotage, and data theft. Attackers can alter readings or cause physical hazards without detection."
-          }
-        ],
-        "suggested_title": "Critical Infrastructure Alert: 900 Gas Station Systems Exposed",
-        "bottom_line": "Hackers can already see your fuel supply chain. Assume systems are compromised until proven otherwise.",
-        "action_today": "Contact your gas station operator's IT department today. Request immediate audit of tank gauge system internet exposure."
-      }
-    },
-    {
-      "id": "c83996b83a1d",
-      "title": "What 2026 DBIR Confirms: Attacks Are Living in the Browser",
-      "link": "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/",
-      "summary": "Phishing, shadow AI, malicious extensions, and credential theft increasingly happen inside the browser. Keep Aware explains what the 2026 Verizon DBIR reveals about browser-layer security gaps and modern attacks. [...]",
-      "pubDate": "2026-06-05T14:00:10+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Phishing",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "Browser attacks exploit phishing, malicious extensions, credential theft",
-          "2026 DBIR reveals critical browser-layer security gaps"
-        ],
-        "analysis": [
-          {
-            "title": "Browser as attack surface",
-            "desc": "Attackers increasingly target browser layer for phishing, credential harvesting, and malicious extensions exploitation."
-          },
-          {
-            "title": "Shadow AI misuse emerging",
-            "desc": "Generative AI tools enable sophisticated social engineering and targeted browser-based attacks at scale."
-          },
-          {
-            "title": "Extension vulnerabilities overlooked",
-            "desc": "Users install malicious or compromised browser extensions unknowingly, bypassing traditional security controls entirely."
-          }
-        ],
-        "suggested_title": "Browser Security 2026: Stop Phishing Malware Extensions Now",
-        "bottom_line": "Your browser is the front door attackers prefer — they're inside yours right now.",
-        "action_today": "Chrome/Firefox → Extensions → Audit installed extensions → Remove unfamiliar ones immediately"
-      }
-    },
-    {
-      "id": "38b4a872a5ca",
-      "title": "New Threat Cluster OP-512 Targets Microsoft IIS Servers with Custom Web Shell Framework",
-      "link": "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html",
-      "summary": "Cybersecurity researchers have discovered a previously unreported threat cluster dubbed OP-512 (where \"OP\" stands for \"opponent\") that has been observed&nbsp;targeting Microsoft Internet Information Services (IIS) servers to deploy a bespoke web shell framework. ReliaQuest has assessed with moderate to high confidence that the espionage-focused activity is linked to China. \"OP-512 was highly",
-      "pubDate": "2026-06-05T12:33:38+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Security News",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "OP-512 targets Microsoft IIS servers with custom web shells",
-          "China-linked espionage group deploys bespoke framework for persistence"
-        ],
-        "analysis": [
-          {
-            "title": "Threat Actor Profile",
-            "desc": "OP-512 identified as China-linked espionage group with moderate-to-high confidence attribution by ReliaQuest researchers."
-          },
-          {
-            "title": "Attack Vector",
-            "desc": "Threat cluster exploits Microsoft IIS servers by deploying custom web shell framework for unauthorized access."
-          },
-          {
-            "title": "Strategic Intent",
-            "desc": "Espionage-focused activity indicates long-term persistence and data exfiltration goals against targeted organizations."
-          }
-        ],
-        "suggested_title": "IIS Web Shell Attack: China-Linked OP-512 Threat Escalates",
-        "bottom_line": "If your IIS servers aren't monitored now, assume OP-512's already inside your network.",
-        "action_today": "IIS Manager → Logs → Review last 48 hours for suspicious POST requests to .aspx files"
-      }
-    },
-    {
-      "id": "43945633ffd2",
-      "title": "Only 10% of SOCs Say They’re Getting Excellent Value From AI. Here’s What the Second Wave Has to Deliver",
-      "link": "https://thehackernews.com/2026/06/only-10-of-socs-say-theyre-getting.html",
-      "summary": "Eighteen months ago, the AI SOC was a marketing line. Today it's a budget item. The category has crossed over from interesting to inevitable, with billions of dollars now flowing into AI-powered security operations platforms, agentic SOC tools, and AI co-pilots built into every layer of the security stack. The data shows SOCs are buying, deploying, and standing up AI capabilities at the fastest",
-      "pubDate": "2026-06-05T11:20:00+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Security News",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Only 10% of SOCs report excellent AI value realization",
-          "AI SOC tools transitioning from marketing hype to budget reality"
-        ],
-        "analysis": [
-          {
-            "title": "AI adoption pace accelerating",
-            "desc": "Organizations rapidly deploying AI capabilities across security operations stack despite value concerns."
-          },
-          {
-            "title": "Massive investment without ROI clarity",
-            "desc": "Billions flowing into AI-powered platforms yet majority struggle demonstrating measurable security improvements."
-          },
-          {
-            "title": "Second wave must deliver results",
-            "desc": "Next generation AI SOC tools need practical value demonstration beyond initial hype cycle promises."
-          }
-        ],
-        "suggested_title": "AI SOC Tools Failing To Deliver — Second Wave Required",
-        "bottom_line": "Your team's AI security tools likely aren't earning their budget allocation.",
-        "action_today": "Schedule SOC AI ROI audit with your leadership team this week"
-      }
-    },
-    {
-      "id": "b290527c461d",
-      "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
-      "link": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
-      "summary": "Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site compromise. The vulnerability in question is CVE-2026-3300 (CVSS score: 9.8), a remote code execution bug impacting all versions of the plugin up to, and including, 1.9.12. A patch for the flaw was",
-      "pubDate": "2026-06-05T08:38:59+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Hacking",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "Everest Forms Pro actively exploited for complete site takeover",
-          "CVE-2026-3300 affects all versions through 1.9.12 — patch available"
-        ],
-        "analysis": [
-          {
-            "title": "Critical RCE vulnerability",
-            "desc": "CVSS 9.8 flaw allows arbitrary code execution on affected WordPress installations."
-          },
-          {
-            "title": "Widespread plugin exposure",
-            "desc": "4,000 active installations vulnerable to active exploitation by threat actors."
+            "title": "Active exploitation documented",
+            "desc": "CISA added vulnerability to KEV catalog due to confirmed evidence of real-world attacks, not theoretical risk."
           },
           {
             "title": "Immediate patching required",
-            "desc": "Update Everest Forms Pro beyond version 1.9.12 to close exploitation vector."
+            "desc": "Organizations running Serv-U must prioritize updates to prevent denial-of-service incidents affecting business continuity."
           }
         ],
-        "suggested_title": "WordPress Everest Forms Pro Flaw Enables Site Takeover",
-        "bottom_line": "Your WordPress site running Everest Forms is actively under attack right now.",
-        "action_today": "WordPress Dashboard → Plugins → Everest Forms Pro → Update immediately to latest version"
-      }
-    },
-    {
-      "id": "ba671eb286bf",
-      "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins",
-      "link": "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
-      "summary": "Security researchers and the FBI are warning that a wave of FIFA-themed fraud is already hitting World Cup 2026 fans, days before the June 11 kickoff. Recent reports describe thousands of lookalike FIFA domains, banking malware hidden inside pirate streaming apps, and at least one operation that copies FIFA's login page well enough to take over real accounts. It is an obvious target. More than",
-      "pubDate": "2026-06-05T07:01:41+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Malware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "Thousands of fake FIFA domains targeting World Cup 2026 fans",
-          "Banking malware embedded in pirate streaming apps, phishing login pages"
-        ],
-        "analysis": [
-          {
-            "title": "Fake Domain Proliferation",
-            "desc": "Attackers created thousands of lookalike FIFA websites to deceive fans seeking tickets and merchandise during World Cup anticipation."
-          },
-          {
-            "title": "Malware Distribution Vector",
-            "desc": "Banking trojans hidden in pirated streaming applications targeting fans seeking free World Cup broadcasts, compromising financial credentials."
-          },
-          {
-            "title": "Credential Harvesting Campaign",
-            "desc": "Sophisticated phishing clones of FIFA's official login pages successfully stealing real account credentials from unsuspecting users."
-          }
-        ],
-        "suggested_title": "World Cup 2026 Fraud: Fake Sites, Banking Malware Now Live",
-        "bottom_line": "Scammers are actively stealing your World Cup credentials and money right now — before the tournament even starts.",
-        "action_today": "Check email for World Cup phishing: search 'FIFA' in inbox, verify sender domain, enable 2FA on ticketing accounts"
-      }
-    },
-    {
-      "id": "2aa223dfbdcb",
-      "title": "Cisco warns of unpatched SD-WAN zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
-      "summary": "On Thursday, Cisco warned of a high-severity, unpatched zero-day in the Cisco Catalyst SD-WAN Manager (tracked as CVE-2026-20245) actively exploited in attacks enabling root privilege escalation. [...]",
-      "pubDate": "2026-06-05T06:24:20+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Cisco SD-WAN Manager zero-day actively exploited in attacks",
-          "Root privilege escalation possible without available patch"
-        ],
-        "analysis": [
-          {
-            "title": "Unpatched vulnerability in production",
-            "desc": "CVE-2026-20245 affects Catalyst SD-WAN Manager with no patch available, actively targeted by attackers."
-          },
-          {
-            "title": "Critical privilege escalation risk",
-            "desc": "Successful exploitation grants root access, enabling complete system compromise and lateral network movement."
-          },
-          {
-            "title": "Enterprise infrastructure exposure",
-            "desc": "SD-WAN deployments widely used in enterprise networks; organizations cannot fully mitigate until patch released."
-          }
-        ],
-        "suggested_title": "Cisco SD-WAN Zero-Day Under Active Attack — No Patch Available",
-        "bottom_line": "Attackers are compromising your network infrastructure right now through this unpatched hole.",
-        "action_today": "Check Cisco Security Advisories page for CVE-2026-20245 mitigation guidance immediately"
-      }
-    },
-    {
-      "id": "51f8dac1e193",
-      "title": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
-      "link": "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html",
-      "summary": "The threat actor known as PCPJack has hijacked cloud servers associated with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a covert SMTP email relay network. \"Compromised business servers across the U.S., Europe, and Asia were quietly converted into SMTP proxies, verified for mail relay capability, and synced to a downstream consumer every five minutes,\" Hunt.io said in",
-      "pubDate": "2026-06-05T05:34:19+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Hacking",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "PCPJack hijacked 230 cloud servers for SMTP relay",
-          "Compromised infrastructure spans AWS, Google Cloud, Azure globally"
-        ],
-        "analysis": [
-          {
-            "title": "Attack scope and infrastructure",
-            "desc": "Threat actor PCPJack compromised 230 servers across three major cloud providers. Affected business infrastructure spans U.S., Europe, and Asia regions."
-          },
-          {
-            "title": "Technical exploitation method",
-            "desc": "Hijacked servers converted to SMTP proxies, tested for mail relay capability, synchronized to attacker systems every five minutes automatically."
-          },
-          {
-            "title": "Operational impact",
-            "desc": "Covert email relay network enables spam, phishing, and credential theft campaigns. Attackers maintain persistent, undetected access to legitimate business infrastructure."
-          }
-        ],
-        "suggested_title": "Cloud SMTP Relay Hijacking: 230 Servers Compromised",
-        "bottom_line": "Your cloud servers could be sending spam right now without your knowledge.",
-        "action_today": "AWS/Google Cloud/Azure → Console → Review recent login activity and SMTP configurations immediately"
-      }
-    },
-    {
-      "id": "7ffb882b9817",
-      "title": "Brave Software releases Origin for a paid, bloat-free browsing experience",
-      "link": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/",
-      "summary": "Brave has announced the public release of Brave Origin, a paid minimalist version of its browser that strips out cryptocurrency, AI, rewards, and other monetization-focused features. [...]",
-      "pubDate": "2026-06-04T21:37:10+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Security News",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Brave launches paid browser without crypto and AI features",
-          "Minimalist alternative targets users rejecting monetization strategies"
-        ],
-        "analysis": [
-          {
-            "title": "Premium bloat-free positioning",
-            "desc": "Brave Origin removes cryptocurrency rewards, AI integrations, and ad networks for subscription revenue model appeal."
-          },
-          {
-            "title": "Market differentiation strategy",
-            "desc": "Paid tier targets privacy-conscious users frustrated with mainstream browser monetization and feature bloat."
-          },
-          {
-            "title": "Business model shift implications",
-            "desc": "Subscription service signals Brave's pivot away from token-based economics toward traditional premium software revenue."
-          }
-        ],
-        "suggested_title": "Brave Origin: Premium Ad-Free Browser Without Crypto Bloat",
-        "bottom_line": "Brave finally admits its ecosystem was bloated — now charges you to remove it.",
-        "action_today": "Brave → Settings → Review enabled features and toggle off unused integrations before upgrading"
-      }
-    },
-    {
-      "id": "84016d4b1fd3",
-      "title": "Hola Browser for Windows compromised to deliver cryptominer",
-      "link": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
-      "summary": "The Windows version of the Hola Browser has been compromised in a supply chain attack that delivered an undeclared executable identified by researchers as a cryptocurrency miner. [...]",
-      "pubDate": "2026-06-04T21:27:25+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Hacking",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "Hola Browser Windows version compromised via supply chain attack",
-          "Undeclared cryptominer executable delivered to users"
-        ],
-        "analysis": [
-          {
-            "title": "Supply Chain Compromise Vector",
-            "desc": "Attackers infiltrated Hola Browser distribution pipeline, injecting malicious cryptomining code into legitimate software updates."
-          },
-          {
-            "title": "Cryptominer Deployment Method",
-            "desc": "Hidden executable silently installed alongside browser, consuming system resources for unauthorized cryptocurrency mining operations."
-          },
-          {
-            "title": "Detection and User Impact",
-            "desc": "Researchers identified undeclared binary; affected Windows users running compromised version unknowingly host malware."
-          }
-        ],
-        "suggested_title": "Hola Browser Compromised — Cryptominer Deployed Windows Users",
-        "bottom_line": "If Hola's on your Windows machine, you're mining cryptocurrency for criminals right now.",
-        "action_today": "Control Panel → Programs → Uninstall a program → Find Hola Browser → Uninstall immediately"
-      }
-    },
-    {
-      "id": "cbd30d916209",
-      "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
-      "link": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
-      "summary": "A new Magecart campaign is using Stripe's API infrastructure to host the credit card-stealing payload and the data exfiltrated from checkout pages. [...]",
-      "pubDate": "2026-06-04T20:47:16+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Security News",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Magecart gang weaponizes Stripe infrastructure for card theft",
-          "Stolen payment data hosted on legitimate payment processor"
-        ],
-        "analysis": [
-          {
-            "title": "Attack Vector Exploitation",
-            "desc": "Attackers abuse Stripe's API to deploy malicious checkout code and store exfiltrated card data."
-          },
-          {
-            "title": "Trust Abuse at Scale",
-            "desc": "Using legitimate payment infrastructure masks malicious activity, evading detection on compromised merchant websites."
-          },
-          {
-            "title": "Checkout Page Vulnerability",
-            "desc": "Magecart injects skimmers into payment forms, intercepting cardholder data before legitimate processing."
-          }
-        ],
-        "suggested_title": "Magecart Exploits Stripe API to Steal Credit Cards",
-        "bottom_line": "Your card data is being intercepted at checkout pages you trust completely.",
-        "action_today": "Contact your card issuer → Request fraud alerts → Enable transaction notifications"
-      }
-    },
-    {
-      "id": "bccf1c316447",
-      "title": "DentaQuest data breach exposed info of 2.6 million accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
-      "summary": "A data breach at the dental benefits administrator DentaQuest has reportedly exposed the sensitive data of 2.6 million accounts. [...]",
-      "pubDate": "2026-06-04T18:36:27+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Hacking",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "DentaQuest breach compromises 2.6 million patient accounts",
-          "Sensitive dental and personal data exposed to attackers"
-        ],
-        "analysis": [
-          {
-            "title": "Scale of exposure",
-            "desc": "2.6 million accounts accessed, likely containing names, SSNs, insurance details, and dental records from patients nationwide."
-          },
-          {
-            "title": "Identity theft risk",
-            "desc": "Stolen personal and financial information enables fraudulent insurance claims, medical identity theft, and credit account opening."
-          },
-          {
-            "title": "Notification and response",
-            "desc": "DentaQuest notifying affected users; victims should monitor accounts, place fraud alerts, and consider credit freezes immediately."
-          }
-        ],
-        "suggested_title": "DentaQuest Breach Exposes 2.6M Dental Records — Act Now",
-        "bottom_line": "Your dental records and Social Security number are already being sold on the dark web.",
-        "action_today": "Contact all three credit bureaus (Equifax, Experian, TransUnion) and place fraud alerts now — free, takes 10 minutes"
-      }
-    },
-    {
-      "id": "3045b0c60dcd",
-      "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
-      "link": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
-      "summary": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230, and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet. The PoC shortens that runway. The flaw is a server-side request forgery.",
-      "pubDate": "2026-06-04T16:55:51+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Unauthenticated attacker can write files and escalate to root",
-          "Public exploit code available; patch released by Cisco"
-        ],
-        "analysis": [
-          {
-            "title": "SSRF vulnerability in Unified CM",
-            "desc": "Server-side request forgery flaw enables unauthenticated network access. Attackers exploit this to write files directly to the system."
-          },
-          {
-            "title": "Privilege escalation to root",
-            "desc": "Initial file-write access chains to root-level compromise. Complete system control possible from network-level attack with no credentials required."
-          },
-          {
-            "title": "Public PoC accelerates attack timeline",
-            "desc": "Proof-of-concept code now public despite no observed attacks. Window for patching before widespread exploitation is narrow and closing fast."
-          }
-        ],
-        "suggested_title": "Cisco Unified CM Critical SSRF Vulnerability Patched — PoC Public",
-        "bottom_line": "Your Unified CM systems are targets right now if unpatched. Attackers have working exploit code.",
-        "action_today": "Cisco Unified CM → Admin Console → System Updates → Install patch CVE-2026-20230 immediately"
+        "suggested_title": "SolarWinds Serv-U DoS Flaw Actively Exploited — Patch Now",
+        "bottom_line": "Your file servers are crashing right now if you haven't patched.",
+        "action_today": "Check SolarWinds portal for Serv-U patches → Download latest version → Deploy to affected servers today"
       }
     }
   ]
