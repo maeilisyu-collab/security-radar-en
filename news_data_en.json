@@ -1,8 +1,722 @@
 {
-  "updated": "2026-06-10T05:14:10.539340+00:00",
+  "updated": "2026-06-11T04:24:19.926112+00:00",
   "count": 30,
   "lang": "en",
   "articles": [
+    {
+      "id": "9207236dea09",
+      "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
+      "summary": "Attackers are actively exploiting CVE-2026-5027, a high-severity path traversal vulnerability in the AI development platform Langflow, to write arbitrary files on exposed servers. [...]",
+      "pubDate": "2026-06-10T21:23:44+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Path traversal vulnerability actively exploited in Langflow servers",
+          "Arbitrary file writing enables complete system compromise risk"
+        ],
+        "analysis": [
+          {
+            "title": "Vulnerability Scope and Impact",
+            "desc": "CVE-2026-5027 allows attackers to bypass directory restrictions and write malicious files to vulnerable Langflow instances, potentially compromising entire systems."
+          },
+          {
+            "title": "Active Exploitation In Progress",
+            "desc": "Threat actors are currently weaponizing this flaw against exposed Langflow deployments, making immediate patching critical for all affected organizations."
+          },
+          {
+            "title": "Risk to AI Development Teams",
+            "desc": "Langflow users face data theft, code injection, and lateral movement risks. Development environments often contain sensitive credentials and proprietary AI models."
+          }
+        ],
+        "suggested_title": "Langflow Path Traversal Vulnerability Actively Exploited Now",
+        "bottom_line": "If your team runs Langflow exposed to the internet, attackers are already trying to break in.",
+        "action_today": "Langflow → Check version number → Download latest patch immediately → Restart service"
+      }
+    },
+    {
+      "id": "973677c2bdf8",
+      "title": "The ‘Miasma’ worm source code briefly leaked on GitHub",
+      "link": "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
+      "summary": "The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sourced on GitHub. [...]",
+      "pubDate": "2026-06-10T20:27:08+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Malware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "Miasma credential-stealing framework source code exposed on GitHub",
+          "Supply-chain attack tool targets open-source ecosystems"
+        ],
+        "analysis": [
+          {
+            "title": "Framework Capabilities",
+            "desc": "Miasma steals credentials and enables supply-chain attacks against open-source projects and developers."
+          },
+          {
+            "title": "Exposure Risk",
+            "desc": "Public source code release allows threat actors to customize attacks, increase effectiveness, and accelerate exploitation campaigns."
+          },
+          {
+            "title": "Ecosystem Impact",
+            "desc": "Open-source developers and dependent projects face immediate risk from weaponized variants of leaked malware framework."
+          }
+        ],
+        "suggested_title": "Miasma Malware Source Code Leaked — Open-Source Supply-Chain Risk",
+        "bottom_line": "Your open-source dependencies are now targets for attackers with Miasma's source code.",
+        "action_today": "GitHub → Settings → Security → Review recent activity and check for unauthorized access"
+      }
+    },
+    {
+      "id": "9b61e969f1de",
+      "title": "GitHub announces npm security changes to tackle supply-chain attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
+      "summary": "GitHub has announced that npm v12, expected next month, will introduce several security-focused changes aimed at blocking supply-chain attacks abusing behaviors triggered by the 'npm install' command. [...]",
+      "pubDate": "2026-06-10T19:41:44+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "npm v12 blocks supply-chain attacks via install commands",
+          "GitHub strengthens dependency security against malicious package behavior"
+        ],
+        "analysis": [
+          {
+            "title": "Supply-chain attack vectors",
+            "desc": "npm install commands exploited to execute malicious code during package installation processes"
+          },
+          {
+            "title": "npm v12 security measures",
+            "desc": "New version introduces controls preventing unauthorized behaviors triggered by dependency installation workflows"
+          },
+          {
+            "title": "Developer ecosystem impact",
+            "desc": "Changes protect JavaScript developers and projects from compromised packages entering production environments"
+          }
+        ],
+        "suggested_title": "npm v12 Blocks Supply-Chain Attacks — Security Update",
+        "bottom_line": "Your next npm install could execute hidden malicious code unless you update immediately.",
+        "action_today": "Check Node.js version: Terminal → node -v. Upgrade npm: npm install -g npm@12"
+      }
+    },
+    {
+      "id": "7a2ffdc1e84d",
+      "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
+      "summary": "Oracle PeopleSoft servers are being targeted in ongoing data theft attacks by the ShinyHunters extortion gang, which claims to have stolen data from over 100 organizations. [...]",
+      "pubDate": "2026-06-10T18:31:57+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Oracle PeopleSoft servers targeted by ShinyHunters extortion gang",
+          "Data stolen from 100+ organizations in ongoing attacks"
+        ],
+        "analysis": [
+          {
+            "title": "ShinyHunters Escalating Enterprise Attacks",
+            "desc": "Criminal group targeting widely-deployed Oracle software to access sensitive organizational data at scale across multiple sectors."
+          },
+          {
+            "title": "PeopleSoft Systems High-Value Targets",
+            "desc": "HR and financial management systems contain employee records, payroll data, and credentials making them lucrative for extortion campaigns."
+          },
+          {
+            "title": "Data Breach Confirmation Lacking Details",
+            "desc": "No specifics on compromise method, timeline, or affected industries disclosed yet. Organizations need immediate visibility into systems."
+          }
+        ],
+        "suggested_title": "Oracle PeopleSoft Servers Breached: ShinyHunters Claims 100+ Victims",
+        "bottom_line": "Your employee data is likely already compromised if you run outdated PeopleSoft instances without security patches.",
+        "action_today": "Contact your IT team today: Verify PeopleSoft version installed and patch status immediately — don't wait for confirmation."
+      }
+    },
+    {
+      "id": "f7e7d468af72",
+      "title": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance",
+      "link": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
+      "summary": "Cybersecurity researchers have warned of a \"resurgence and expansion\" of JDY, a covert network associated with China-nexus state-sponsored threat actors. \"The JDY botnet comprises over 1,500 SOHO [small office and home office] and IoT devices and operates as a centrally controlled, high-performance scanner used to discover, fingerprint, and continuously map exposed services at scale,\" Lumen's",
+      "pubDate": "2026-06-10T16:08:42+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "DDoS",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "China-linked JDY botnet compromises 1,500+ SOHO and IoT devices",
+          "Centralized scanner maps exposed services for reconnaissance operations"
+        ],
+        "analysis": [
+          {
+            "title": "Scale and Infrastructure",
+            "desc": "JDY botnet controls over 1,500 SOHO and IoT devices centrally, operating as high-performance reconnaissance scanner discovering exposed network services."
+          },
+          {
+            "title": "Attack Pattern",
+            "desc": "Actors use infected devices to fingerprint, discover, and continuously map exposed services at scale for intelligence gathering and targeting."
+          },
+          {
+            "title": "Attribution and Threat",
+            "desc": "State-sponsored China-nexus actors control botnet, indicating persistent infrastructure investment for long-term cyber reconnaissance capabilities."
+          }
+        ],
+        "suggested_title": "JDY Botnet Expands to 1,500 Devices — China Spy Network",
+        "bottom_line": "Your router is probably already part of this botnet. Check your device logs immediately.",
+        "action_today": "Router settings → Check connected devices and recent logs → Reboot and update firmware"
+      }
+    },
+    {
+      "id": "3e49862488c9",
+      "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities",
+      "link": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
+      "summary": "Fortinet, Ivanti, and SAP have released security updates to address multiple critical security vulnerabilities that could result in arbitrary code execution and information disclosure. The security flaw patched by Fortinet relates to a command injection vulnerability in FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS WEB UI. It's tracked as CVE-2026-25089 (CVSS score: 9.1). \"An",
+      "pubDate": "2026-06-10T15:10:59+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Three major vendors patch critical code execution flaws",
+          "FortiSandbox vulnerability allows arbitrary command injection attacks"
+        ],
+        "analysis": [
+          {
+            "title": "Critical vulnerability scope",
+            "desc": "Fortinet, Ivanti, and SAP released emergency patches for multiple critical vulnerabilities enabling arbitrary code execution and data theft."
+          },
+          {
+            "title": "FortiSandbox command injection",
+            "desc": "CVE-2026-25089 affects FortiSandbox Web UI with CVSS 9.1 severity, allowing attackers to inject arbitrary commands remotely."
+          },
+          {
+            "title": "Immediate patching required",
+            "desc": "Organizations using affected products must apply patches immediately to prevent exploitation by attackers targeting web interfaces."
+          }
+        ],
+        "suggested_title": "Critical Vulnerabilities in Fortinet, Ivanti, SAP — Patch Now",
+        "bottom_line": "Attackers are actively exploiting these flaws. Patching today isn't optional.",
+        "action_today": "Check your Fortinet/Ivanti/SAP versions now. Visit vendor websites for patches. Deploy within 24 hours maximum."
+      }
+    },
+    {
+      "id": "47496bcca9d5",
+      "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
+      "summary": "A high-severity unpatched security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according to findings from VulnCheck. The vulnerability in question is CVE-2026-5027 (CVSS score: 8.8), a case of path traversal that could allow an attacker to write files to arbitrary locations. \"The 'POST /",
+      "pubDate": "2026-06-10T15:00:59+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Langflow path traversal enables unauthenticated arbitrary file writes",
+          "Active exploitation ongoing — no patch available yet"
+        ],
+        "analysis": [
+          {
+            "title": "Critical Path Traversal Flaw",
+            "desc": "CVE-2026-5027 allows attackers to write files to arbitrary locations via POST endpoint without authentication required."
+          },
+          {
+            "title": "Active Exploitation Confirmed",
+            "desc": "VulnCheck reports this vulnerability is actively exploited in the wild with no vendor patch currently available."
+          },
+          {
+            "title": "High Impact AI Application Risk",
+            "desc": "Langflow builds AI applications — compromised instances could lead to data theft, malware deployment, or service takeover."
+          }
+        ],
+        "suggested_title": "Langflow CVE-2026-5027 Unauthenticated RCE — Actively Exploited",
+        "bottom_line": "If you run Langflow, attackers are likely already inside your system trying to establish persistence.",
+        "action_today": "Langflow instances → Immediately isolate from internet → Contact security team for emergency response plan"
+      }
+    },
+    {
+      "id": "31924abc6904",
+      "title": "China-linked JDY botnet expands targeting of U.S. military networks",
+      "link": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
+      "summary": "The JDY botnet, a malware network previously associated with Chinese threat actors like Volt Typhoon, has significantly expanded its targeting scope and reconnaissance efforts. [...]",
+      "pubDate": "2026-06-10T15:00:00+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Malware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "JDY botnet expands U.S. military network targeting scope",
+          "Chinese threat actors intensify reconnaissance operations nationwide"
+        ],
+        "analysis": [
+          {
+            "title": "Botnet expansion and scope",
+            "desc": "JDY malware network linked to Volt Typhoon significantly broadens targeting beyond previous operations against critical infrastructure."
+          },
+          {
+            "title": "Military infrastructure at risk",
+            "desc": "U.S. Department of Defense networks face elevated threat from coordinated reconnaissance and potential intrusion attempts by state-sponsored actors."
+          },
+          {
+            "title": "Attribution and threat actors",
+            "desc": "Campaign demonstrates continued involvement of Chinese cyber operators in systematic intelligence gathering against American defense capabilities."
+          }
+        ],
+        "suggested_title": "JDY Botnet Targets U.S. Military Networks — Act Now",
+        "bottom_line": "Your military network may already be under reconnaissance. This isn't coming — it's happening.",
+        "action_today": "Contact your network administrator immediately to verify security patches applied to all critical systems"
+      }
+    },
+    {
+      "id": "994c7bf91e66",
+      "title": "CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation",
+      "link": "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The list of vulnerabilities is as follows - CVE-2026-20245 (CVSS score: 7.8) - An improper encoding or escaping of output vulnerability in Cisco Catalyst SD-WAN Manager that could allow an",
+      "pubDate": "2026-06-10T14:44:29+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "CISA adds actively exploited Cisco, Chrome, Arista flaws to KEV catalog",
+          "CVE-2026-20245 impacts Catalyst SD-WAN Manager with CVSS 7.8 severity"
+        ],
+        "analysis": [
+          {
+            "title": "Active exploitation confirmed",
+            "desc": "Three vulnerabilities now tracked in CISA KEV catalog following documented active exploitation incidents."
+          },
+          {
+            "title": "Cisco SD-WAN vulnerability details",
+            "desc": "CVE-2026-20245 involves improper output encoding in Catalyst SD-WAN Manager, rated 7.8 severity."
+          },
+          {
+            "title": "Multi-vendor threat landscape",
+            "desc": "Cisco, Chrome, and Arista simultaneously targeted suggests coordinated exploitation or widespread attack campaigns."
+          }
+        ],
+        "suggested_title": "Critical Cisco Chrome Arista Flaws Under Active Exploitation",
+        "bottom_line": "These exploits are weaponized now. Patch your Cisco and Chrome installations today or accept breach risk.",
+        "action_today": "Chrome → Settings → About Chrome → Auto-update check. Cisco devices → Download latest Catalyst patch immediately."
+      }
+    },
+    {
+      "id": "58cfd70df232",
+      "title": "The 5 Best Practices for Secure Identity Verification",
+      "link": "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
+      "summary": "Attackers are increasingly bypassing weak authentication through phishing, MFA fatigue, and service desk social engineering. Specops Software breaks down five best practices for stronger identity verification and access security. [...]",
+      "pubDate": "2026-06-10T14:05:15+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Phishing",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Phishing and MFA fatigue compromise weak authentication systems",
+          "Multi-factor identity verification prevents unauthorized access attempts"
+        ],
+        "analysis": [
+          {
+            "title": "Authentication vulnerabilities expanding",
+            "desc": "Attackers exploit phishing, MFA fatigue, and social engineering to bypass access controls and gain unauthorized entry."
+          },
+          {
+            "title": "Identity verification strengthens defenses",
+            "desc": "Implementing robust verification practices reduces attack surface and prevents credential compromise across organizational systems."
+          },
+          {
+            "title": "Service desk remains critical risk",
+            "desc": "Human-centered social engineering at help desks remains primary attack vector requiring procedural and training improvements."
+          }
+        ],
+        "suggested_title": "Identity Verification Best Practices — Stop Phishing Attacks",
+        "bottom_line": "Your employees are one social engineering call away from giving hackers full network access.",
+        "action_today": "Enable MFA on email account → Settings → Security → 2-Step Verification (5 minutes)"
+      }
+    },
+    {
+      "id": "f447457215d7",
+      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
+      "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointing to a real life identity for the administrator of The Gentlemen ransomware group.",
+      "pubDate": "2026-06-10T14:03:44+00:00",
+      "source": "Krebs on Security",
+      "lang": "en",
+      "category": "Ransomware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "The Gentlemen ranks second most active ransomware gang globally",
+          "Aggressive 90% ransom commission attracts elite hacker recruitment"
+        ],
+        "analysis": [
+          {
+            "title": "Ransomware-as-a-Service Model",
+            "desc": "The Gentlemen operates lucrative affiliate program offering 90% ransom splits, significantly higher than industry standard, enabling rapid expansion."
+          },
+          {
+            "title": "Threat Actor Attribution",
+            "desc": "Investigation identifies potential real-world administrator identity behind ransomware operation, providing law enforcement critical intelligence for prosecution."
+          },
+          {
+            "title": "Victim Impact Scale",
+            "desc": "Second-highest victim count demonstrates The Gentlemen's operational effectiveness and indicates widespread vulnerability across organizational security defenses."
+          }
+        ],
+        "suggested_title": "Ransomware The Gentlemen Administrator Identity Exposed",
+        "bottom_line": "Your organization is likely on their target list right now.",
+        "action_today": "Enable MFA on remote access tools → RDP/VPN → Admin Settings → Enforce authentication"
+      }
+    },
+    {
+      "id": "3aa690b31165",
+      "title": "Microsoft patches Exchange Server zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
+      "summary": "Microsoft has patched an actively exploited Exchange Server vulnerability that allows threat actors to execute arbitrary JavaScript code in cross-site scripting (XSS) attacks targeting Outlook Web Access users. [...]",
+      "pubDate": "2026-06-10T13:44:19+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Exchange Server zero-day actively exploited in wild",
+          "XSS vulnerability targets Outlook Web Access users"
+        ],
+        "analysis": [
+          {
+            "title": "Attack Vector and Impact",
+            "desc": "Threat actors execute arbitrary JavaScript via XSS attacks against Outlook Web Access, compromising user sessions and data."
+          },
+          {
+            "title": "Patch Availability Status",
+            "desc": "Microsoft released emergency patch. Organizations running vulnerable Exchange versions must deploy immediately to prevent active exploitation."
+          },
+          {
+            "title": "Enterprise Risk Assessment",
+            "desc": "Zero-day exploited in attacks means adversaries already inside networks. Assume compromise if unpatched; audit logs immediately."
+          }
+        ],
+        "suggested_title": "Exchange Server Zero-Day Patch Released — Deploy Now",
+        "bottom_line": "Attackers are actively exploiting your Exchange servers right now. Patch today or assume you're already compromised.",
+        "action_today": "Contact IT immediately: Deploy Exchange Server security patch across all internal servers within 24 hours"
+      }
+    },
+    {
+      "id": "8010344bddb4",
+      "title": "Microsoft: Some Windows PCs fail to install latest monthly updates",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-upgraded-windows-pcs-fail-to-install-monthly-updates/",
+      "summary": "Microsoft warned customers on Tuesday that they may have issues installing the latest monthly updates on some Windows devices that were upgraded to Windows 11 24H2 or 25H2. [...]",
+      "pubDate": "2026-06-10T11:33:32+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Patch",
+      "level": "success",
+      "ai_summary": {
+        "keypoints": [
+          "Windows 11 24H2 and 25H2 update installation failures",
+          "Microsoft acknowledges monthly patch deployment issues"
+        ],
+        "analysis": [
+          {
+            "title": "Update deployment blocked",
+            "desc": "Windows devices running latest versions cannot install monthly security patches successfully."
+          },
+          {
+            "title": "Affected user base unclear",
+            "desc": "Microsoft warns of issues but provides limited scope on how many devices impacted."
+          },
+          {
+            "title": "Security gap widening",
+            "desc": "Devices unable to patch remain vulnerable to known exploits and threats."
+          }
+        ],
+        "suggested_title": "Windows Update Failures Leave PCs Unpatched — Microsoft Investigating",
+        "bottom_line": "Your Windows 11 PC might be stuck without security patches right now.",
+        "action_today": "Settings → System → Windows Update → Check for updates → Note any error codes"
+      }
+    },
+    {
+      "id": "f85d61da8f0b",
+      "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar",
+      "link": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
+      "summary": "Your pentest report looks clean. That might be the problem. Run automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues appear. The report looks stable. Leadership reads \"stable\" as \"secure.\" It usually isn't. The work slows down. The risk does not. That gap is what a The Hacker News webinar with Picus Security sets out to close. Autumn",
+      "pubDate": "2026-06-10T10:27:49+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Automated pentests plateau after repeated cycles, missing evolving threats",
+          "False security from stable reports masks growing organizational risk"
+        ],
+        "analysis": [
+          {
+            "title": "Diminishing returns in automation",
+            "desc": "Automated tools find easy wins first. Subsequent scans yield fewer findings, creating false stability illusion."
+          },
+          {
+            "title": "Leadership misinterprets report stability",
+            "desc": "Executives equate static findings with actual security posture. Risk gap widens undetected between assessment cycles."
+          },
+          {
+            "title": "Expert-led methodology closes gaps",
+            "desc": "Human-driven pentesting complements automation by identifying complex attack chains automated tools systematically overlook."
+          }
+        ],
+        "suggested_title": "Automated Pentests Fail — Expert Methods Uncover Hidden Vulnerabilities",
+        "bottom_line": "Your clean pentest report is probably hiding critical vulnerabilities automated tools can't detect.",
+        "action_today": "Schedule manual penetration test with external security firm — assess automation blind spots now"
+      }
+    },
+    {
+      "id": "0bd077c4430c",
+      "title": "Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/",
+      "summary": "On Tuesday, Microsoft patched two zero-day vulnerabilities that let attackers gain SYSTEM privileges on fully patched Windows systems, and a third one that grants access to BitLocker-protected drives. [...]",
+      "pubDate": "2026-06-10T09:57:33+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Microsoft patches three critical zero-day vulnerabilities in Windows",
+          "Attackers gain SYSTEM privileges and BitLocker drive access"
+        ],
+        "analysis": [
+          {
+            "title": "Scope of Impact",
+            "desc": "Two zero-days enable SYSTEM-level privilege escalation on fully patched Windows systems, bypassing existing security controls completely."
+          },
+          {
+            "title": "BitLocker Encryption Breach",
+            "desc": "Third vulnerability grants direct access to BitLocker-protected drives, rendering encrypted storage protection ineffective against this attack vector."
+          },
+          {
+            "title": "Patch Urgency Timeline",
+            "desc": "Microsoft deployed fixes on Tuesday; immediate patching required to close active exploitation windows before threat actors weaponize."
+          }
+        ],
+        "suggested_title": "Critical Windows Zero-Days Bypass SYSTEM Security — Patch Immediately",
+        "bottom_line": "Your encrypted files aren't safe until you patch — attackers already have working exploits for these holes.",
+        "action_today": "Windows → Settings → Update & Security → Check for updates → Install now"
+      }
+    },
+    {
+      "id": "dbb7d43ebd32",
+      "title": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs",
+      "link": "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html",
+      "summary": "Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time of release. Of the 206 flaws, 39 are rated Critical, and 167 are rated Important in severity. This includes 63 privilege escalation, 56 remote code execution, 30 information disclosure, 27 spoofing, 20 security",
+      "pubDate": "2026-06-10T09:38:13+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Microsoft releases record 206 vulnerability patches including zero-days",
+          "39 critical flaws, 56 RCE bugs demand immediate action"
+        ],
+        "analysis": [
+          {
+            "title": "Scale of vulnerability crisis",
+            "desc": "Record 206 flaws across Microsoft portfolio signals systemic security challenges affecting millions globally."
+          },
+          {
+            "title": "Critical severity concentration",
+            "desc": "39 Critical and 56 remote code execution bugs create immediate exploitation risk for attackers."
+          },
+          {
+            "title": "Zero-day disclosure timing",
+            "desc": "Three publicly disclosed zero-days at patch release indicate active exploitation window closing rapidly."
+          }
+        ],
+        "suggested_title": "Microsoft Patches 206 Flaws — 56 RCE Bugs Exploitable Now",
+        "bottom_line": "Your Windows machine is a target right now. Every hour you delay patching increases breach likelihood.",
+        "action_today": "Windows → Settings → Update & Security → Check for updates → Install now"
+      }
+    },
+    {
+      "id": "b0434aacec54",
+      "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
+      "link": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
+      "summary": "On June 9, Anthropic released Claude Fable 5, the most capable model it has ever made, generally available. It also did something unusual: it shipped one model as two products, split not by capability but by a layer of safety classifiers. Fable 5 goes to the public. Its twin, Claude Mythos 5, the same underlying model with the cyber safeguards lifted, stays locked to a vetted group of cyber",
+      "pubDate": "2026-06-10T07:37:59+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Anthropic releases Claude Fable 5 with dual product strategy",
+          "Safety classifiers removed in Claude Mythos 5 for vetted users"
+        ],
+        "analysis": [
+          {
+            "title": "Dual Model Architecture",
+            "desc": "Same underlying model shipped as two products differentiated by safety layers, not raw capability."
+          },
+          {
+            "title": "Selective Access Strategy",
+            "desc": "Public version includes safeguards; restricted version for vetted cybersecurity professionals removes constraints."
+          },
+          {
+            "title": "Risk Management Approach",
+            "desc": "Balances capability advancement with controlled exposure of unrestricted AI to specialized audiences."
+          }
+        ],
+        "suggested_title": "Claude Fable 5 Splits Into Two: Public Safe Model, Restricted Unrestricted Twin",
+        "bottom_line": "Anthropic is betting you can't handle its most powerful AI without safety guardrails.",
+        "action_today": "Review Anthropic's Claude Fable 5 documentation for access tier eligibility and application process"
+      }
+    },
+    {
+      "id": "4c14751f8755",
+      "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
+      "link": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
+      "summary": "ServiceNow has warned about a security incident in which unknown threat actors exploited a flaw to obtain deeper unauthorized access to susceptible instances. \"On June 5, 2026, ServiceNow applied a security update to hosted customer instances,\" the company revealed in an advisory that requires customer access. \"The update concerned a security issue that could allow an unauthenticated user, in",
+      "pubDate": "2026-06-10T07:02:08+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Patch",
+      "level": "success",
+      "ai_summary": {
+        "keypoints": [
+          "ServiceNow vulnerability exploited for unauthorized instance access",
+          "Unauthenticated users bypass security to compromise customer data"
+        ],
+        "analysis": [
+          {
+            "title": "Attack Vector Unclear",
+            "desc": "Article truncated; specific vulnerability details and exploitation method remain undisclosed. Full advisory requires customer access."
+          },
+          {
+            "title": "Patch Timeline Established",
+            "desc": "ServiceNow deployed security update June 5, 2026. Unknown how long vulnerability existed or how many instances affected."
+          },
+          {
+            "title": "Incident Scope Unknown",
+            "desc": "No confirmation of data stolen, affected customer count, or threat actor identity. Investigation likely ongoing."
+          }
+        ],
+        "suggested_title": "ServiceNow Vulnerability Actively Exploited — Patch Released",
+        "bottom_line": "Your ServiceNow instance may already be compromised if you haven't patched since June 5.",
+        "action_today": "ServiceNow Admin → System Updates → Check installed patches → Apply June 5 security update immediately"
+      }
+    },
+    {
+      "id": "ceebaf82d917",
+      "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
+      "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
+      "summary": "Ivanti has patched two critical vulnerabilities in its Sentry secure mobile gateway solution, including a maximum-severity flaw that enables remote attackers to execute code with root privileges. [...]",
+      "pubDate": "2026-06-10T06:26:28+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Ivanti Sentry gateway patched for root-level code execution",
+          "Maximum severity flaw enables remote attacker privilege escalation"
+        ],
+        "analysis": [
+          {
+            "title": "Critical vulnerability scope",
+            "desc": "Remote attackers can execute arbitrary code with root privileges on Ivanti Sentry mobile gateway systems without authentication."
+          },
+          {
+            "title": "Attack vector impact",
+            "desc": "Compromised gateways expose entire mobile infrastructure, intercepted communications, and user credentials to threat actors."
+          },
+          {
+            "title": "Remediation urgency",
+            "desc": "Ivanti has released patches; immediate deployment required to prevent active exploitation of this widely-targeted gateway product."
+          }
+        ],
+        "suggested_title": "Critical Ivanti Sentry Flaw: Root Code Execution Patched",
+        "bottom_line": "If your company uses Ivanti Sentry, attackers are actively hunting unpatched instances right now.",
+        "action_today": "Contact your IT team immediately: verify Ivanti Sentry version and apply latest security patches within 24 hours"
+      }
+    },
+    {
+      "id": "42af76600e33",
+      "title": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows",
+      "link": "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html",
+      "summary": "The anonymous security researcher going by the name Chaotic Eclipse (aka Nightmare-Eclipse) has released a proof-of-concept (PoC) exploit for yet another Microsoft Defender zero-day named RoguePlanet. \"The exploit is a race condition, so it's a hit or miss,\" the researcher, who published the exploit under a new GitHub account \"MSNightmare\" said. \"I have managed to get a 100% success rate on",
+      "pubDate": "2026-06-10T05:22:01+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Microsoft Defender zero-day enables SYSTEM-level privilege escalation",
+          "Race condition exploit achieves 100% success rate consistently"
+        ],
+        "analysis": [
+          {
+            "title": "RoguePlanet Vulnerability Details",
+            "desc": "Zero-day in Microsoft Defender exploits race condition to grant SYSTEM access on updated Windows systems."
+          },
+          {
+            "title": "Researcher Disclosure",
+            "desc": "Anonymous researcher Chaotic Eclipse released PoC exploit via GitHub account MSNightmare with claimed reliability."
+          },
+          {
+            "title": "Threat Severity",
+            "desc": "SYSTEM-level access enables complete system compromise, malware persistence, and credential theft on affected machines."
+          }
+        ],
+        "suggested_title": "Microsoft Defender Zero-Day RoguePlanet Grants Full System Access",
+        "bottom_line": "Your Windows machine's security layer just became its weakness — patch immediately before attackers weaponize this.",
+        "action_today": "Windows → Settings → Update & Security → Windows Update → Check for updates now"
+      }
+    },
+    {
+      "id": "29b6d471bf34",
+      "title": "Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS",
+      "link": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html",
+      "summary": "Cybersecurity researchers have flagged half a dozen vulnerabilities in protobuf.js, a JavaScript and TypeScript implementation of Protocol Buffers (Protobuf), that, if successfully exploited, could result in remote code execution (RCE) and denial-of-service (DoS) attacks. \"In affected environments, a single malicious protobuf schema, descriptor, or crafted payload could be enough to trigger",
+      "pubDate": "2026-06-10T05:08:35+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "Six critical protobuf.js vulnerabilities enable RCE and DoS attacks",
+          "Malicious schema or payload can compromise Node.js applications instantly"
+        ],
+        "analysis": [
+          {
+            "title": "RCE and DoS Risk",
+            "desc": "Six vulnerabilities in protobuf.js could allow remote code execution and denial-of-service attacks against Node.js applications through exploitation."
+          },
+          {
+            "title": "Attack Vector Simplicity",
+            "desc": "Single malicious protobuf schema, descriptor, or crafted payload sufficient to trigger compromise in vulnerable environments."
+          },
+          {
+            "title": "Wide Exposure Potential",
+            "desc": "protobuf.js used across JavaScript and TypeScript ecosystem; vulnerable applications face immediate exploitation risk without patching."
+          }
+        ],
+        "suggested_title": "protobuf.js RCE Flaw — Node.js Apps Under Attack",
+        "bottom_line": "Your Node.js app is vulnerable right now if you haven't patched protobuf.js.",
+        "action_today": "npm list protobuf.js → update to latest version → npm update protobuf.js"
+      }
+    },
     {
       "id": "62f21e3a6716",
       "title": "Anthropic rolls out Claude Fable 5, but it's available for a limited time",
@@ -16,25 +730,25 @@
       "ai_summary": {
         "keypoints": [
           "Anthropic launches Claude Fable 5 model variant",
-          "Limited-time availability restricts access window"
+          "Limited-time availability creates urgency for access"
         ],
         "analysis": [
           {
-            "title": "Model Architecture",
-            "desc": "Fable 5 derives from Mythos foundation, Anthropic's most advanced AI class architecture."
+            "title": "Model Positioning Strategy",
+            "desc": "Fable based on Mythos architecture, Anthropic's most capable model class foundation."
           },
           {
             "title": "Availability Constraints",
-            "desc": "Time-limited rollout creates urgency for users seeking access before window closes."
+            "desc": "Limited rollout window suggests testing phase or commercial licensing strategy."
           },
           {
-            "title": "Strategic Release Pattern",
-            "desc": "Limited distribution suggests testing phase or capacity management during deployment period."
+            "title": "Competitive Implications",
+            "desc": "Variant models indicate faster iteration cycle competing with OpenAI and Google."
           }
         ],
-        "suggested_title": "Claude Fable 5 Launch: Limited-Time Access Window Opens",
-        "bottom_line": "If you want Claude's latest power, grab Fable 5 now—it won't stay available forever.",
-        "action_today": "Visit Anthropic's website or Claude dashboard → Check availability → Request early access immediately"
+        "suggested_title": "Claude Fable 5 Launch: Anthropic's Limited Model Available Now",
+        "bottom_line": "Grab access to Fable 5 now — limited windows close without warning.",
+        "action_today": "Visit Anthropic's official site, sign up for Claude access, request Fable 5 beta"
       }
     },
     {
@@ -49,26 +763,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "Microsoft Defender zero-day grants SYSTEM-level privileges",
-          "Exploit released hours after June 2026 patches"
+          "Microsoft Defender zero-day grants SYSTEM privileges",
+          "RoguePlanet exploit released post-patch Tuesday"
         ],
         "analysis": [
           {
-            "title": "Critical privilege escalation flaw",
-            "desc": "RoguePlanet exploits Microsoft Defender to gain SYSTEM privileges, highest Windows access level."
+            "title": "Privilege escalation threat",
+            "desc": "RoguePlanet allows attackers to gain SYSTEM-level access, highest privilege on Windows systems."
           },
           {
-            "title": "Timing compounds security risk",
-            "desc": "Zero-day disclosed immediately after official patches, suggesting researcher timing or coordinated disclosure."
+            "title": "Timing compounds risk",
+            "desc": "Released hours after Microsoft patched two flaws, suggesting exploit chain or researcher frustration."
           },
           {
-            "title": "Defender becomes attack surface",
-            "desc": "Security tool itself weaponized against users, undermining trust in Windows protection mechanisms."
+            "title": "Defender users vulnerable",
+            "desc": "Affects millions relying on Windows Defender as primary protection. Immediate patch urgency critical."
           }
         ],
-        "suggested_title": "Microsoft Defender Zero-Day RoguePlanet Grants SYSTEM Privileges",
-        "bottom_line": "Your Windows protection is now your biggest vulnerability until you patch today.",
-        "action_today": "Windows Update → Check for updates → Install all critical patches immediately"
+        "suggested_title": "RoguePlanet Zero-Day Exposes Microsoft Defender SYSTEM Vulnerability",
+        "bottom_line": "Your Windows machine's deepest security layer is compromised right now — patch immediately.",
+        "action_today": "Windows → Settings → Update & Security → Check for updates → Restart now"
       }
     },
     {
@@ -83,26 +797,26 @@
       "level": "success",
       "ai_summary": {
         "keypoints": [
-          "Record 200 security patches released across Microsoft products",
-          "Three dozen critical vulnerabilities with active exploit code available"
+          "Microsoft patches 200 vulnerabilities in June Patch Tuesday",
+          "Three dozen critical bugs with active exploit code available"
         ],
         "analysis": [
           {
-            "title": "Unprecedented patch volume signals escalating threats",
-            "desc": "Nearly 200 fixes represents Microsoft's largest monthly update, indicating growing attack surface complexity and vulnerability discovery rates."
+            "title": "Scale of vulnerability disclosure",
+            "desc": "Record 200 fixes across Windows and supported software indicates increasing attack surface complexity."
           },
           {
-            "title": "Critical severity bugs already under active exploitation",
-            "desc": "At least three critical flaws have public exploits available, creating immediate risk window before widespread patch deployment."
+            "title": "Critical severity concentration",
+            "desc": "Nearly 36 critical-rated bugs with publicly available exploits create immediate risk window."
           },
           {
-            "title": "Windows ecosystem faces widespread exposure risk",
-            "desc": "Multiple Windows OS versions affected simultaneously elevates potential impact across enterprise and consumer user bases globally."
+            "title": "Exploitation timeline urgency",
+            "desc": "Active exploit code availability means attackers already weaponizing vulnerabilities before patches deploy."
           }
         ],
-        "suggested_title": "Critical Microsoft Patch Tuesday: 200 Fixes, Active Exploits",
-        "bottom_line": "Your Windows machine is a target right now — these exploits are being weaponized as you read this.",
-        "action_today": "Windows → Settings → System → About → Check for updates → Install now"
+        "suggested_title": "Critical Windows Patch Tuesday June 2026 — 200 Vulnerabilities Fixed",
+        "bottom_line": "Unpatched systems are being actively exploited right now — patch within hours, not days.",
+        "action_today": "Windows → Settings → System → About → Windows Update → Check for updates now"
       }
     },
     {
@@ -117,26 +831,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "Unauthenticated API endpoint allowed unauthorized data access",
-          "ServiceNow customers need immediate security assessment"
+          "Unauthenticated API endpoint exploited for customer data access",
+          "ServiceNow instances compromised through vulnerable query vulnerability"
         ],
         "analysis": [
           {
-            "title": "Vulnerability Details",
-            "desc": "Attackers exploited an unauthenticated API endpoint to query customer instance data without authentication."
+            "title": "Attack Vector",
+            "desc": "Attackers bypassed authentication using unprotected API endpoint to extract customer instance data without credentials."
           },
           {
             "title": "Impact Scope",
-            "desc": "Incident affects ServiceNow customers whose data was exposed through vulnerable API access."
+            "desc": "Multiple ServiceNow customer instances affected; exposed data accessible through vulnerable query mechanism."
           },
           {
-            "title": "Remediation Path",
-            "desc": "ServiceNow issued warning; customers must verify instance access logs and apply patches."
+            "title": "Response Required",
+            "desc": "ServiceNow disclosed incident; customers must verify instance access logs and apply security patches immediately."
           }
         ],
-        "suggested_title": "ServiceNow API Vulnerability Exposes Customer Data — Patch Required",
-        "bottom_line": "Your ServiceNow data may have been accessed without your knowledge or permission.",
-        "action_today": "Log into ServiceNow console → Admin → Instance Security → Review access logs now"
+        "suggested_title": "ServiceNow API Flaw Exposes Customer Data — Patch Now",
+        "bottom_line": "Your ServiceNow data was accessible to anyone who knew where to look.",
+        "action_today": "ServiceNow Admin Console → System Security → Check access logs for unauthorized queries"
       }
     },
     {
@@ -151,26 +865,26 @@
       "level": "warning",
       "ai_summary": {
         "keypoints": [
-          "AI email agents vulnerable to phishing tactics",
-          "User data exposed through social engineering"
+          "AI email agents vulnerable to phishing manipulation tactics",
+          "User data exposed through compromised agent configurations"
         ],
         "analysis": [
           {
-            "title": "AI Agent Security Gap",
-            "desc": "OpenClaw's email agent failed phishing simulations across multiple configuration profiles, mimicking human vulnerabilities."
+            "title": "AI Agent Phishing Susceptibility",
+            "desc": "OpenClaw email agent failed multiple phishing simulations across various configuration profiles, mimicking human user vulnerabilities."
           },
           {
-            "title": "Data Exfiltration Risk",
-            "desc": "Compromised agents spilled sensitive user data, demonstrating attackers can weaponize AI tools for data theft."
+            "title": "Data Exposure Risk",
+            "desc": "Successful phishing attacks on the agent resulted in unauthorized access and spillage of sensitive user information."
           },
           {
-            "title": "Enterprise Deployment Risk",
-            "desc": "AI agents handling email without robust anti-phishing defenses pose critical risks in business environments."
+            "title": "Configuration Profile Weakness",
+            "desc": "Multiple agent configurations showed consistent susceptibility, suggesting systemic security gaps beyond isolated configuration errors."
           }
         ],
-        "suggested_title": "AI Email Agents Vulnerable to Phishing — Data Breach Risk",
-        "bottom_line": "Your AI assistant is easier to trick than you are — and it has access to everything.",
-        "action_today": "Review email forwarding rules → Settings → Check → Delete unauthorized forward addresses"
+        "suggested_title": "AI Email Agents Compromised by Phishing — User Data at Risk",
+        "bottom_line": "Your AI email agent is actively leaking your data to attackers right now.",
+        "action_today": "Disable OpenClaw email integration → Settings → Connected Apps → Review and revoke access immediately"
       }
     },
     {
@@ -185,128 +899,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "SAP releases June 2026 patch for 15 vulnerabilities",
+          "SAP releases June 2026 patches for 15 vulnerabilities",
           "Four critical flaws in NetWeaver and Commerce Cloud"
         ],
         "analysis": [
           {
             "title": "Critical SAP infrastructure at risk",
-            "desc": "Four critical-severity vulnerabilities in NetWeaver and Commerce Cloud threaten enterprise systems."
+            "desc": "Four critical-severity vulnerabilities discovered in widely-deployed SAP NetWeaver and Commerce Cloud platforms used by enterprises globally."
           },
           {
-            "title": "Patch availability and deployment urgency",
-            "desc": "SAP's June 2026 Security Patch addresses 15 flaws total; immediate patching required."
+            "title": "Comprehensive patch addresses multiple issues",
+            "desc": "June 2026 Security Patch package resolves 15 total vulnerabilities across SAP ecosystem, requiring immediate deployment prioritization."
           },
           {
-            "title": "Enterprise adoption and remediation timeline",
-            "desc": "Organizations running affected SAP products must prioritize updates to prevent exploitation."
+            "title": "Enterprise systems require urgent updates",
+            "desc": "Organizations running affected SAP solutions must prioritize patching to prevent exploitation of critical infrastructure components."
           }
         ],
-        "suggested_title": "Critical SAP NetWeaver Flaws — Patch Now Immediately",
-        "bottom_line": "If your company runs SAP, assume attackers are already probing your systems.",
-        "action_today": "Contact your SAP administrator today — request immediate patch deployment status"
-      }
-    },
-    {
-      "id": "89fe2c45a97e",
-      "title": "Microsoft releases Windows 10 KB5094127 extended security update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5094127-extended-security-update/",
-      "summary": "Microsoft has released the Windows 10 KB5094127 extended security update, which fixes the June 2026 Patch Tuesday vulnerabilities and adds new functionality to monitor the rollout of updated Secure Boot certificates that replace those expiring this month. [...]",
-      "pubDate": "2026-06-09T18:35:00+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Windows 10 KB5094127 patches June 2026 vulnerabilities",
-          "Secure Boot certificate monitoring added for expiring certs"
-        ],
-        "analysis": [
-          {
-            "title": "Extended support security patch",
-            "desc": "Microsoft addresses June 2026 Patch Tuesday vulnerabilities in Windows 10 through KB5094127 extended security update release."
-          },
-          {
-            "title": "Secure Boot certificate replacement",
-            "desc": "New monitoring functionality tracks rollout of updated Secure Boot certificates replacing certificates expiring this month."
-          },
-          {
-            "title": "Proactive system integrity protection",
-            "desc": "Update ensures continuous boot security monitoring and certificate management to prevent system compromise from expired credentials."
-          }
-        ],
-        "suggested_title": "Windows 10 KB5094127 Patches Secure Boot Certificate Expiration",
-        "bottom_line": "Your Windows 10 system's boot security depends on this patch — install it before certificates expire.",
-        "action_today": "Windows → Settings → Update & Security → Windows Update → Check for updates"
-      }
-    },
-    {
-      "id": "f7d5968e7e56",
-      "title": "Microsoft June 2026 Patch Tuesday fixes 3 zero-day, 200 flaws",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/",
-      "summary": "Today is Microsoft's June 2026 Patch Tuesday, with security updates for 200 flaws and three publicly disclosed zero-day vulnerabilities. [...]",
-      "pubDate": "2026-06-09T17:57:59+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Microsoft patches 200 vulnerabilities in June 2026 update",
-          "Three zero-day flaws actively exploited in wild"
-        ],
-        "analysis": [
-          {
-            "title": "Scale of threat landscape",
-            "desc": "200 total flaws patched indicates widespread vulnerability exposure across Microsoft ecosystem and products."
-          },
-          {
-            "title": "Zero-day exploitation risk",
-            "desc": "Three publicly disclosed zero-days mean attackers already weaponizing exploits before patches available to users."
-          },
-          {
-            "title": "Immediate patching urgency",
-            "desc": "Active exploitation combined with public disclosure creates critical window where unpatched systems face imminent compromise."
-          }
-        ],
-        "suggested_title": "Microsoft June 2026 Patch Tuesday Fixes 3 Active Zero-Days",
-        "bottom_line": "Three zero-days already exploited in the wild — your unpatched system is actively under attack right now.",
-        "action_today": "Windows → Settings → System → About → Check for updates → Install now"
-      }
-    },
-    {
-      "id": "6bbdb89d40ed",
-      "title": "Windows 11 KB5094126 & KB5093998 cumulative updates released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5094126-and-kb5093998-cumulative-updates-released/",
-      "summary": "Microsoft has released Windows 11 KB5094126 and KB5093998 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-      "pubDate": "2026-06-09T17:32:32+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Microsoft releases KB5094126 and KB5093998 cumulative updates",
-          "Patches address security vulnerabilities, bugs, and new features"
-        ],
-        "analysis": [
-          {
-            "title": "Update Scope and Versions",
-            "desc": "Two cumulative updates target Windows 11 versions 25H2/24H2 and 23H2 with security and stability fixes."
-          },
-          {
-            "title": "Security Vulnerability Fixes",
-            "desc": "Updates address unspecified security vulnerabilities to protect systems from known threats and exploits."
-          },
-          {
-            "title": "Feature and Bug Improvements",
-            "desc": "Cumulative updates include new features and bug fixes beyond security patches for system stability."
-          }
-        ],
-        "suggested_title": "Windows 11 Security Updates KB5094126 KB5093998 Released Now",
-        "bottom_line": "Your Windows 11 is exposed until you install these patches today. Don't wait.",
-        "action_today": "Settings → System → Windows Update → Check for updates → Install now"
+        "suggested_title": "Critical SAP NetWeaver Flaws Patched — Update Now",
+        "bottom_line": "Your SAP systems are vulnerable until patched. Every hour without updates risks enterprise data.",
+        "action_today": "SAP Support Portal → Download June 2026 patches → Apply to NetWeaver and Commerce Cloud immediately"
       }
     },
     {
@@ -321,26 +933,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "Meta expands data usage beyond ads to AI personalization",
-          "Business activity data now feeds recommendation algorithms directly"
+          "Meta expands business data usage beyond ad targeting",
+          "Off-site activity now feeds AI personalization and content ranking"
         ],
         "analysis": [
           {
-            "title": "Scope Expansion Beyond Advertising",
-            "desc": "Meta shifts business data usage from targeted ads alone to feed personalization and AI chatbot responses, dramatically widening data application."
+            "title": "Scope Expansion Beyond Ads",
+            "desc": "Meta shifts from using business data solely for targeted advertising to incorporating it into feed algorithms and AI chatbot responses."
           },
           {
-            "title": "Privacy Implications for Users",
-            "desc": "Users' cross-site activity tracked through businesses now influences content recommendations without explicit consent for this expanded purpose."
+            "title": "Data Collection Scope Widens",
+            "desc": "Information about user activity on third-party sites now flows into Meta's AI personalization systems, not just ad relevance."
           },
           {
-            "title": "Data Monetization Strategy",
-            "desc": "Leveraging existing business data flows for AI training reduces Meta's content generation costs while deepening user profiling capabilities."
+            "title": "Privacy Implications Unclear",
+            "desc": "Users may not realize their cross-site activity influences both content they see and AI responses they receive from Meta."
           }
         ],
-        "suggested_title": "Meta Weaponizes Business Data for AI Personalization Beyond Ads",
-        "bottom_line": "Meta's now using your activity across the web to reshape what you see and think — without asking permission.",
-        "action_today": "Meta → Settings → Apps and Websites → Review Connected Apps → Disconnect unused business integrations"
+        "suggested_title": "Meta Weaponizes Off-Site Data for AI Personalization Beyond Ads",
+        "bottom_line": "Your activity on other websites is now feeding Meta's AI — and you probably didn't know it.",
+        "action_today": "Meta → Settings → Apps and Websites → Review and remove connected apps you don't use"
       }
     },
     {
@@ -355,26 +967,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "Veeam RCE flaw exploitable by authenticated domain users",
-          "CVSS 9.4 severity — critical patches now available"
+          "Veeam RCE vulnerability enables authenticated domain user code execution",
+          "Critical CVSS 9.4 flaw requires immediate patching of backup servers"
         ],
         "analysis": [
           {
-            "title": "Vulnerability Scope and Impact",
-            "desc": "Authenticated domain users can execute arbitrary code on Veeam Backup Server without additional privileges or exploitation steps required."
+            "title": "Critical severity threat",
+            "desc": "CVE-2026-44963 allows authenticated domain users remote code execution on Veeam Backup Server with maximum CVSS severity."
           },
           {
-            "title": "Severity Assessment",
-            "desc": "CVSS 9.4 rating indicates critical risk. Requires authentication but poses severe threat to backup infrastructure security."
+            "title": "Attack vector scope",
+            "desc": "Vulnerability requires domain user authentication, limiting exposure to internal threats but posing significant enterprise risk."
           },
           {
-            "title": "Immediate Mitigation Required",
-            "desc": "Organizations running Veeam Backup & Replication must apply security patches immediately to prevent domain account compromise."
+            "title": "Mitigation status",
+            "desc": "Veeam released patches Tuesday. Organizations must prioritize updates for backup infrastructure protecting critical business data."
           }
         ],
-        "suggested_title": "Critical Veeam RCE Flaw Exploitable by Domain Users",
-        "bottom_line": "Your domain users can now execute code on your backup server — patch immediately before attackers weaponize this.",
-        "action_today": "Veeam Backup Console → Administration → Check for Updates → Apply patches now"
+        "suggested_title": "Veeam Backup RCE Flaw — CVSS 9.4 Demands Immediate Patching",
+        "bottom_line": "Your backup server could be compromised by anyone with domain credentials — patch immediately or assume breach.",
+        "action_today": "Veeam Backup Console → Check for Updates → Download and install patches now"
       }
     },
     {
@@ -390,637 +1002,25 @@
       "ai_summary": {
         "keypoints": [
           "73 Microsoft open-source projects compromised with information stealer",
-          "GitHub repositories temporarily removed pending security investigation"
+          "GitHub repositories temporarily offline during Miasma security incident"
         ],
         "analysis": [
           {
-            "title": "Supply chain attack scope",
-            "desc": "Microsoft's 73 compromised repositories represent significant supply chain risk affecting downstream developers and consumers relying on these open-source projects."
+            "title": "Supply Chain Attack Scope",
+            "desc": "Microsoft's 73 compromised open-source projects represent significant supply chain risk affecting downstream developers using affected code."
           },
           {
-            "title": "Selective repository restoration",
-            "desc": "Microsoft's decision to keep some repos offline while restoring others suggests targeted analysis of infection severity and dependency impact."
+            "title": "Incident Response Strategy",
+            "desc": "Microsoft's selective repository restoration balances ecosystem protection with investigation continuity, keeping higher-risk projects offline pending forensic completion."
           },
           {
-            "title": "Information stealer distribution",
-            "desc": "Injected malware designed to harvest credentials and sensitive data poses ongoing risk to any developer who pulled affected code versions."
+            "title": "Information Stealer Threat",
+            "desc": "Injected malware targets developer credentials and sensitive data, threatening authentication tokens and private keys across affected development environments."
           }
         ],
-        "suggested_title": "Microsoft GitHub Attack: 73 Projects Compromised, Repos Going Offline",
-        "bottom_line": "If you use Microsoft open-source projects, you may already have malware stealing your credentials right now.",
-        "action_today": "Check GitHub → Your starred/forked repos → Search Microsoft → Pull latest commits and review recent changes"
-      }
-    },
-    {
-      "id": "4929fb005f55",
-      "title": "XBOW tests Anthropic's Mythos Preview for offensive security",
-      "link": "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/",
-      "summary": "Anthropic's Mythos Preview was highly effective at finding vulnerability candidates, especially when analyzing source code. XBOW explores how the model performed across exploit discovery, reverse engineering, and live-site validation. [...]",
-      "pubDate": "2026-06-09T16:16:38+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "AI model excels at vulnerability discovery in source code",
-          "Mythos Preview effective for exploit and reverse engineering tasks"
-        ],
-        "analysis": [
-          {
-            "title": "Source Code Analysis Strength",
-            "desc": "Anthropic's Mythos Preview demonstrated superior capability identifying vulnerability candidates when processing source code across multiple vectors."
-          },
-          {
-            "title": "Exploit Discovery Performance",
-            "desc": "Model showed high effectiveness in exploit discovery workflows, suggesting practical applications for offensive security research and assessment."
-          },
-          {
-            "title": "Multi-Stage Validation",
-            "desc": "XBOW validated findings across reverse engineering and live-site testing, confirming model accuracy beyond theoretical vulnerability identification."
-          }
-        ],
-        "suggested_title": "AI Vulnerability Hunter — Mythos Preview Outperforms in Security Testing",
-        "bottom_line": "Your codebase vulnerabilities may already be visible to AI-powered attackers analyzing your source code.",
-        "action_today": "Review your repository access controls and enable branch protection rules requiring security review today"
-      }
-    },
-    {
-      "id": "9c6dc73edd4e",
-      "title": "GitHub disables Microsoft repos pushing password-stealing malware",
-      "link": "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
-      "summary": "Microsoft removed 73 repositories across its Azure, microsoft, Azure-Samples, and MicrosoftDocs organizations on GitHub, disrupting continuous integration pipelines. [...]",
-      "pubDate": "2026-06-09T15:42:40+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Malware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "Microsoft removed 73 repos distributing password-stealing malware",
-          "CI/CD pipelines compromised across Azure and documentation organizations"
-        ],
-        "analysis": [
-          {
-            "title": "Scope of compromise",
-            "desc": "73 repositories across Microsoft's official GitHub organizations were actively distributing malware designed to steal credentials and passwords from developers."
-          },
-          {
-            "title": "Supply chain attack vector",
-            "desc": "Attackers leveraged trusted Microsoft namespaces to inject malicious code into continuous integration pipelines, affecting downstream users and projects."
-          },
-          {
-            "title": "Detection and remediation",
-            "desc": "GitHub disabled the malicious repositories. Developers using affected repos must audit their systems for credential theft and reset passwords immediately."
-          }
-        ],
-        "suggested_title": "Malware-Laced Microsoft Repos Stole Developer Passwords",
-        "bottom_line": "Attackers just weaponized Microsoft's own GitHub namespace — your saved credentials may already be compromised.",
-        "action_today": "GitHub → Settings → Security → Review recent SSH keys and remove unknown entries immediately"
-      }
-    },
-    {
-      "id": "e1c25d480175",
-      "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
-      "summary": "Veeam has released security updates to patch a critical Backup & Replication security flaw that can be exploited to gain remote code execution (RCE) on domain-joined backup servers. [...]",
-      "pubDate": "2026-06-09T14:27:56+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Veeam Backup critical RCE vulnerability on domain servers",
-          "Security patches released — immediate deployment required"
-        ],
-        "analysis": [
-          {
-            "title": "Exploitation mechanism and scope",
-            "desc": "Remote code execution vulnerability affects Veeam Backup & Replication servers, specifically targeting domain-joined systems where attackers can execute arbitrary commands."
-          },
-          {
-            "title": "Infrastructure risk profile",
-            "desc": "Backup servers are high-value targets. Compromise enables attackers to access organization's entire backup repository and restore points."
-          },
-          {
-            "title": "Patching urgency timeline",
-            "desc": "Critical severity demands immediate patching. Delay increases risk of ransomware attacks leveraging backup infrastructure for full recovery disruption."
-          }
-        ],
-        "suggested_title": "Veeam Backup RCE Vulnerability — Patch Domain Servers Now",
-        "bottom_line": "Your backups are worthless if attackers control the server protecting them. Patch today or lose everything tomorrow.",
-        "action_today": "Veeam Console → Administration → Security Updates → Download latest patch and stage deployment"
-      }
-    },
-    {
-      "id": "b78163bca03f",
-      "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
-      "link": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
-      "summary": "Two Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian organisations, almost a year after patches for the vulnerability were released. The activity has been attributed by Trend Micro to Earth Dahu (aka Gamaredon) and SHADOW-EARTH-066 (aka UAC-0226). It involves the exploitation of CVE-2025-8088, a path traversal flaw that allows an",
-      "pubDate": "2026-06-09T12:26:10+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Russia-aligned groups exploiting unpatched WinRAR vulnerability in Ukraine",
-          "CVE-2025-8088 path traversal flaw enables stealer malware deployment"
-        ],
-        "analysis": [
-          {
-            "title": "Persistent exploitation year later",
-            "desc": "Earth Dahu and UAC-0226 continue leveraging WinRAR flaw despite patches released nearly 12 months ago, targeting Ukrainian entities."
-          },
-          {
-            "title": "Path traversal enables malware delivery",
-            "desc": "CVE-2025-8088 allows attackers to bypass directory restrictions, facilitating deployment of information-stealing malware through archive extraction."
-          },
-          {
-            "title": "Geopolitical targeting pattern",
-            "desc": "Ukraine remains primary target, suggesting coordinated espionage campaign by Russian-aligned threat actors seeking sensitive organizational data."
-          }
-        ],
-        "suggested_title": "WinRAR Vulnerability Exploited Against Ukraine Organizations",
-        "bottom_line": "Unpatched WinRAR installations in your organization are actively being weaponized right now by Russian state-backed attackers.",
-        "action_today": "WinRAR → Help → Check for Updates → Install latest version immediately"
-      }
-    },
-    {
-      "id": "5f834f8cb470",
-      "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
-      "link": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
-      "summary": "University of Toronto researchers have built and tested a proof-of-concept AI-driven computer worm that uses a locally hosted open-weight large language model to reason its way through a network, generate tailored attack strategies for each target it encounters, and replicate itself, all without human intervention and without touching a commercial AI service. The preprint, posted to arXiv on",
-      "pubDate": "2026-06-09T11:59:03+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Malware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "Self-replicating AI worm uses local open-weight models autonomously",
-          "No external AI services required for attack execution"
-        ],
-        "analysis": [
-          {
-            "title": "Autonomous AI-Powered Network Exploitation",
-            "desc": "Worm reasons through networks, generates custom attack strategies per target, replicates without human direction or external dependencies."
-          },
-          {
-            "title": "Local Model Advantage Creates Detection Gaps",
-            "desc": "Open-weight LLMs running locally avoid commercial API logs, making reconnaissance and propagation invisible to typical monitoring."
-          },
-          {
-            "title": "Proof-of-Concept Signals Real Threat Timeline",
-            "desc": "University research demonstrates feasibility; weaponized variants likely months away. Organizations lack defenses for AI-reasoned targeted attacks."
-          }
-        ],
-        "suggested_title": "AI Worm Self-Replicates Using Local Models — No Internet Required",
-        "bottom_line": "Your network's next breach won't need a human attacker or internet connection to spread.",
-        "action_today": "Disable unnecessary open ports → Firewall → Review → Block non-essential traffic immediately"
-      }
-    },
-    {
-      "id": "dc1b2039550e",
-      "title": "Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now",
-      "link": "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html",
-      "summary": "Google has released security updates to address 74 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-11645 (CVSS score: 8.8), has been described as an out-of-bounds memory access in V8, Chrome's JavaScript and WebAssembly engine. \"Out-of-bounds read and write in V8 in Google Chrome prior to 149.0.7827.103",
-      "pubDate": "2026-06-09T11:58:49+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Chrome V8 zero-day actively exploited in wild attacks",
-          "Out-of-bounds memory access enables arbitrary code execution"
-        ],
-        "analysis": [
-          {
-            "title": "Critical Severity & Active Exploitation",
-            "desc": "CVE-2026-11645 carries CVSS 8.8 score and confirmed active exploitation. No patch delay acceptable given real-world attacks."
-          },
-          {
-            "title": "V8 Engine Vulnerability Impact",
-            "desc": "Out-of-bounds read/write in JavaScript engine allows attackers full system compromise through malicious web content alone."
-          },
-          {
-            "title": "Patch Availability & Urgency",
-            "desc": "Chrome 149.0.7827.103+ contains fix. Google bundled 74 vulnerabilities total. Immediate update eliminates exploitation window."
-          }
-        ],
-        "suggested_title": "Critical Chrome Zero-Day Under Active Exploit — Update Now",
-        "bottom_line": "Every unpatched Chrome user is a live target right now. Update immediately or stop browsing.",
-        "action_today": "Chrome → Menu → Settings → About Chrome → Auto-update & restart (5 min)"
-      }
-    },
-    {
-      "id": "aa792fc79a5d",
-      "title": "The Hidden Security Risk in Modern Networks: The Work Between Tools",
-      "link": "https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html",
-      "summary": "Organizations have more visibility than ever. Growing tech stacks provide greater coverage, and network security teams are increasingly adopting AI and automation to help with routine tasks and reduce manual effort. But the same challenges persist. Outages still last hours, causing significant financial losses, operational disruption, and reputational impact. Threat response and mean time to",
-      "pubDate": "2026-06-09T11:30:00+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Security News",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Tool fragmentation creates dangerous blind spots",
-          "AI automation masks integration failures"
-        ],
-        "analysis": [
-          {
-            "title": "Integration gaps between tools",
-            "desc": "Security stacks fail when tools don't communicate effectively, creating blind spots attackers exploit."
-          },
-          {
-            "title": "Automation hides manual failures",
-            "desc": "AI handles routine tasks but misses critical handoffs between disconnected systems and platforms."
-          },
-          {
-            "title": "Outages persist despite visibility",
-            "desc": "Organizations monitor everything yet still experience hours-long outages, indicating response coordination failures."
-          }
-        ],
-        "suggested_title": "Network Security Tool Gaps Causing Hidden Outages",
-        "bottom_line": "Your security tools are talking past each other — and your attackers know it.",
-        "action_today": "IT admin console → Review active tool integrations → Document disconnected systems today"
-      }
-    },
-    {
-      "id": "aa1a64b3cb30",
-      "title": "French govt messaging service breached in account hijacking attack",
-      "link": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
-      "summary": "DINUM, the digital affairs directorate of the French government, warned that hackers used a hijacked user account to breach Tchap, the French government's encrypted messaging platform. [...]",
-      "pubDate": "2026-06-09T10:53:00+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Hacking",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "French government messaging platform Tchap compromised via account hijacking",
-          "Attackers exploited single hijacked user account to breach encrypted service"
-        ],
-        "analysis": [
-          {
-            "title": "Attack Vector: Account Hijacking",
-            "desc": "Hackers gained access through compromised user credentials rather than exploiting platform vulnerabilities directly."
-          },
-          {
-            "title": "Target: Government Communications",
-            "desc": "Breach affected Tchap, France's secure messaging system designed for government officials and sensitive communications."
-          },
-          {
-            "title": "Scope and Response",
-            "desc": "DINUM issued warning to users. Extent of data accessed and number of compromised accounts unclear."
-          }
-        ],
-        "suggested_title": "Tchap Messaging Platform Breached via Account Hijacking Attack",
-        "bottom_line": "French government's secure messaging isn't — attackers are already inside your encrypted channels.",
-        "action_today": "If you use Tchap: Change password immediately, enable 2FA in account settings, review login activity."
-      }
-    },
-    {
-      "id": "f3ccf7a6c2e0",
-      "title": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing",
-      "link": "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
-      "summary": "A malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST, needs no native code, no extension, and no permission prompt. You open the page, leave the tab sitting there, and it watches the drive for contention in the background. Researchers at Graz University of Technology built it and",
-      "pubDate": "2026-06-09T09:50:41+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Security News",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "JavaScript-based SSD timing attack requires no permissions",
-          "Passive background monitoring reveals browsing and app usage"
-        ],
-        "analysis": [
-          {
-            "title": "Attack Mechanism",
-            "desc": "FROST exploits SSD contention timing via JavaScript, measuring drive access patterns to infer user activity without native code or extensions."
-          },
-          {
-            "title": "Threat Scope",
-            "desc": "Any website can execute this attack silently in background tabs, tracking visited sites and opened applications across the user's device."
-          },
-          {
-            "title": "Defense Gaps",
-            "desc": "Current browser security models lack detection for this timing-based side-channel attack, leaving users vulnerable despite privacy controls."
-          }
-        ],
-        "suggested_title": "FROST Attack Exploits SSD Timing to Track Your Browsing",
-        "bottom_line": "Every website you visit can now spy on everything else you do without your knowledge.",
-        "action_today": "Browser → Settings → Clear Site Data → Select All Time → Clear (1 min)"
-      }
-    },
-    {
-      "id": "83a35f59f7b4",
-      "title": "Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer",
-      "link": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
-      "summary": "The Miasma supply chain campaign has sparked a fresh attack wave called Hades, this time involving 37 malicious wheel artifacts across 19 packages in the Python Package Index (PyPI) registry, as the Mini Shai-Hulud-style attacks continue to be refined and splintered to target specific ecosystems. \"The compromised releases shipped a *-setup.pth file that attempts to execute automatically",
-      "pubDate": "2026-06-09T09:13:32+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Hacking",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "37 malicious wheel artifacts across 19 PyPI packages",
-          "Auto-executing .pth files steal Bun credentials silently"
-        ],
-        "analysis": [
-          {
-            "title": "Attack Scope and Method",
-            "desc": "Hades campaign distributed poisoned Python packages via PyPI using .pth files for automatic execution without user interaction."
-          },
-          {
-            "title": "Supply Chain Vulnerability",
-            "desc": "Continuation of Miasma campaign targeting ecosystem-specific tools. Refined attacks exploit package management trust to compromise developer environments."
-          },
-          {
-            "title": "Credential Theft Risk",
-            "desc": "Bun credential stealer targets JavaScript runtime environment. Affects developers using compromised packages in their dependency chains."
-          }
-        ],
-        "suggested_title": "PyPI Supply Chain Attack: 37 Malicious Packages Steal Credentials",
-        "bottom_line": "If you installed Python packages recently, your Bun credentials are likely already compromised.",
-        "action_today": "pip list | grep hades (check installed packages), then pip install --upgrade pip setuptools wheel"
-      }
-    },
-    {
-      "id": "0416a8c155e3",
-      "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
-      "summary": "CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomware affiliates. [...]",
-      "pubDate": "2026-06-09T08:18:39+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Ransomware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "Check Point VPN zero-day actively exploited by Qilin ransomware",
-          "Federal agencies given 72-hour deadline to patch critical flaw"
-        ],
-        "analysis": [
-          {
-            "title": "Active exploitation underway",
-            "desc": "Qilin ransomware affiliates actively exploiting vulnerability in production environments before patch availability."
-          },
-          {
-            "title": "Government mandate enforcement",
-            "desc": "CISA issued binding order requiring all U.S. federal agencies patch within three days."
-          },
-          {
-            "title": "VPN infrastructure at risk",
-            "desc": "Remote Access and Mobile Access deployments compromised, exposing critical network entry points government-wide."
-          }
-        ],
-        "suggested_title": "Check Point VPN Zero-Day — Feds Get 72 Hours",
-        "bottom_line": "If your agency runs Check Point VPN, attackers already have your network address.",
-        "action_today": "Contact your IT department for Check Point patch status and deployment timeline immediately"
-      }
-    },
-    {
-      "id": "27e1fa936deb",
-      "title": "Google patches new Chrome zero-day flaw exploited in the wild",
-      "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
-      "summary": "Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]",
-      "pubDate": "2026-06-09T06:56:27+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Fifth Chrome zero-day actively exploited in 2024",
-          "Emergency patch released — immediate update required"
-        ],
-        "analysis": [
-          {
-            "title": "Active exploitation in wild",
-            "desc": "Attackers actively exploiting vulnerability before patch availability. Real-world attacks already occurring against Chrome users."
-          },
-          {
-            "title": "Pattern of recurring flaws",
-            "desc": "Fifth zero-day this year signals systemic security gaps. Chrome facing escalating threat frequency and complexity."
-          },
-          {
-            "title": "Urgent patching imperative",
-            "desc": "Emergency release indicates severity level. Delayed updates leave systems vulnerable to active threat campaigns."
-          }
-        ],
-        "suggested_title": "Chrome Zero-Day Actively Exploited — Update Now",
-        "bottom_line": "Attackers are using this exploit against you right now. Update immediately or assume you're already targeted.",
-        "action_today": "Chrome → Menu → Help → About Google Chrome → Auto-updates and restart (5 min)"
-      }
-    },
-    {
-      "id": "2f4f953504be",
-      "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity flaw impacting BerriAI LiteLLM to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-42271 (CVSS score: 8.7), is a command injection vulnerability that could allow any authenticated user to run arbitrary commands on the",
-      "pubDate": "2026-06-09T06:26:14+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "LiteLLM command injection flaw actively exploited",
-          "CISA adds CVE-2026-42271 to KEV catalog"
-        ],
-        "analysis": [
-          {
-            "title": "Critical vulnerability in LiteLLM",
-            "desc": "Command injection flaw (CVE-2026-42271, CVSS 8.7) allows authenticated users arbitrary command execution on affected systems."
-          },
-          {
-            "title": "Active exploitation confirmed",
-            "desc": "CISA added vulnerability to Known Exploited Vulnerabilities catalog Monday, indicating real-world attack activity already underway."
-          },
-          {
-            "title": "Immediate patching required",
-            "desc": "High-severity rating demands urgent update of BerriAI LiteLLM installations to prevent unauthorized system compromise."
-          }
-        ],
-        "suggested_title": "LiteLLM Command Injection Exploited — Patch Immediately",
-        "bottom_line": "Attackers are already inside LiteLLM systems. Patching now isn't optional.",
-        "action_today": "Check LiteLLM version → Download latest patch → Restart service → Verify no unauthorized commands executed"
-      }
-    },
-    {
-      "id": "75f0f0772197",
-      "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
-      "link": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
-      "summary": "New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]",
-      "pubDate": "2026-06-08T22:11:58+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Malware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "NFCShare malware disguised as banking app updates on GitHub",
-          "Fake updates distribute Android malware to unsuspecting mobile users"
-        ],
-        "analysis": [
-          {
-            "title": "Distribution vector exploits trust",
-            "desc": "Attackers host malicious APKs on GitHub posing as legitimate banking app updates, leveraging platform credibility."
-          },
-          {
-            "title": "NFC capability enables fraud",
-            "desc": "NFCShare malware intercepts contactless payments and sensitive data through compromised NFC functionality on infected devices."
-          },
-          {
-            "title": "Social engineering bypasses defenses",
-            "desc": "Users manually download fake updates outside official app stores, circumventing Google Play Store security scanning mechanisms."
-          }
-        ],
-        "suggested_title": "Android Banking Malware Spreads via Fake GitHub App Updates",
-        "bottom_line": "Attackers are impersonating your bank's app right now on GitHub—one wrong download empties your account.",
-        "action_today": "Banking app → Settings → About → Verify official store download source. Delete if sideloaded."
-      }
-    },
-    {
-      "id": "e6efe1ab4d82",
-      "title": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users - 404 Media",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYlRSSDV4bFdHZ1Zlem0wa3JIRWt6by15UzNFYjROazV4YWgtazEtLXItR3Rkbm52WFhiTVo2cVNscUpnWWp2SWMtNUducFZRMGtRTHE2R2c0WmROb0dNaDhOTVpWUl9wTXlCdzZoazFvRjJld29lZ2pEWFpra2FzSXVJeXBTU3pzbzVpeGR3Wks?oc=5",
-      "summary": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users&nbsp;&nbsp;404 Media",
-      "pubDate": "2026-06-08T21:16:57+00:00",
-      "source": "Google News — Cybersecurity",
-      "lang": "en",
-      "category": "Hacking",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "Microsoft infrastructure compromised to distribute malware",
-          "Claude and Gemini users targeted in supply chain attack"
-        ],
-        "analysis": [
-          {
-            "title": "Microsoft Infrastructure Weaponized",
-            "desc": "Attackers gained access to Microsoft systems to deliver malicious payloads, bypassing traditional security layers and exploiting trusted distribution channels."
-          },
-          {
-            "title": "AI Platform Users Under Attack",
-            "desc": "Claude and Gemini users specifically targeted, suggesting sophisticated threat actors aware of AI adoption patterns and user demographics."
-          },
-          {
-            "title": "Supply Chain Attack Severity",
-            "desc": "Compromise of legitimate vendor infrastructure means typical security detection failed. Users who trust established platforms face heightened infection risk."
-          }
-        ],
-        "suggested_title": "Malware Supply Chain Attack Hits Microsoft, Targets AI Users",
-        "bottom_line": "Your AI chatbot sessions may already be compromised — Microsoft's breach affects millions using Claude and Gemini.",
-        "action_today": "Change passwords for Claude and Gemini accounts immediately. Enable 2FA if available. Check Microsoft account security dashboard for suspicious activity."
-      }
-    },
-    {
-      "id": "c4da432e2312",
-      "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
-      "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-      "summary": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container. The flaw, CVE-2026-23111, sits in the kernel's nf_tables packet-filtering code and was patched upstream on February 5, 2026. Exodus Intelligence released its full technical walkthrough on June 8, and it is not even",
-      "pubDate": "2026-06-08T20:17:39+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Linux kernel use-after-free vulnerability enables unprivileged local root escalation",
-          "Working exploit publicly released; CVE-2026-23111 patched February 5, 2026"
-        ],
-        "analysis": [
-          {
-            "title": "Critical vulnerability scope",
-            "desc": "nf_tables packet-filtering flaw allows local users to escalate privileges and escape containers with root access."
-          },
-          {
-            "title": "Exploit availability timeline",
-            "desc": "Upstream patch deployed February 5, 2026. Exodus Intelligence published full technical details June 8, accelerating exploitation risk."
-          },
-          {
-            "title": "Immediate threat surface",
-            "desc": "Any Linux system running vulnerable kernel with local user access is exposed. Container environments face heightened breach risk."
-          }
-        ],
-        "suggested_title": "Linux Kernel Root Exploit Now Public — Patch Immediately",
-        "bottom_line": "If your kernel isn't patched, local attackers already own your system.",
-        "action_today": "Linux → Terminal → uname -r, check kernel version; apt/yum update && reboot"
-      }
-    },
-    {
-      "id": "54e073c67c64",
-      "title": "Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware - CyberSecurityNews",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14anY0QVFWdjhpd01GaUdhNDFLRkdYVnFENDVQVDJ5Q0k0YUwwS0lleEY1OUJGNW9vYVFTamJaUjhaREhRcTJDd2RjUWs1eHdobmZQLU82S3RJWWFzWVNWa0dmNXVQRUdYVUxXRUZfMVkyX1l50gF6QVVfeXFMTlpTQlhndnpHeUZ0SGVHQ1RGM0Qxa1pQVmxxYUFJbllZUzBtUmFUZ0VqakpNTkVNMzljcDh2TkMxMlF2TXc1RDFld1padk9QeDJFYmRVY0VBdldGY2MxdVBlSlFJdXdIMEFnQUdXajBSX0E5TWxMc1ZKa0E?oc=5",
-      "summary": "Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware&nbsp;&nbsp;CyberSecurityNews",
-      "pubDate": "2026-06-08T17:19:24+00:00",
-      "source": "Google News — Vulnerability",
-      "lang": "en",
-      "category": "Ransomware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "Check Point VPN zero-day actively exploited for ransomware deployment",
-          "Unpatched systems vulnerable to immediate compromise and data theft"
-        ],
-        "analysis": [
-          {
-            "title": "Active exploitation in wild",
-            "desc": "Threat actors actively weaponizing unpatched Check Point VPN systems to gain network access and deploy ransomware payloads."
-          },
-          {
-            "title": "VPN as attack entry point",
-            "desc": "Remote access vulnerabilities provide direct gateway to internal networks, bypassing perimeter defenses and compromising entire organizations."
-          },
-          {
-            "title": "Immediate patching critical",
-            "desc": "Organizations running vulnerable Check Point VPN must apply security patches immediately to prevent active exploitation and ransomware deployment."
-          }
-        ],
-        "suggested_title": "Check Point VPN Zero-Day: Ransomware Attacks Active Now",
-        "bottom_line": "If your organization uses Check Point VPN, attackers are actively targeting you right now.",
-        "action_today": "Contact your IT team: request Check Point VPN patch status and deployment timeline immediately"
-      }
-    },
-    {
-      "id": "cde0e1a9dde3",
-      "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
-      "link": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
-      "summary": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group. In addition, the tech giant said it's filing a federal court contempt order against the company for violating a permanent injunction that barred it from targeting WhatsApp and its users. \"They tried to trick people into clicking on malicious links to drive them to external websites",
-      "pubDate": "2026-06-08T17:08:44+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Phishing",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "NSO Group attempted WhatsApp phishing targeting Meta users",
-          "Meta files contempt order for injunction violation"
-        ],
-        "analysis": [
-          {
-            "title": "Spyware vendor targets messaging platform",
-            "desc": "NSO Group deployed spear-phishing attacks directing WhatsApp users to malicious external websites, attempting credential theft and device compromise through social engineering."
-          },
-          {
-            "title": "Court enforcement escalates legal pressure",
-            "desc": "Meta's contempt filing challenges NSO Group's violation of existing permanent injunction, potentially triggering additional penalties and strengthening Meta's legal position against continued targeting."
-          },
-          {
-            "title": "Persistent threat despite legal barriers",
-            "desc": "NSO Group continues targeting Meta platforms despite court restrictions, indicating inadequate enforcement mechanisms and highlighting the gap between legal orders and actual accountability."
-          }
-        ],
-        "suggested_title": "NSO Group Spyware Targets WhatsApp — Meta Files Contempt",
-        "bottom_line": "NSO is still hunting WhatsApp users despite court orders. They're not stopping.",
-        "action_today": "WhatsApp → Settings → Account → Two-Step Verification → Enable now"
+        "suggested_title": "GitHub Supply Chain Attack: 73 Microsoft Repos Compromised",
+        "bottom_line": "Your development dependencies may already contain stolen credential harvesters — audit your GitHub activity logs now.",
+        "action_today": "GitHub → Settings → Sessions → Review active sessions and sign out unknown devices immediately"
       }
     }
   ]
