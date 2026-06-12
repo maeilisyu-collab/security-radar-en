@@ -1,8 +1,382 @@
 {
-  "updated": "2026-06-12T06:00:56.484303+00:00",
+  "updated": "2026-06-12T17:41:07.072204+00:00",
   "count": 30,
   "lang": "en",
   "articles": [
+    {
+      "id": "9ce06d08160f",
+      "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
+      "link": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
+      "summary": "More than 400 packages in the Arch User Repository (AUR) are distributing a Linux rootkit and infostealer malware targeting credentials and access tokens. [...]",
+      "pubDate": "2026-06-12T17:03:55+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "400+ AUR packages distributing Linux rootkit malware",
+          "Malware steals credentials and access tokens from systems"
+        ],
+        "analysis": [
+          {
+            "title": "Supply chain attack scale",
+            "desc": "Massive compromise of Arch User Repository with hundreds of poisoned packages indicates coordinated, sophisticated threat campaign."
+          },
+          {
+            "title": "Dual-purpose malware payload",
+            "desc": "Rootkit provides persistent system access while infostealer harvests credentials, tokens, enabling lateral movement and account takeover."
+          },
+          {
+            "title": "Developer ecosystem at risk",
+            "desc": "AUR's community-driven model creates trust vulnerability; developers installing from repo face infection without traditional security gatekeeping."
+          }
+        ],
+        "suggested_title": "Linux Rootkit Infects 400+ Arch Repository Packages",
+        "bottom_line": "If you use AUR, your credentials are likely already harvested. Assume compromise and reset passwords now.",
+        "action_today": "pacman -Ss [recently_installed] → Review AUR history → Remove suspicious packages immediately"
+      }
+    },
+    {
+      "id": "abb11e41f593",
+      "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
+      "link": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
+      "summary": "GitHub access sales, leaked repositories, and stolen API keys can all become supply-chain attack footholds. Flare explores how underground forums expose early signals tied to software supply-chain risk. [...]",
+      "pubDate": "2026-06-12T14:01:11+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Data Leak",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "Dark web forums reveal supply-chain attack indicators early",
+          "Stolen credentials and repositories fuel software compromise tactics"
+        ],
+        "analysis": [
+          {
+            "title": "Dark Web Intelligence",
+            "desc": "Underground forums expose leaked GitHub access, repositories, and API keys before attacks materialize into production environments."
+          },
+          {
+            "title": "Supply-Chain Vulnerability Chain",
+            "desc": "Compromised developer credentials serve as entry points for attackers to inject malicious code into widely-distributed software packages."
+          },
+          {
+            "title": "Proactive Threat Detection",
+            "desc": "Monitoring dark web marketplaces enables security teams to identify compromised assets and respond before exploitation occurs broadly."
+          }
+        ],
+        "suggested_title": "Supply-Chain Attack Signals Hidden in Dark Web Forums",
+        "bottom_line": "Your code dependencies are already being sold to the highest bidder.",
+        "action_today": "GitHub → Settings → Password and authentication → Review active sessions and revoke unfamiliar devices now"
+      }
+    },
+    {
+      "id": "ae4cb1b293b0",
+      "title": "Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code",
+      "link": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html",
+      "summary": "Cybersecurity researchers have described what they say is a new class of attack that can trick artificial intelligence (AI) coding agents into running arbitrary code on developer machines. Called Agentjacking by Tenet Security, the attack can be triggered by means of a fake error report crafted using Sentry, an open-source error-tracking and performance-monitoring platform. \"The attack",
+      "pubDate": "2026-06-12T12:04:33+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "AI coding agents manipulated into executing arbitrary code",
+          "Fake error reports via Sentry platform trigger attacks"
+        ],
+        "analysis": [
+          {
+            "title": "Attack Vector Mechanism",
+            "desc": "Agentjacking exploits AI agents by crafting malicious error reports through Sentry, forcing code execution on developer machines."
+          },
+          {
+            "title": "Target & Impact",
+            "desc": "Developers using AI coding assistants face direct compromise of their machines and development environments without detection."
+          },
+          {
+            "title": "Defense Gap",
+            "desc": "Current AI agent safety measures lack protection against social engineering tactics embedded in seemingly legitimate error tracking data."
+          }
+        ],
+        "suggested_title": "Agentjacking: AI Coding Agents Weaponized Through Error Reports",
+        "bottom_line": "Your AI coding assistant is about to execute code written by attackers pretending to be error messages.",
+        "action_today": "Review Sentry error notifications manually before letting AI agents auto-fix — disable auto-remediation temporarily"
+      }
+    },
+    {
+      "id": "73b43aea2a93",
+      "title": "Microsoft fixes Windows update failures linked to WUSA installer",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/",
+      "summary": "Microsoft has fixed a known issue that caused Windows updates released since May 2025 to fail when installed via the Windows Update Standalone Installer (WUSA) from a network share. [...]",
+      "pubDate": "2026-06-12T11:44:58+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Patch",
+      "level": "success",
+      "ai_summary": {
+        "keypoints": [
+          "WUSA network share installations failing since May 2025",
+          "Microsoft released fix for Windows Update deployment issues"
+        ],
+        "analysis": [
+          {
+            "title": "Impact scope and timing",
+            "desc": "Windows updates deployed via WUSA from network shares experienced widespread installation failures starting May 2025, affecting enterprise deployments."
+          },
+          {
+            "title": "Root cause identification",
+            "desc": "Microsoft identified and patched the underlying issue in Windows Update Standalone Installer preventing proper network-based update delivery."
+          },
+          {
+            "title": "Resolution availability",
+            "desc": "Fix now available from Microsoft; organizations using WUSA for network deployments should apply immediately to restore update functionality."
+          }
+        ],
+        "suggested_title": "Windows Update WUSA Network Share Failures Fixed",
+        "bottom_line": "If your enterprise uses network-based Windows updates, you've likely missed critical patches since May.",
+        "action_today": "Windows → Settings → Update & Security → Check for updates → Install latest patches now"
+      }
+    },
+    {
+      "id": "1391b7ef3d43",
+      "title": "Rethinking MDR as Attackers and Defenders Embrace AI",
+      "link": "https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html",
+      "summary": "For most of the past decade, managed detection and response was the answer to a real problem. Security teams couldn't staff around the clock, couldn't hire enough analysts, and needed someone else to handle the alert queue. MDR stepped in. It worked well enough. Until now. The threat landscape has changed faster than the MDR model can adapt. Attackers are using AI to move faster, generate more",
+      "pubDate": "2026-06-12T11:00:00+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Security News",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "MDR model struggling against AI-powered attackers",
+          "Traditional security staffing approach becoming obsolete"
+        ],
+        "analysis": [
+          {
+            "title": "MDR's Outdated Foundation",
+            "desc": "MDR solved staffing gaps but assumes predictable threats. AI-accelerated attacks outpace human-centric detection models."
+          },
+          {
+            "title": "AI Shifts Attack Economics",
+            "desc": "Attackers generate alerts faster than analysts review them. Volume and speed now overwhelm traditional queue-based response."
+          },
+          {
+            "title": "Defense Requires Symmetry",
+            "desc": "Organizations must adopt AI-driven detection to match adversary velocity. Human-only monitoring no longer sufficient baseline."
+          }
+        ],
+        "suggested_title": "MDR Broken: AI Forces Security Defense Evolution",
+        "bottom_line": "Your MDR isn't failing you — it's failing against opponents you can't see coming anymore.",
+        "action_today": "Review your MDR contract renewal terms and evaluate AI-native detection vendors this week"
+      }
+    },
+    {
+      "id": "3069f19c5a6c",
+      "title": "Pharma giant Novo Nordisk discloses breach of clinical trials data",
+      "link": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
+      "summary": "Danish pharmaceutical giant Novo Nordisk, the world's largest producer of insulin, disclosed a data breach affecting patient information from some clinical trials. [...]",
+      "pubDate": "2026-06-12T10:13:19+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Novo Nordisk insulin producer confirms clinical trial data breach",
+          "Patient information exposed — scope and remediation details pending"
+        ],
+        "analysis": [
+          {
+            "title": "Breach scope unclear",
+            "desc": "Article lacks specifics on affected patient count, data types compromised, or breach discovery timeline."
+          },
+          {
+            "title": "Clinical trial implications",
+            "desc": "Exposed trial data could compromise study integrity, participant privacy, and regulatory approval timelines."
+          },
+          {
+            "title": "Corporate accountability gap",
+            "desc": "Major pharmaceutical firm's delayed disclosure raises questions about internal incident response protocols."
+          }
+        ],
+        "suggested_title": "Novo Nordisk Data Breach Exposes Clinical Trial Patient Records",
+        "bottom_line": "If you participated in Novo Nordisk trials, your data is already compromised.",
+        "action_today": "Check your email for breach notifications from Novo Nordisk — verify sender authenticity first"
+      }
+    },
+    {
+      "id": "7f11d34d85c0",
+      "title": "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution",
+      "link": "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html",
+      "summary": "Cybersecurity researchers have disclosed details of three now-patched security flaws impacting LangGraph, including a critical vulnerability chain that could result in remote code execution. LangGraph is an open-source framework created by LangChain to build complex, stateful, and multi-agent artificial intelligence (AI) agentic applications. \"An SQL injection in LangGraph's function could",
+      "pubDate": "2026-06-12T09:50:36+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Vulnerability",
+      "level": "info",
+      "ai_summary": {
+        "keypoints": [
+          "LangGraph vulnerability chain enables remote code execution",
+          "Self-hosted AI agents at immediate risk from SQL injection"
+        ],
+        "analysis": [
+          {
+            "title": "Critical RCE vulnerability chain",
+            "desc": "Three patched flaws in LangGraph framework enable attackers to execute arbitrary code remotely on self-hosted AI agent systems."
+          },
+          {
+            "title": "SQL injection attack vector",
+            "desc": "SQL injection flaw in LangGraph functions allows unauthorized database access and potential privilege escalation for code execution."
+          },
+          {
+            "title": "Affected deployment scope",
+            "desc": "Self-hosted LangGraph instances building stateful multi-agent AI applications face immediate compromise risk from vulnerability chain exploitation."
+          }
+        ],
+        "suggested_title": "LangGraph RCE Vulnerability Chain Threatens Self-Hosted AI Systems",
+        "bottom_line": "If you're running LangGraph, attackers can already control your AI agents unless you've patched today.",
+        "action_today": "Check LangGraph version → npm list langraph → Update to latest patched version immediately"
+      }
+    },
+    {
+      "id": "136c7a5f6deb",
+      "title": "INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator",
+      "link": "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
+      "summary": "An INTERPOL-led operation last month resulted in the disruption of Sniper Dz, a decade-long phishing-as-a-service (PhaaS) platform, Group-IB said Thursday. The effort, codenamed Operation Ramz, took place between October 2025 and February 2026, and saw authorities from 13 countries in the Middle East and North Africa (MENA) region making 201 arrests. Included among them was Guedz, the primary",
+      "pubDate": "2026-06-12T08:52:55+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Phishing",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "Sniper Dz phishing platform dismantled after decade operation",
+          "201 arrests across 13 MENA countries in Operation Ramz"
+        ],
+        "analysis": [
+          {
+            "title": "Phishing-as-a-Service Shutdown",
+            "desc": "INTERPOL-led Operation Ramz disrupted Sniper Dz, decade-long PhaaS platform enabling large-scale credential theft campaigns across regions."
+          },
+          {
+            "title": "Regional Law Enforcement Success",
+            "desc": "Coordinated effort spanning 13 Middle East/North Africa nations arrested 201 individuals, including primary administrator Guedz."
+          },
+          {
+            "title": "Timeline and Scale",
+            "desc": "Operation conducted October 2025–February 2026, demonstrating sustained international cooperation against sophisticated phishing infrastructure."
+          }
+        ],
+        "suggested_title": "Phishing-as-Service Platform Dismantled — 201 Arrested",
+        "bottom_line": "Your credentials were likely harvested by Sniper Dz. Check breached password databases immediately.",
+        "action_today": "Visit haveibeenpwned.com, enter your email, change passwords for affected accounts"
+      }
+    },
+    {
+      "id": "83b499bcddab",
+      "title": "CISA orders feds to patch actively exploited Ivanti flaw by Sunday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch an actively exploited Ivanti Sentry flaw within three days, as mandated by the newly issued Binding Operational Directive (BOD) 26-04. [...]",
+      "pubDate": "2026-06-12T08:26:55+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Patch",
+      "level": "success",
+      "ai_summary": {
+        "keypoints": [
+          "CISA mandates three-day patch deadline for actively exploited Ivanti flaw",
+          "Binding Operational Directive 26-04 requires immediate federal agency response"
+        ],
+        "analysis": [
+          {
+            "title": "Active exploitation underway",
+            "desc": "Ivanti Sentry vulnerability actively exploited in wild. Government agencies face imminent threat."
+          },
+          {
+            "title": "Enforcement mechanism strengthened",
+            "desc": "BOD 26-04 binding directive elevates patch urgency from advisory to mandatory federal order."
+          },
+          {
+            "title": "Timeline creates pressure",
+            "desc": "Three-day deadline forces agencies to prioritize patching over standard change management procedures."
+          }
+        ],
+        "suggested_title": "Ivanti Sentry Actively Exploited — Federal Agencies Must Patch Sunday",
+        "bottom_line": "Your federal systems are being targeted right now. Patch by Sunday or assume you're already breached.",
+        "action_today": "Contact your IT department immediately. Confirm Ivanti Sentry patch status across all systems today."
+      }
+    },
+    {
+      "id": "9d44f5f89ce4",
+      "title": "Over 73,000 French govt employees affected in Tchap messenger breach",
+      "link": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
+      "summary": "The French government revealed that a recent breach of its Tchap encrypted messaging platform affects the accounts of over 73,000 employees in the French public sector. [...]",
+      "pubDate": "2026-06-12T07:09:11+00:00",
+      "source": "BleepingComputer",
+      "lang": "en",
+      "category": "Hacking",
+      "level": "warning",
+      "ai_summary": {
+        "keypoints": [
+          "73,000 French government employees compromised in Tchap breach",
+          "Encrypted messaging platform security failed — credentials exposed"
+        ],
+        "analysis": [
+          {
+            "title": "Scale of exposure",
+            "desc": "Over 73,000 public sector employee accounts affected, potentially exposing government communications and sensitive data access."
+          },
+          {
+            "title": "Platform vulnerability",
+            "desc": "Tchap's encryption failed to prevent account compromise, suggesting authentication or infrastructure weakness, not encryption bypass."
+          },
+          {
+            "title": "Government response gap",
+            "desc": "Delayed disclosure indicates detection lag. Employees may have used compromised credentials elsewhere, multiplying breach impact."
+          }
+        ],
+        "suggested_title": "Tchap Breach Exposes 73,000 French Government Employee Accounts",
+        "bottom_line": "Your government email password is likely already in a hacker's database. Act now.",
+        "action_today": "Change your Tchap password immediately. If reused elsewhere, update those accounts too — prioritize email and banking."
+      }
+    },
+    {
+      "id": "09c555186b40",
+      "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs",
+      "link": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
+      "summary": "Authorities in Europe have disrupted AudiA6, a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks. Europol, in a statement issued Thursday, said the dismantling of AudiA6 cut off a \"key financial pipeline used to wash hundreds of millions in illicit profits.\" The service is estimated to have been used to launder more than €336 million (~$389 million) since the",
+      "pubDate": "2026-06-12T06:38:41+00:00",
+      "source": "The Hacker News",
+      "lang": "en",
+      "category": "Ransomware",
+      "level": "danger",
+      "ai_summary": {
+        "keypoints": [
+          "Europol dismantles AudiA6 cryptocurrency laundering operation",
+          "Service laundered €336 million for ransomware gangs"
+        ],
+        "analysis": [
+          {
+            "title": "Financial Pipeline Disruption",
+            "desc": "AudiA6 served as critical money-washing infrastructure for ransomware operators and cybercriminal networks across Europe."
+          },
+          {
+            "title": "Scale of Illicit Activity",
+            "desc": "Service processed over €336 million in criminal proceeds, indicating massive underground economy supporting ransomware ecosystem."
+          },
+          {
+            "title": "Law Enforcement Victory",
+            "desc": "Europol's takedown eliminates key financial chokepoint, potentially degrading ransomware gang operations and profit extraction capabilities."
+          }
+        ],
+        "suggested_title": "Cryptocurrency Laundering Service AudiA6 Shut Down",
+        "bottom_line": "Ransomware gangs just lost their cash register. This disruption cuts their ability to profit.",
+        "action_today": "Check bank/crypto accounts for suspicious activity. Enable transaction alerts on your financial institutions."
+      }
+    },
     {
       "id": "c31bedc1c92d",
       "title": "Japanese energy firm loses drive with data of 10.9 million clients",
@@ -15,26 +389,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "10.9 million customer records exposed via lost drive",
-          "Physical security failure at major Japanese utility company"
+          "Japanese utility loses physical drive containing 10.9 million customer records",
+          "Physical security breach exposes names, addresses, account details unencrypted"
         ],
         "analysis": [
           {
-            "title": "Massive customer data breach",
-            "desc": "Kyushu Electric Power exposed personal information of over 10 million clients through uncontrolled physical asset loss."
+            "title": "Scale of exposure",
+            "desc": "10.9 million Kyushu Electric customers' personal data compromised via lost storage device. Names, addresses, account information at risk."
           },
           {
-            "title": "Physical security oversight",
-            "desc": "Data storage device went missing, indicating inadequate inventory controls and physical security protocols at enterprise level."
+            "title": "Physical security failure",
+            "desc": "Incident reveals inadequate controls over sensitive data storage. Lost drive suggests poor device tracking and inventory management practices."
           },
           {
-            "title": "Customer notification urgency",
-            "desc": "Affected customers must monitor accounts for fraud. Kyushu should provide credit monitoring and identity theft protection."
+            "title": "Encryption absent",
+            "desc": "Data stored unencrypted on physical media. Standard security practice would have rendered stolen drive useless to attackers."
           }
         ],
         "suggested_title": "Data Breach: Japanese Utility Loses 10.9M Customer Records",
-        "bottom_line": "Your utility company just lost your personal data on a hard drive—assume your information's already being sold.",
-        "action_today": "Contact Kyushu Electric Power if you're a customer. Request free credit monitoring enrollment immediately."
+        "bottom_line": "Your utility company lost your home address and account details on a missing drive—assume criminals have it.",
+        "action_today": "Contact Kyushu Electric customer service today to verify your account hasn't been fraudulently accessed or modified"
       }
     },
     {
@@ -49,26 +423,26 @@
       "level": "warning",
       "ai_summary": {
         "keypoints": [
-          "Fraudulent breach disclosures posted to Maine's official portal",
-          "False claims published before verification, causing corporate denials"
+          "Maine breach portal exploited for fake disclosures",
+          "Fraudulent claims published before verification completed"
         ],
         "analysis": [
           {
-            "title": "Portal Misuse Vector",
-            "desc": "Attackers exploited Maine's breach notification system to inject fake disclosures, bypassing pre-publication verification controls."
+            "title": "Portal Abuse Vector",
+            "desc": "Attackers submitted false breach notifications to Maine's official portal, bypassing verification checks before public posting."
           },
           {
-            "title": "Misinformation Impact",
-            "desc": "Companies forced into reactive damage control, denying false breach claims and eroding trust in official channels."
+            "title": "Misinformation Campaign Impact",
+            "desc": "Companies forced to issue denials after fake disclosures spread, damaging reputation and eroding trust in official channels."
           },
           {
-            "title": "Verification Gap Risk",
-            "desc": "Public-facing portals lack adequate authentication barriers, allowing malicious actors to manipulate official breach narratives."
+            "title": "Verification Process Failure",
+            "desc": "System lacked adequate vetting mechanisms, allowing unverified submissions to reach public without confirmation from affected organizations."
           }
         ],
-        "suggested_title": "Maine Breach Portal Abused for Fake Disclosures",
-        "bottom_line": "Attackers weaponized official channels to sow chaos—your company's next denial might come too late.",
-        "action_today": "Email your legal/compliance team asking if your breach disclosures require manual verification before portal posting"
+        "suggested_title": "Breach Portal Weaponized: Fake Disclosures Bypass Verification",
+        "bottom_line": "Your state's official breach notices may be lies. Verify directly with companies before panicking.",
+        "action_today": "Contact Maine Attorney General's office to confirm any breach notification you received today."
       }
     },
     {
@@ -84,25 +458,25 @@
       "ai_summary": {
         "keypoints": [
           "Oracle PeopleSoft zero-day actively exploited in wild",
-          "Ransomware and data breach risks require immediate patching"
+          "Ransomware and data breach risks — immediate patching critical"
         ],
         "analysis": [
           {
-            "title": "Active exploitation underway",
-            "desc": "CVE-2026-35273 is being weaponized by threat actors against production systems now."
+            "title": "Active Exploitation Confirmed",
+            "desc": "CVE-2026-35273 is being actively leveraged by attackers in real-world campaigns targeting PeopleSoft deployments."
           },
           {
-            "title": "Ransomware deployment risk",
-            "desc": "Attackers leveraging vulnerability to deploy ransomware payloads and encrypt critical data."
+            "title": "Dual Threat Vector",
+            "desc": "Vulnerability enables both ransomware deployment and unauthorized data exfiltration from enterprise systems."
           },
           {
-            "title": "Patch urgency critical",
-            "desc": "Oracle security update essential for all PeopleSoft PeopleTools deployments immediately."
+            "title": "Patch Availability Status",
+            "desc": "Oracle has released security patches; immediate deployment essential to prevent compromise of affected infrastructure."
           }
         ],
-        "suggested_title": "Oracle PeopleSoft Zero-Day Actively Exploited — Patch Now",
-        "bottom_line": "If you run PeopleSoft, attackers are already inside your network.",
-        "action_today": "Contact Oracle → Request CVE-2026-35273 patch → Deploy within 24 hours"
+        "suggested_title": "PeopleSoft Zero-Day Exploit: Patch Now or Face Ransomware",
+        "bottom_line": "If your company runs PeopleSoft, attackers are already probing your systems.",
+        "action_today": "Contact your Oracle PeopleSoft administrator immediately and request CVE-2026-35273 patch deployment status"
       }
     },
     {
@@ -117,26 +491,26 @@
       "level": "warning",
       "ai_summary": {
         "keypoints": [
-          "ShinyHunters exploited Oracle PeopleSoft zero-day targeting universities",
-          "Extortion campaign active before vendor security patch released"
+          "ShinyHunters exploited unpatched Oracle PeopleSoft zero-day vulnerability",
+          "Universities targeted for extortion through data theft campaign"
         ],
         "analysis": [
           {
-            "title": "Zero-Day Exploitation Window",
-            "desc": "Attackers actively exploited CVE-2026-35273 between May 27-June 9, four days before Oracle published advisory patch."
+            "title": "Timing Gap Creates Critical Window",
+            "desc": "Attackers exploited CVE-2026-35273 between May 27–June 9, five days before Oracle published advisory patch."
           },
           {
-            "title": "Targeted Victim Selection",
-            "desc": "Universities bore brunt of ShinyHunters campaign, suggesting targeting of institutions with valuable research data and hostage value."
+            "title": "Extortion-Focused Attack Pattern",
+            "desc": "ShinyHunters (tracked as UNC6240) stole enterprise data then demanded ransom to suppress public disclosure."
           },
           {
-            "title": "Attribution and Tactics",
-            "desc": "Google Mandiant tracks group as UNC6240, using stolen data as extortion leverage demanding ransom for non-disclosure."
+            "title": "Higher Education Sector Vulnerable",
+            "desc": "Universities bore brunt of campaign, likely due to legacy systems and delayed patching capabilities."
           }
         ],
-        "suggested_title": "Oracle PeopleSoft Zero-Day Exploited — Universities Under Attack",
-        "bottom_line": "Your university's student and research data may already be sold to extortionists.",
-        "action_today": "Contact your IT department: ask if PeopleSoft systems patched for CVE-2026-35273 immediately"
+        "suggested_title": "Oracle PeopleSoft Zero-Day Exploited — Universities Targeted",
+        "bottom_line": "Your university or employer's student and employee data may already be in extortionists' hands.",
+        "action_today": "Contact your IT department immediately to confirm Oracle PeopleSoft patch status and deployment date"
       }
     },
     {
@@ -152,25 +526,25 @@
       "ai_summary": {
         "keypoints": [
           "PeopleSoft zero-day enables unauthenticated remote code execution",
-          "Active exploitation by ShinyHunter group stealing data now"
+          "Active exploitation by ShinyHunter group stealing data"
         ],
         "analysis": [
           {
             "title": "Critical vulnerability scope",
-            "desc": "CVE-2026-35273 affects Oracle PeopleSoft Suite. Unauthenticated attackers execute code remotely without credentials."
+            "desc": "CVE-2026-35273 affects PeopleSoft Suite with no authentication required for attackers to execute arbitrary code remotely."
           },
           {
-            "title": "Active threat campaign",
-            "desc": "ShinyHunter group actively exploits flaw. Data theft attacks ongoing against PeopleSoft installations."
+            "title": "Active threat landscape",
+            "desc": "ShinyHunter group actively exploiting flaw in data theft campaigns, indicating real-world attacks underway against organizations."
           },
           {
             "title": "Mitigation status",
-            "desc": "Oracle released patch. Organizations must prioritize immediate deployment to prevent compromise."
+            "desc": "Oracle released patches to address vulnerability; immediate deployment critical for organizations running vulnerable PeopleSoft instances."
           }
         ],
-        "suggested_title": "PeopleSoft Zero-Day Under Active Attack — Patch Now",
-        "bottom_line": "If you run PeopleSoft, attackers are likely already inside your network.",
-        "action_today": "Check Oracle security advisories → Download CVE-2026-35273 patch → Deploy to all PeopleSoft instances immediately"
+        "suggested_title": "PeopleSoft Zero-Day Under Active Exploitation — Patch Now",
+        "bottom_line": "Your company's data is being stolen right now if you haven't patched PeopleSoft.",
+        "action_today": "Contact your IT team immediately: verify PeopleSoft version, apply Oracle patch within 24 hours"
       }
     },
     {
@@ -185,26 +559,26 @@
       "level": "danger",
       "ai_summary": {
         "keypoints": [
-          "OpenClaw AI agent executes hidden attacker code via innocent inputs",
-          "Imperva and Varonis expose data exfiltration through contacts and location pins"
+          "OpenClaw AI agent executes hidden attacker commands embedded in files",
+          "Imperva and Varonis demonstrate code execution and data theft vulnerabilities"
         ],
         "analysis": [
           {
-            "title": "Attack Vector Sophistication",
-            "desc": "Adversaries embed malicious instructions in benign files—vCards, contacts, location data—that agents process automatically without user visibility or consent."
+            "title": "Attack Vector: Hidden Instructions",
+            "desc": "Researchers embedded malicious commands in vCards, contacts, and location data that OpenClaw processed without user visibility or consent."
           },
           {
-            "title": "Self-Hosted Deployment Risk",
-            "desc": "OpenClaw's architecture as self-hosted agent increases attack surface; local execution privileges enable code execution and credential theft at scale."
+            "title": "Dual Research Confirmation",
+            "desc": "Imperva and Varonis independently validated exploitation techniques, indicating systematic weakness in agent input validation and sanitization."
           },
           {
-            "title": "Detection Evasion Problem",
-            "desc": "Hidden payloads bypass traditional input validation; agents treat data as trusted, creating blind spot between user intent and actual system behavior."
+            "title": "Self-Hosted Risk Amplification",
+            "desc": "Self-hosted deployment increases exposure; agents lack centralized security controls present in managed cloud platforms."
           }
         ],
-        "suggested_title": "AI Agent Security: OpenClaw Tricked Into Running Malicious Code",
-        "bottom_line": "Your OpenClaw agent is executing commands you never authorized—and stealing secrets while you're not looking.",
-        "action_today": "If using OpenClaw: immediately audit recent vCard/contact imports → check agent logs for suspicious execution → disable auto-execution of untrusted inputs"
+        "suggested_title": "OpenClaw AI Agents Hijacked via Hidden Code Injection Attacks",
+        "bottom_line": "Your self-hosted AI agent is running code from strangers hiding in innocent-looking files right now.",
+        "action_today": "If running OpenClaw: disable external file parsing until patch released; audit recent contact and vCard imports for suspicious activity"
       }
     },
     {
@@ -220,25 +594,25 @@
       "ai_summary": {
         "keypoints": [
           "BitLocker bypass exploits recovery partition XML files",
-          "Researcher discovered flaw in 4 hours accidentally"
+          "Researcher discovered vulnerability in 4 hours accidentally"
         ],
         "analysis": [
           {
-            "title": "GreatXML Attack Vector",
-            "desc": "New exploit targets Windows BitLocker encryption via XML configuration files stored in recovery partitions, bypassing full-disk encryption."
+            "title": "GreatXML Exploit Details",
+            "desc": "New Windows BitLocker bypass leverages recovery partition XML file misconfigurations to circumvent encryption protections."
           },
           {
             "title": "Researcher Background",
-            "desc": "Security researcher Chaotic Eclipse recently published Microsoft Defender exploits, now releases BitLocker bypass after accidental discovery."
+            "desc": "Chaotic Eclipse disclosed exploit day after publishing Microsoft Defender vulnerability, indicating systematic discovery pattern."
           },
           {
-            "title": "Vulnerability Scope",
-            "desc": "Affects Windows systems using BitLocker. Incomplete information suggests potential impact on offline scan functionalities and recovery processes."
+            "title": "Attack Surface",
+            "desc": "Windows Defender Offline Scan usage creates exploitation opportunity through unprotected recovery partition access vectors."
           }
         ],
         "suggested_title": "BitLocker Bypass GreatXML Exploits Windows Recovery Partitions",
-        "bottom_line": "Your encrypted drive's protection has a backdoor researchers found in hours — yours may already be at risk.",
-        "action_today": "Windows → Settings → System → Device Encryption → Verify BitLocker status and recovery key backup"
+        "bottom_line": "Your BitLocker encryption may already be compromised if you've used Windows Defender Offline Scan.",
+        "action_today": "Windows → Settings → System → Recovery → Verify BitLocker status and enable TPM protections now"
       }
     },
     {
@@ -258,21 +632,21 @@
         ],
         "analysis": [
           {
-            "title": "Multi-Platform RaaS Operations",
-            "desc": "Threat group exploits established ransomware-as-a-service platforms including LockBit, Qilin, and Medusa to conduct coordinated double extortion attacks against enterprise targets."
+            "title": "Multi-vector attack capability",
+            "desc": "Spreads with worm-like propagation while conducting double extortion schemes across victim networks systematically."
           },
           {
-            "title": "Worm-Like Propagation Capability",
-            "desc": "Gentlemen demonstrates autonomous spreading mechanisms beyond traditional ransomware delivery, enabling rapid lateral movement and expanded victim base across connected networks."
+            "title": "RaaS ecosystem exploitation",
+            "desc": "Gentlemen leverages multiple ransomware-as-a-service platforms, multiplying attack sophistication and operational reach significantly."
           },
           {
-            "title": "Double Extortion Monetization",
-            "desc": "Financially motivated group combines encryption with data theft and public disclosure threats, maximizing ransom pressure on victim organizations for maximum financial gain."
+            "title": "Scale and financial impact",
+            "desc": "478 documented victims represent substantial operational success for financially motivated threat actors."
           }
         ],
-        "suggested_title": "Gentlemen Ransomware Hits 478 Victims, Spreads Like Worm",
-        "bottom_line": "Your company's data is already being harvested by RaaS operators who sold access weeks ago.",
-        "action_today": "Check backup systems → Verify offline copies exist → Test restoration immediately (30 min)"
+        "suggested_title": "Gentlemen Ransomware: 478 Victims Exploited Via RaaS Worm",
+        "bottom_line": "Your company could be victim 479 — Gentlemen's worm spreads automatically across networks undetected.",
+        "action_today": "Check network logs for suspicious lateral movement — search firewall alerts for LockBit/Qilin IOCs immediately"
       }
     },
     {
@@ -287,26 +661,26 @@
       "level": "danger",
       "ai_summary": {
         "keypoints": [
-          "Law enforcement shut down AudiA6 cryptocurrency laundering service",
-          "Ransomware actors funneled $380 million through dismantled platform"
+          "Law enforcement shuts down AudiA6 ransomware money laundering operation",
+          "Service laundered over $380 million for cybercriminals"
         ],
         "analysis": [
           {
-            "title": "Criminal Infrastructure Collapse",
-            "desc": "AudiA6 served as major financial hub for ransomware gangs converting illicit cryptocurrency into usable funds through layered transactions."
+            "title": "Criminal Infrastructure Dismantled",
+            "desc": "AudiA6 provided cryptocurrency laundering services enabling ransomware gangs to convert illicit proceeds into usable funds, facilitating continued criminal operations."
           },
           {
-            "title": "Scale of Cybercrime Economy",
-            "desc": "$380 million seized demonstrates ransomware's profitability and criminals' reliance on specialized money laundering services to monetize attacks."
+            "title": "Scale of Financial Impact",
+            "desc": "$380 million in criminal proceeds flowed through the service, demonstrating the massive financial ecosystem supporting ransomware-as-a-service operations globally."
           },
           {
             "title": "Law Enforcement Coordination",
-            "desc": "Multi-agency takedown highlights growing international cooperation targeting ransomware payment infrastructure, disrupting attacker revenue streams directly."
+            "desc": "Takedown reflects coordinated international effort targeting financial infrastructure that enables ransomware attacks, disrupting attacker monetization pathways."
           }
         ],
-        "suggested_title": "Ransomware Money Pipeline AudiA6 Dismantled — $380M Seized",
-        "bottom_line": "Ransomware gangs just lost their favorite ATM. Your organization might be next.",
-        "action_today": "Review recent wire transfers and crypto wallets for suspicious activity; report to your compliance officer immediately"
+        "suggested_title": "AudiA6 Ransomware Laundering Service Shut Down—$380M Seized",
+        "bottom_line": "Ransomware groups just lost their favorite money pipeline. Expect retaliation attacks in coming weeks.",
+        "action_today": "Check if your organization was targeted: haveibeenpwned.com — search your company email domain"
       }
     },
     {
@@ -321,26 +695,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "Fragmented security stacks create exploitable gaps for AI attacks",
-          "Integrated automation and recovery essential for MSP defense"
+          "AI-powered attacks overwhelm fragmented security tools",
+          "Integrated automation and recovery are now critical"
         ],
         "analysis": [
           {
-            "title": "AI weaponizes legacy vulnerabilities",
-            "desc": "AI-driven attacks exploit fragmented toolsets MSPs rely on, bypassing slow detection workflows designed for human-speed threats."
+            "title": "Fragmentation Creates Attack Windows",
+            "desc": "MSPs relying on disconnected security tools face delays in threat detection and response, allowing AI attacks to spread faster than manual workflows can contain."
           },
           {
-            "title": "Integration closes security blind spots",
-            "desc": "Connected platforms enable real-time threat correlation and response, eliminating delayed incident workflows that attackers currently exploit."
+            "title": "Speed Determines Survival",
+            "desc": "Automated, integrated security platforms detect and respond to threats in seconds. Slow, manual processes guarantee attackers succeed before human intervention begins."
           },
           {
-            "title": "Recovery becomes first defense line",
-            "desc": "Automated recovery capabilities neutralize attack payloads faster than traditional patching, reducing breach window from hours to minutes."
+            "title": "Recovery Capability Now Required",
+            "desc": "Beyond detection, MSPs need built-in recovery systems to restore systems quickly after compromise. Kaseya advocates consolidation to reduce response time and restore capabilities."
           }
         ],
-        "suggested_title": "MSP Security Stacks Fail Against AI — Integration Required Now",
-        "bottom_line": "Your fragmented tools are already losing to AI. One integrated platform isn't optional anymore.",
-        "action_today": "Audit your security stack gaps → List disconnected tools → Schedule integration review with your MSP vendor"
+        "suggested_title": "MSP Security Stacks Failing Against AI-Driven Attacks",
+        "bottom_line": "Your fragmented security tools are already losing to AI — consolidate or get breached.",
+        "action_today": "Contact your MSP: request unified security platform audit with automated response capabilities enabled this week"
       }
     },
     {
@@ -355,26 +729,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "95 cybersecurity award categories recognize invisible security work",
-          "Industry celebrates teams stopping unreported incidents successfully"
+          "Cybersecurity excellence recognized across 95 award categories",
+          "Invisible security work finally gets public acknowledgment"
         ],
         "analysis": [
           {
             "title": "Recognition Gap in Security",
-            "desc": "Most cybersecurity achievements remain hidden. Awards highlight work deserving visibility."
+            "desc": "Most cybersecurity achievements remain invisible. Awards highlight work preventing unnoticed incidents daily."
           },
           {
             "title": "Four Main Award Categories",
-            "desc": "2026 awards span 95 subcategories across four primary competitive divisions."
+            "desc": "2026 Cybersecurity Stars spans 95 subcategories. Awards recognize products, teams, and companies equally."
           },
           {
-            "title": "Industry Appreciation Initiative",
-            "desc": "Program addresses underappreciated security teams, products, and companies making real impact."
+            "title": "Industry Visibility Problem",
+            "desc": "Security teams stop breaches nobody hears about. Recognition programs bring deserved spotlight to defenders."
           }
         ],
-        "suggested_title": "Cybersecurity Stars 2026: 95 Categories Honor Hidden Security Heroes",
-        "bottom_line": "The security work protecting you daily never makes headlines — today it finally does.",
-        "action_today": "Review your organization's security team accomplishments; nominate deserving colleagues for recognition"
+        "suggested_title": "Cybersecurity Stars Awards 2026: 95 Winners Recognized",
+        "bottom_line": "The security work protecting you today will never make headlines — but it matters.",
+        "action_today": "Review Cybersecurity Stars 2026 finalists list. Identify solutions matching your organization's gaps."
       }
     },
     {
@@ -389,26 +763,26 @@
       "level": "warning",
       "ai_summary": {
         "keypoints": [
-          "Supply chain attack kits leaked publicly accessible",
-          "AI agents manipulated into revealing real credentials"
+          "Supply chain attack kits publicly leaked in repos",
+          "AI agents manipulated into exposing real credentials"
         ],
         "analysis": [
           {
-            "title": "Professionalized criminal infrastructure",
-            "desc": "Mule networks now operate like SaaS platforms, indicating organized, scalable attack operations replacing amateur efforts."
+            "title": "Professionalized Threat Infrastructure",
+            "desc": "Mule networks and RAT services operate like legitimate SaaS, lowering barriers for amateur attackers."
           },
           {
-            "title": "AI vulnerability to social engineering",
-            "desc": "Researchers demonstrated AI agents can be phished into leaking legitimate credentials, exposing new attack surface."
+            "title": "AI Security Blindspot Exposed",
+            "desc": "Claude and similar agents lack defenses against social engineering, leak sensitive data when prompted."
           },
           {
-            "title": "Supply chain exposure",
-            "desc": "Publicly accessible repository containing attack kit code enables rapid weaponization by any threat actor with GitHub access."
+            "title": "Leaked Attack Tooling",
+            "desc": "Complete supply chain compromise frameworks available publicly, enabling rapid weaponization by threat actors."
           }
         ],
-        "suggested_title": "Supply Chain Attack Kits Leaked; AI Agents Compromised",
-        "bottom_line": "Your credentials are being harvested by polished criminal operations you can't see coming.",
-        "action_today": "Gmail → Security → Review connected apps → Remove unknown access within 10 minutes"
+        "suggested_title": "Supply Chain Attacks, AI Agents Leaked — Act Now",
+        "bottom_line": "Your credentials are already being harvested by AI that doesn't know it's being tricked.",
+        "action_today": "Change passwords on email, cloud storage, financial accounts immediately — start with email account."
       }
     },
     {
@@ -424,25 +798,25 @@
       "ai_summary": {
         "keypoints": [
           "Record $409M fine for 37M customer data breach",
-          "South Korea's PIPC enforces strict data protection penalties"
+          "South Korea regulator enforces strict data protection penalties"
         ],
         "analysis": [
           {
-            "title": "Scale of Compromise",
-            "desc": "Coupang exposed 37 million customers' personal data, affecting nearly entire South Korean population actively using platform."
+            "title": "Massive customer exposure",
+            "desc": "37 million Coupang customers affected in breach. Personal data compromised at scale."
           },
           {
-            "title": "Regulatory Enforcement",
-            "desc": "Record fine signals aggressive regulator stance on data protection violations, setting precedent for corporate accountability."
+            "title": "Regulatory enforcement strengthens",
+            "desc": "PIPC's record fine signals tougher stance on corporate data mishandling in Korea."
           },
           {
-            "title": "Financial Impact",
-            "desc": "624.6 billion won penalty demonstrates rising cost of security negligence for major e-commerce operators globally."
+            "title": "Financial consequences escalate",
+            "desc": "624.6 billion won penalty sets precedent for e-commerce accountability globally."
           }
         ],
-        "suggested_title": "Data Breach Fine: Coupang Pays Record $409M Penalty",
-        "bottom_line": "Your Coupang account data is already compromised—change your passwords and enable 2FA immediately.",
-        "action_today": "Coupang App → Settings → Security → Change password and enable two-factor authentication now"
+        "suggested_title": "Data Breach Fine Record: Coupang Fined $409M Korea",
+        "bottom_line": "Your Coupang account data is already in the wild—assume it's compromised.",
+        "action_today": "Check Coupang account → Security settings → Change password + enable 2FA immediately"
       }
     },
     {
@@ -457,26 +831,26 @@
       "level": "success",
       "ai_summary": {
         "keypoints": [
-          "CISA mandates 3-day patch deadline for critical exploited vulnerabilities",
-          "Federal agencies must prioritize security updates under new directive"
+          "CISA mandates 3-day patch deadline for critical exploited flaws",
+          "Federal agencies must prioritize emergency security updates immediately"
         ],
         "analysis": [
           {
-            "title": "Urgent compliance requirement",
-            "desc": "FCEB agencies now face binding 3-day patching mandate for actively exploited critical flaws under BOD 26-04."
+            "title": "Urgent patching requirement",
+            "desc": "CISA's Binding Operational Directive 26-04 forces federal agencies to patch critical exploited vulnerabilities within 72 hours, escalating enforcement standards."
           },
           {
-            "title": "Government-wide enforcement",
-            "desc": "CISA directive applies across all Federal Civilian Executive Branch agencies, establishing enforceable security update timelines."
+            "title": "Federal compliance scope",
+            "desc": "Requirements apply to Federal Civilian Executive Branch agencies, establishing baseline security posture across U.S. government infrastructure and digital systems."
           },
           {
-            "title": "Threat landscape response",
-            "desc": "New policy reflects increasing sophistication of exploits targeting government systems and critical infrastructure operations."
+            "title": "Exploit-in-wild priority",
+            "desc": "Directive targets actively exploited flaws, indicating imminent threat landscape. Agencies cannot delay; known vulnerabilities demand immediate remediation action."
           }
         ],
-        "suggested_title": "Critical Vulnerabilities: Federal Agencies Get 3-Day Patch Deadline",
-        "bottom_line": "Your agency's systems are already targets — patch or get breached within 72 hours.",
-        "action_today": "Contact your IT security team and request immediate vulnerability scan results and patch status"
+        "suggested_title": "Critical Patch Deadline: Federal Agencies Get 3 Days",
+        "bottom_line": "Your agency is already running exploited code unless patched today.",
+        "action_today": "Check your agency's patch management system for BOD 26-04 compliance status and flag critical items"
       }
     },
     {
@@ -491,26 +865,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "AI accelerates vulnerability exploitation faster than patches",
-          "CISOs shifting budget from vulnerability management to breach attack simulation"
+          "AI accelerated exploit development, eliminating patching buffer",
+          "CISOs reallocating budgets toward breach and attack simulation"
         ],
         "analysis": [
           {
-            "title": "Death of the buffer",
-            "desc": "Traditional 30-year vulnerability management relied on months between discovery and weaponization. AI eliminated that window entirely."
+            "title": "Vulnerability Window Collapse",
+            "desc": "AI tools now weaponize vulnerabilities faster than teams patch them, making traditional triage-based vulnerability management obsolete."
           },
           {
-            "title": "Reactive patching becomes obsolete",
-            "desc": "Triage-by-severity workflows fail when threats weaponize within days or hours. Speed advantage now belongs to attackers."
+            "title": "Shift to Proactive Defense",
+            "desc": "Organizations move beyond reactive patching toward breach and attack simulation to test resilience before attackers exploit."
           },
           {
-            "title": "BAS emerges as priority",
-            "desc": "Breach and Attack Simulation lets teams test defenses proactively instead of waiting for patches. Budget migrates accordingly."
+            "title": "Budget Reallocation Strategy",
+            "desc": "CISOs redirect vulnerability management spending to BAS platforms, treating exploitation as inevitable rather than preventable."
           }
         ],
-        "suggested_title": "Vulnerability Management Dead — CISOs Pivot to Attack Simulation",
-        "bottom_line": "Your patch schedule is already obsolete. AI weaponizes vulnerabilities faster than you can deploy fixes.",
-        "action_today": "Ask your CISO: What's our current breach simulation testing frequency and coverage?"
+        "suggested_title": "Vulnerability Management Dead — CISOs Fund Breach Simulation Now",
+        "bottom_line": "Your patching speed no longer matters — attackers have AI. Your only move is surviving the breach.",
+        "action_today": "Contact your CISO — request BAS platform demo and budget review for next quarter planning meeting"
       }
     },
     {
@@ -525,26 +899,26 @@
       "level": "info",
       "ai_summary": {
         "keypoints": [
-          "OceanLotus deploys SPECTRALVIPER backdoor against Vietnam investors",
-          "Multi-year espionage campaign targets infrastructure and transport sectors"
+          "OceanLotus deploys SPECTRALVIPER backdoor targeting Vietnamese investors",
+          "Supply chain and infrastructure attacks span mid-2024 to February 2026"
         ],
         "analysis": [
           {
-            "title": "Threat Actor Attribution",
-            "desc": "Vietnam-aligned OceanLotus group orchestrates coordinated campaigns using SPECTRALVIPER backdoor malware."
+            "title": "Threat Actor Profile",
+            "desc": "Vietnam-aligned OceanLotus group conducting sustained espionage campaigns against domestic financial and infrastructure sectors with custom backdoor malware."
           },
           {
-            "title": "Attack Timeline and Scope",
-            "desc": "Prolonged cyber espionage from mid-2024 through February 2026 targeting Vietnamese entities and stock investors."
+            "title": "Attack Vector Scope",
+            "desc": "Dual campaigns targeting stock market investors and construction corporations through supply chain compromise and direct infrastructure penetration over 20-month period."
           },
           {
-            "title": "Attack Vectors",
-            "desc": "Dual campaigns include direct targeting of infrastructure corporations and supply chain compromise operations."
+            "title": "Backdoor Capabilities",
+            "desc": "SPECTRALVIPER malware enables persistent remote access and data exfiltration from compromised systems, enabling long-term intelligence gathering operations."
           }
         ],
-        "suggested_title": "OceanLotus SPECTRALVIPER Backdoor Targets Vietnam Stock Investors",
-        "bottom_line": "Vietnam's financial sector is under active siege — if you trade Vietnamese stocks, your credentials are likely already compromised.",
-        "action_today": "Email → Security → Review recent login activity and enable 2FA immediately on brokerage accounts"
+        "suggested_title": "OceanLotus SPECTRALVIPER Backdoor Targets Vietnamese Stock Investors",
+        "bottom_line": "Your brokerage account credentials could be harvested right now by a state-backed group.",
+        "action_today": "Email → Settings → Enable 2FA/Two-Factor Authentication immediately (5 minutes)"
       }
     },
     {
@@ -559,26 +933,26 @@
       "level": "success",
       "ai_summary": {
         "keypoints": [
-          "Windows Server 2025 BitLocker recovery boot loop resolved",
-          "April 2026 security update caused unexpected device lockouts"
+          "BitLocker recovery boot loop after April 2026 update",
+          "Microsoft released fix for Windows Server 2025 devices"
         ],
         "analysis": [
           {
-            "title": "Root cause identified",
-            "desc": "April 2026 update triggered unintended BitLocker recovery mode on affected Server 2025 installations."
+            "title": "Impact scope and severity",
+            "desc": "Windows Server 2025 devices became unbootable after April security patch, forcing recovery mode intervention."
           },
           {
-            "title": "Scope of impact",
-            "desc": "Issue affects subset of Windows Server 2025 deployments, causing boot failures requiring recovery intervention."
+            "title": "Root cause identification",
+            "desc": "Update triggered BitLocker recovery sequence on affected systems, likely configuration or driver incompatibility."
           },
           {
-            "title": "Resolution deployed",
-            "desc": "Microsoft released fix preventing BitLocker recovery trigger during security update installation process."
+            "title": "Resolution and deployment",
+            "desc": "Microsoft issued hotfix; administrators must apply patch and verify BitLocker status across infrastructure."
           }
         ],
-        "suggested_title": "BitLocker Boot Loop Fixed — Windows Server 2025 Update Safe",
-        "bottom_line": "Your servers won't lock you out anymore — but verify the patch is installed.",
-        "action_today": "Windows Update → Check for updates → Install latest cumulative patch immediately"
+        "suggested_title": "Windows Server 2025 BitLocker Boot Loop Fixed",
+        "bottom_line": "Your servers could be locked out right now if you installed April patches without verification.",
+        "action_today": "Windows Update → Check update history → Verify BitLocker status on Server 2025 devices immediately"
       }
     },
     {
@@ -594,25 +968,25 @@
       "ai_summary": {
         "keypoints": [
           "450,000+ student records compromised in university breach",
-          "Hacking group accessed both current and alumni data"
+          "Hacking group accessed sensitive student data system"
         ],
         "analysis": [
           {
-            "title": "Scale and scope",
-            "desc": "Breach affects over 450,000 individuals including current students and alumni across institution."
+            "title": "Scale and scope of exposure",
+            "desc": "Over 450,000 current and former students affected. Breach involves student records system containing personal information."
           },
           {
-            "title": "Attack vector unclear",
-            "desc": "Article lacks details on how hackers gained access to student records system initially."
+            "title": "Threat actor confirmation",
+            "desc": "Hacking group successfully penetrated university defenses. Unauthorized access to sensitive student data confirmed by institution."
           },
           {
-            "title": "Response timeline vague",
-            "desc": "No information on detection timing, notification plan, or what specific data was exposed."
+            "title": "Institutional response needed",
+            "desc": "University must notify affected parties immediately. Monitoring and credit protection services should be offered to victims."
           }
         ],
-        "suggested_title": "Data Breach Exposes 450K University Student Records",
-        "bottom_line": "Your university login, transcript, and personal details are now in criminal hands.",
-        "action_today": "Check your university email for breach notification. Change your password immediately if account affected."
+        "suggested_title": "Data Breach Hits 450K Nottingham University Students",
+        "bottom_line": "Your student records—including personal details—are now in criminal hands.",
+        "action_today": "Check your email for breach notification. Set up credit monitoring immediately if affected."
       }
     },
     {
@@ -632,395 +1006,21 @@
         ],
         "analysis": [
           {
-            "title": "Attack Vector Elimination",
-            "desc": "Disabling npm lifecycle hooks prevents malicious code execution during package installation, blocking a primary supply chain attack method."
+            "title": "Attack Vector Eliminated",
+            "desc": "Malicious actors exploited npm lifecycle hooks during installation to execute unauthorized code on developer machines and systems."
           },
           {
             "title": "Breaking Change Impact",
-            "desc": "npm 12 update requires developers to explicitly enable scripts, potentially affecting legitimate packages that rely on install hooks."
+            "desc": "npm 12 disables install scripts by default, requiring explicit user consent to run post-install or pre-install hooks."
           },
           {
-            "title": "Industry Security Shift",
-            "desc": "GitHub's change reflects growing concern over compromised dependencies; security now prioritized over convenience in default configurations."
+            "title": "Supply Chain Security",
+            "desc": "This change addresses fundamental vulnerability in dependency management, protecting entire software supply chains from compromised packages."
           }
         ],
-        "suggested_title": "npm 12 Disables Install Scripts — Supply Chain Security Tightens",
-        "bottom_line": "Your dependencies just became harder to weaponize. Patch now or fall behind.",
-        "action_today": "npm → Check version → npm --version; plan upgrade to v12 when stable"
-      }
-    },
-    {
-      "id": "aebbfe6afe49",
-      "title": "Max severity Ivanti Sentry vulnerability now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
-      "summary": "Attackers are now targeting a recently patched maximum-severity flaw in Ivanti Sentry, enabling them to execute code with root privileges on Internet-exposed secure mobile gateways. [...]",
-      "pubDate": "2026-06-11T06:20:22+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Ivanti Sentry max-severity flaw actively exploited in wild",
-          "Root code execution possible on exposed mobile gateways"
-        ],
-        "analysis": [
-          {
-            "title": "Active exploitation underway",
-            "desc": "Attackers actively targeting recently patched vulnerability in Ivanti Sentry secure mobile gateways already deployed."
-          },
-          {
-            "title": "Privilege escalation to root",
-            "desc": "Vulnerability enables arbitrary code execution with highest system privileges, full device compromise possible."
-          },
-          {
-            "title": "Internet-exposed infrastructure at risk",
-            "desc": "Organizations with internet-facing Ivanti Sentry gateways already vulnerable unless patch deployed immediately."
-          }
-        ],
-        "suggested_title": "Ivanti Sentry Critical Flaw Actively Exploited — Patch Now",
-        "bottom_line": "If your Ivanti Sentry isn't patched today, attackers already have root access.",
-        "action_today": "Check Ivanti Sentry version immediately; download latest patch from Ivanti support portal; apply within 24 hours"
-      }
-    },
-    {
-      "id": "9207236dea09",
-      "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
-      "summary": "Attackers are actively exploiting CVE-2026-5027, a high-severity path traversal vulnerability in the AI development platform Langflow, to write arbitrary files on exposed servers. [...]",
-      "pubDate": "2026-06-10T21:23:44+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Path traversal vulnerability actively exploited in Langflow",
-          "Attackers writing arbitrary files to exposed servers"
-        ],
-        "analysis": [
-          {
-            "title": "Vulnerability Details",
-            "desc": "CVE-2026-5027 is high-severity path traversal flaw in AI development platform Langflow enabling arbitrary file writes."
-          },
-          {
-            "title": "Active Exploitation",
-            "desc": "Threat actors actively weaponizing vulnerability against exposed Langflow instances to compromise servers in real-time attacks."
-          },
-          {
-            "title": "Immediate Risk",
-            "desc": "Exposed Langflow deployments face critical risk of complete server compromise through malicious file placement and execution."
-          }
-        ],
-        "suggested_title": "Langflow Path Traversal CVE-2026-5027 Actively Exploited",
-        "bottom_line": "Your Langflow server is a target right now if you haven't patched.",
-        "action_today": "Check if Langflow runs on your systems → Immediately update to patched version → Verify file permissions"
-      }
-    },
-    {
-      "id": "973677c2bdf8",
-      "title": "The ‘Miasma’ worm source code briefly leaked on GitHub",
-      "link": "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
-      "summary": "The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sourced on GitHub. [...]",
-      "pubDate": "2026-06-10T20:27:08+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Malware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "Miasma credential stealer source code exposed on GitHub",
-          "Supply-chain attack framework targets open-source ecosystems"
-        ],
-        "analysis": [
-          {
-            "title": "Malware Framework Exposed",
-            "desc": "Credential-stealing attack tool designed for supply-chain compromise briefly leaked publicly on GitHub."
-          },
-          {
-            "title": "Open-Source Ecosystem Risk",
-            "desc": "Framework specifically targets open-source projects, enabling attackers to compromise downstream dependencies."
-          },
-          {
-            "title": "Proliferation Threat",
-            "desc": "Source code exposure allows threat actors to modify, customize, and deploy variants widely."
-          }
-        ],
-        "suggested_title": "Miasma Stealer Source Leaked — Open-Source Projects at Risk",
-        "bottom_line": "Your open-source dependencies just became weapons attackers can customize and weaponize against you.",
-        "action_today": "GitHub → Settings → Security → Enable 2FA + check repositories for suspicious activity"
-      }
-    },
-    {
-      "id": "9b61e969f1de",
-      "title": "GitHub announces npm security changes to tackle supply-chain attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
-      "summary": "GitHub has announced that npm v12, expected next month, will introduce several security-focused changes aimed at blocking supply-chain attacks abusing behaviors triggered by the 'npm install' command. [...]",
-      "pubDate": "2026-06-10T19:41:44+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Security News",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "npm v12 blocks supply-chain attacks via install command",
-          "GitHub implements security controls for package manager behavior"
-        ],
-        "analysis": [
-          {
-            "title": "Supply-Chain Attack Prevention",
-            "desc": "npm v12 introduces safeguards specifically targeting malicious behaviors exploited during package installation processes."
-          },
-          {
-            "title": "Package Manager Security Hardening",
-            "desc": "New controls restrict dangerous actions triggered automatically when developers run npm install commands."
-          },
-          {
-            "title": "Ecosystem Risk Mitigation",
-            "desc": "GitHub prioritizes npm ecosystem security by addressing attack vectors that compromise downstream projects."
-          }
-        ],
-        "suggested_title": "npm v12 Blocks Supply-Chain Attacks During Package Install",
-        "bottom_line": "Your project dependencies are under attack right now — this patch matters for your code.",
-        "action_today": "npm → Check version: npm --version, then plan upgrade to v12 when released"
-      }
-    },
-    {
-      "id": "7a2ffdc1e84d",
-      "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
-      "summary": "Oracle PeopleSoft servers are being targeted in ongoing data theft attacks by the ShinyHunters extortion gang, which claims to have stolen data from over 100 organizations. [...]",
-      "pubDate": "2026-06-10T18:31:57+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Hacking",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "Oracle PeopleSoft servers targeted by ShinyHunters extortion gang",
-          "Over 100 organizations' data allegedly stolen in ongoing attacks"
-        ],
-        "analysis": [
-          {
-            "title": "Attack Scope and Scale",
-            "desc": "ShinyHunters claims breach of 100+ organizations through PeopleSoft vulnerabilities, indicating widespread targeting of enterprise systems."
-          },
-          {
-            "title": "Threat Actor Motivation",
-            "desc": "Extortion gang using stolen data for ransom demands, pressuring victims to pay or face public data disclosure."
-          },
-          {
-            "title": "Enterprise System Risk",
-            "desc": "PeopleSoft HR and financial systems contain sensitive employee and business data, making these targets high-value for criminals."
-          }
-        ],
-        "suggested_title": "PeopleSoft Breach: ShinyHunters Steals 100+ Organizations' Data",
-        "bottom_line": "Your company's employee records may already be in extortionists' hands right now.",
-        "action_today": "Contact your IT team: Ask if your PeopleSoft instance is patched against known vulnerabilities immediately."
-      }
-    },
-    {
-      "id": "f7e7d468af72",
-      "title": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance",
-      "link": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
-      "summary": "Cybersecurity researchers have warned of a \"resurgence and expansion\" of JDY, a covert network associated with China-nexus state-sponsored threat actors. \"The JDY botnet comprises over 1,500 SOHO [small office and home office] and IoT devices and operates as a centrally controlled, high-performance scanner used to discover, fingerprint, and continuously map exposed services at scale,\" Lumen's",
-      "pubDate": "2026-06-10T16:08:42+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "DDoS",
-      "level": "warning",
-      "ai_summary": {
-        "keypoints": [
-          "China-linked JDY botnet controls 1,500+ SOHO and IoT devices",
-          "Botnet performs large-scale reconnaissance on exposed internet services"
-        ],
-        "analysis": [
-          {
-            "title": "Botnet Scale and Composition",
-            "desc": "JDY comprises over 1,500 compromised SOHO and IoT devices, indicating widespread infection across consumer and small business networks globally."
-          },
-          {
-            "title": "Attack Methodology",
-            "desc": "Operates as centralized scanner for discovery, fingerprinting, and continuous mapping of exposed services—enabling reconnaissance for future targeted attacks."
-          },
-          {
-            "title": "State-Sponsored Attribution",
-            "desc": "Associated with China-nexus threat actors, suggesting nation-state-level coordination and resources behind botnet operations and infrastructure mapping campaign."
-          }
-        ],
-        "suggested_title": "JDY Botnet Expands to 1,500 Devices — China-Linked Cyber Reconnaissance",
-        "bottom_line": "Your router or smart device is likely already part of someone's attack infrastructure right now.",
-        "action_today": "Router Settings → Administration/Advanced → Check for unfamiliar firmware updates and change default password immediately"
-      }
-    },
-    {
-      "id": "3e49862488c9",
-      "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities",
-      "link": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
-      "summary": "Fortinet, Ivanti, and SAP have released security updates to address multiple critical security vulnerabilities that could result in arbitrary code execution and information disclosure. The security flaw patched by Fortinet relates to a command injection vulnerability in FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS WEB UI. It's tracked as CVE-2026-25089 (CVSS score: 9.1). \"An",
-      "pubDate": "2026-06-10T15:10:59+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Command injection flaw in FortiSandbox WEB UI — CVSS 9.1",
-          "Ivanti and SAP also patching critical vulnerabilities simultaneously"
-        ],
-        "analysis": [
-          {
-            "title": "Fortinet FortiSandbox Attack Vector",
-            "desc": "Command injection vulnerability in web UI enables arbitrary code execution. CVE-2026-25089 affects cloud and on-premises deployments with critical severity."
-          },
-          {
-            "title": "Multi-Vendor Coordinated Response",
-            "desc": "Three major infrastructure vendors simultaneously releasing patches suggests coordinated vulnerability disclosure. Indicates widespread enterprise security concern across multiple product lines."
-          },
-          {
-            "title": "Information Disclosure Risk",
-            "desc": "Beyond code execution, vulnerabilities enable sensitive data theft. Organizations face dual threat: system compromise plus credential and configuration exposure."
-          }
-        ],
-        "suggested_title": "Critical Fortinet FortiSandbox Patch Released — Update Now",
-        "bottom_line": "If you run FortiSandbox, threat actors are actively hunting unpatched instances right now.",
-        "action_today": "Fortinet Security Console → System Settings → Firmware → Check and install latest patch immediately"
-      }
-    },
-    {
-      "id": "47496bcca9d5",
-      "title": "Langflow Vulnerability CVE-2026-5027 Exploited for Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
-      "summary": "A high-severity security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according to findings from VulnCheck. The vulnerability in question is CVE-2026-5027 (CVSS score: 8.8), a case of path traversal that could allow an attacker to write files to arbitrary locations. \"The 'POST /api/v2/",
-      "pubDate": "2026-06-10T15:00:59+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "Langflow path traversal enables unauthenticated arbitrary file writes",
-          "Active exploitation underway; CVSS 8.8 severity rating"
-        ],
-        "analysis": [
-          {
-            "title": "Vulnerability mechanics",
-            "desc": "Path traversal flaw in POST /api/v2 endpoint allows attackers to write files to arbitrary system locations without authentication."
-          },
-          {
-            "title": "Threat landscape",
-            "desc": "VulnCheck reports active wild exploitation of CVE-2026-5027, indicating attackers already weaponizing vulnerability against Langflow deployments."
-          },
-          {
-            "title": "Risk exposure",
-            "desc": "Unauthenticated access requirement means any internet-connected Langflow instance becomes immediate target for remote code execution attacks."
-          }
-        ],
-        "suggested_title": "Langflow RCE Flaw CVE-2026-5027 Actively Exploited — Patch Now",
-        "bottom_line": "If you're running Langflow, attackers are already trying to break in. Patch immediately or take it offline.",
-        "action_today": "Langflow → Check version → Upgrade to patched release or disable /api/v2 endpoint until patched"
-      }
-    },
-    {
-      "id": "31924abc6904",
-      "title": "China-linked JDY botnet expands targeting of U.S. military networks",
-      "link": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
-      "summary": "The JDY botnet, a malware network previously associated with Chinese threat actors like Volt Typhoon, has significantly expanded its targeting scope and reconnaissance efforts. [...]",
-      "pubDate": "2026-06-10T15:00:00+00:00",
-      "source": "BleepingComputer",
-      "lang": "en",
-      "category": "Malware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "JDY botnet expands U.S. military network targeting",
-          "China-linked malware intensifies reconnaissance operations"
-        ],
-        "analysis": [
-          {
-            "title": "JDY Botnet Attribution",
-            "desc": "Malware network linked to Chinese threat actors including Volt Typhoon, indicating state-sponsored reconnaissance efforts."
-          },
-          {
-            "title": "Expanded Military Targeting",
-            "desc": "Botnet significantly broadens focus on U.S. military infrastructure, moving beyond previous reconnaissance scope patterns."
-          },
-          {
-            "title": "Reconnaissance Intensity",
-            "desc": "Increased surveillance activities suggest preparation for potential disruptive operations or strategic intelligence gathering campaigns."
-          }
-        ],
-        "suggested_title": "JDY Botnet Escalates U.S. Military Network Attacks",
-        "bottom_line": "Your military network is actively being mapped by foreign adversaries right now.",
-        "action_today": "IT Teams → Network Security → Review firewall logs for JDY indicators immediately"
-      }
-    },
-    {
-      "id": "994c7bf91e66",
-      "title": "CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation",
-      "link": "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The list of vulnerabilities is as follows - CVE-2026-20245 (CVSS score: 7.8) - An improper encoding or escaping of output vulnerability in Cisco Catalyst SD-WAN Manager that could allow an",
-      "pubDate": "2026-06-10T14:44:29+00:00",
-      "source": "The Hacker News",
-      "lang": "en",
-      "category": "Vulnerability",
-      "level": "info",
-      "ai_summary": {
-        "keypoints": [
-          "CISA added three actively exploited vulnerabilities to KEV catalog",
-          "Cisco Catalyst SD-WAN Manager flaw allows unauthorized output manipulation"
-        ],
-        "analysis": [
-          {
-            "title": "Active Exploitation Confirmed",
-            "desc": "Three vulnerabilities added to CISA's KEV catalog indicate real-world attacks already underway against enterprise systems."
-          },
-          {
-            "title": "Cisco SD-WAN Manager at Risk",
-            "desc": "CVE-2026-20245 (CVSS 7.8) enables improper encoding attacks on Catalyst SD-WAN Manager deployments without patching."
-          },
-          {
-            "title": "Multi-Vendor Impact",
-            "desc": "Flaws affecting Cisco, Chrome, and Arista suggest coordinated vulnerability disclosure affecting critical infrastructure vendors."
-          }
-        ],
-        "suggested_title": "Critical Cisco, Chrome, Arista Flaws Under Active Exploitation",
-        "bottom_line": "If you run Cisco SD-WAN, attackers are already probing your network for this flaw.",
-        "action_today": "Check Cisco Catalyst SD-WAN Manager version → Download latest patch from Cisco Security Advisories immediately"
-      }
-    },
-    {
-      "id": "f447457215d7",
-      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-      "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-      "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointing to a real life identity for the administrator of The Gentlemen ransomware group.",
-      "pubDate": "2026-06-10T14:03:44+00:00",
-      "source": "Krebs on Security",
-      "lang": "en",
-      "category": "Ransomware",
-      "level": "danger",
-      "ai_summary": {
-        "keypoints": [
-          "The Gentlemen ranks second most active ransomware gang globally",
-          "90 percent ransom split attracts elite hacker recruitment aggressively"
-        ],
-        "analysis": [
-          {
-            "title": "Ransomware gang operational scale",
-            "desc": "The Gentlemen has rapidly ascended to second position by victim count, indicating sophisticated infrastructure and effective targeting capabilities."
-          },
-          {
-            "title": "Aggressive affiliate recruitment model",
-            "desc": "90 percent ransom distribution to affiliates significantly exceeds industry standard rates, creating competitive advantage in talent acquisition."
-          },
-          {
-            "title": "Administrator identity investigation",
-            "desc": "Article examines forensic clues attempting to unmask real-world identity of The Gentlemen's leadership structure and decision-makers."
-          }
-        ],
-        "suggested_title": "Ransomware Gang The Gentlemen: Who Leads Them",
-        "bottom_line": "The Gentlemen's 90 percent payouts mean they're actively recruiting your company's most vulnerable employees right now.",
-        "action_today": "Check your email security logs for suspicious forwarding rules and authentication attempts from the past 30 days"
+        "suggested_title": "npm 12 Blocks Install Scripts by Default — Supply Chain Security",
+        "bottom_line": "Your project dependencies won't auto-execute hidden code anymore. Update now or stay vulnerable.",
+        "action_today": "npm update -g npm@12 && npm audit (check your current version first with npm -v)"
       }
     }
   ]
