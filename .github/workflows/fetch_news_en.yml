@@ -23,5 +23,5 @@ jobs:
           git config user.name "news-bot"
           git config user.email "bot@example.com"
           git add news_data_en.json
-          git diff --staged --quiet || git commit -m "News update $(date '+%Y-%m-%d %H:%M')"
+          git diff --staged --quiet && git commit --allow-empty -m "News check $(date '+%Y-%m-%d %H:%M')" || git commit -m "News update $(date '+%Y-%m-%d %H:%M')"
           git pull --rebase && git push
