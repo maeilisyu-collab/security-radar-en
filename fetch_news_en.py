@@ -282,6 +282,19 @@ def main():
     print(f"   Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"   AI Summary: {'✓ Active (Claude Haiku)' if api_key else '✗ Inactive (no ANTHROPIC_API_KEY)'}\n")
 
+    # ── Load existing data (reuse AI summaries + merge articles) ──
+    existing_articles = []
+    if os.path.exists("news_data_en.json"):
+        try:
+            with open("news_data_en.json", "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+                existing_articles = old_data.get("articles", [])
+            print(f"   Existing articles: {len(existing_articles)} loaded")
+        except Exception as e:
+            print(f"   Failed to load existing data: {e}")
+
+    existing_map = {a["id"]: a for a in existing_articles}
+
     all_articles = []
     for src in sorted(RSS_SOURCES, key=lambda x: x["priority"]):
         articles = fetch_source(src)
@@ -289,23 +302,33 @@ def main():
         time.sleep(1)
 
     unique = deduplicate(all_articles)
-    unique.sort(key=lambda x: x["pubDate"], reverse=True)
+
+    # ── Reuse existing AI summaries (skip API call for known articles) ──
+    for a in unique:
+        if not a.get("ai_summary") and a["id"] in existing_map:
+            a["ai_summary"] = existing_map[a["id"]].get("ai_summary")
+
+    # ── Merge new + existing articles (updated time always refreshed) ──
+    new_ids = {a["id"] for a in unique}
+    combined = unique + [a for a in existing_articles if a["id"] not in new_ids]
+    combined.sort(key=lambda x: x["pubDate"], reverse=True)
+    final_articles = combined[:30]
 
     output = {
-        "updated":  datetime.now(timezone.utc).isoformat(),
-        "count":    len(unique[:30]),
+        "updated":  datetime.now(timezone.utc).isoformat(),  # always current time
+        "count":    len(final_articles),
         "lang":     "en",
-        "articles": unique[:30],
+        "articles": final_articles,
     }
 
     with open("news_data_en.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    ai_count = sum(1 for a in unique[:30] if a.get("ai_summary"))
+    ai_count = sum(1 for a in final_articles if a.get("ai_summary"))
     print(f"\n══ Done ══")
     print(f"   Total fetched: {len(all_articles)} → after dedup: {len(unique)}")
     print(f"   AI summaries: {ai_count}")
-    print(f"   Saved: news_data_en.json ({len(unique[:30])} articles)")
+    print(f"   Saved: news_data_en.json ({len(final_articles)} articles)")
 
 
 if __name__ == "__main__":
